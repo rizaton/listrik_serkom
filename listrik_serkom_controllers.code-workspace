@@ -1,0 +1,11 @@
+{
+  "folders": [
+	{
+		"name": "listrik_serkom",
+		"path": "."
+	}
+],
+  "settings": {
+	"workbench.colorTheme":"Omni Owl (Minimal Italics)"
+  }
+}

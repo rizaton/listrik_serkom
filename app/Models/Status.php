@@ -4,16 +4,17 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class User extends Model
+class Status extends Model
 {
-    protected $table            = 'user';
-    protected $primaryKey       = 'id_user';
+    protected $table            = 'status';
+    protected $primaryKey       = 'id_status';
     protected $useAutoIncrement = true;
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
-    protected $protectFields    = false;
+    protected $protectFields    = true;
     protected $allowedFields    = [
-        'id_user', 'username', 'password', 'nama_admin', 'id_level'
+        'id_status',
+        'status',
     ];
 
     protected bool $allowEmptyInserts = false;
@@ -30,28 +31,12 @@ class User extends Model
     protected $deletedField  = 'deleted_at';
 
     // Validation
-    protected $validationRules = [
-        'username' => 'required|max_length[25]',
-        'password' => 'required|max_length[255]',
-        'nama_admin' => 'required|max_length[100]',
-        'id_level' => 'required|max_length[3]',
+    protected $validationRules      = [
+        'status' => 'required',
     ];
     protected $validationMessages   = [
-        'username' => [
-            'required' => 'Username harus diisi',
-            'max_length' => 'Username maksimal 25 karakter',
-        ],
-        'password' => [
-            'required' => 'Password harus diisi',
-            'max_length' => 'Password maksimal 255 karakter',
-        ],
-        'nama_admin' => [
-            'required' => 'Nama Admin harus diisi',
-            'max_length' => 'Nama Admin maksimal 100 karakter',
-        ],
-        'id_level' => [
-            'required' => 'Level harus diisi',
-            'max_length' => 'Level maksimal 3 karakter',
+        'status' => [
+            'required' => 'Status harus diisi',
         ],
     ];
     protected $skipValidation       = false;

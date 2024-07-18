@@ -2,15 +2,14 @@
 
 <?= $this->section('content');  ?>
 <div class="col py-3">
-    <form class="d-flex">
+    <!-- <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Cari data" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Search</button>
-    </form>
-    <div class="my-5 table-responsive scrollbar scrollbar-dark" style="height: 70vh; overflow-y: auto;">
+    </form> -->
+    <div class="my-5 table-responsive scrollbar scrollbar-dark" style="height: 50vh; overflow-y: auto;">
         <table class="table align-middle ">
             <thead style="position: sticky; top: 0;z-index: 1; background-color:#fff;">
                 <tr>
-                    <th>#</th>
                     <th>id_penggunaan</th>
                     <th>nama_pelanggan</th>
                     <th>bulan/tahun</th>
@@ -20,26 +19,34 @@
                 </tr>
             </thead>
             <tbody>
-                <?php $i = 0;
-                // for ($i = 0; $i < 50; $i++) {
+                <?php
+                if (empty($penggunaan)) { ?>
+                    <tr>
+                        <td colspan="6" class="text-center">Data tidak ditemukan</td>
+                    </tr>
+                <?php }
                 foreach ($penggunaan as $p) { ?>
                     <tr>
-                        <td><?= $i + 1; ?></td>
                         <td><?= $p['id_penggunaan']  ?></td>
                         <td><?= $p['nama_pelanggan']  ?></td>
                         <td><?= $p['bulan']  ?>/<?= $p['tahun']  ?></td>
                         <td><?= $p['meter_awal']  ?></td>
                         <td><?= $p['meter_akhir']  ?></td>
                         <td class="d-flex justify-content-center">
-                            <a href="<?= base_url('admin/edit_penggunaan/' . $p['id_penggunaan']) ?>" class="btn btn-warning mx-1">Edit</a>
-                            <a href="<?= base_url('admin/delete_penggunaan/' . $p['id_penggunaan']) ?>" class="btn btn-danger mx-1">Delete</a>
+                            <form method="post">
+                                <input type="hidden" name="id_penggunaan" id="id_penggunaan" value="<?= $p['id_penggunaan'] ?>">
+                                <input type="hidden" name="id_pelanggan" id="id_pelanggan" value="<?= $p['id_pelanggan'] ?>">
+                                <button formaction="<?= base_url('admin/create_tagihan') ?>" class="btn btn-primary" id="add-data-btn">Tambah Tagihan</button>
+                                <button formaction="<?= base_url('admin/edit_penggunaan') ?>" class="btn btn-warning mx-1" id="add-data-btn">Edit</button>
+                                <button formaction="<?= base_url('admin/delete_penggunaan') ?>" class="btn btn-danger mx-1" id="add-data-btn">Delete</button>
+                            </form>
                         </td>
                     </tr>
-                <?php $i++;
-                    // }
+                <?php
                 } ?>
             </tbody>
         </table>
     </div>
+    <a class="btn btn-primary float-end" href="<?= base_url('/admin/kelola_pelanggan')  ?>" role="button">Tambah Penggunaan</a>
 </div>
 <?= $this->endSection();  ?>

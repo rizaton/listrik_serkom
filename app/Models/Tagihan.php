@@ -13,7 +13,7 @@ class Tagihan extends Model
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
     protected $allowedFields    = [
-        'id_tagihan', 'id_pelanggan', 'bulan', 'tahun', 'jumlah_meter', 'status', 'id_penggunaan'
+        'id_tagihan', 'id_pelanggan', 'bulan', 'tahun', 'jumlah_meter', 'id_penggunaan', 'id_status'
     ];
 
     protected bool $allowEmptyInserts = false;
@@ -38,6 +38,7 @@ class Tagihan extends Model
         'jumlah_meter' => 'required|numeric|max_length[20]',
         'status' => 'required|max_length[1]',
         'id_penggunaan' => 'required|numeric|max_length[6]',
+        'id_status' => 'required|numeric|max_length[6]',
     ];
     protected $validationMessages   = [
         'id_tagihan' => [
@@ -73,6 +74,11 @@ class Tagihan extends Model
             'required' => 'ID Penggunaan harus diisi',
             'numeric' => 'ID Penggunaan harus berupa angka',
             'max_length' => 'ID Penggunaan maksimal 6 karakter',
+        ],
+        'id_status' => [
+            'required' => 'ID Status harus diisi',
+            'numeric' => 'ID Status harus berupa angka',
+            'max_length' => 'ID Status maksimal 6 karakter',
         ],
     ];
     protected $skipValidation       = false;

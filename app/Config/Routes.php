@@ -23,6 +23,47 @@ $routes->get('/admin/kelola_level', 'Admin::kelola_level');
 $routes->get('/admin/laporan', 'Admin::laporan');
 $routes->get('/admin/pengaturan', 'Admin::pengaturan');
 
+$routes->post('/admin/edit_level', 'Admin::edit_level');
+$routes->post('/admin/edit_pelanggan', 'Admin::edit_pelanggan');
+$routes->post('/admin/edit_pembayaran', 'Admin::edit_pembayaran');
+$routes->post('/admin/edit_penggunaan', 'Admin::edit_penggunaan');
+$routes->post('/admin/edit_tagihan', 'Admin::edit_tagihan');
+$routes->post('/admin/edit_tarif', 'Admin::edit_tarif');
+$routes->post('/admin/edit_user', 'Admin::edit_user');
+
+$routes->post('/admin/delete_level', 'AuthAdmin::delete_level');
+$routes->post('/admin/delete_pelanggan', 'AuthAdmin::delete_pelanggan');
+$routes->post('/admin/delete_pembayaran', 'AuthAdmin::delete_pembayaran');
+$routes->post('/admin/delete_penggunaan', 'AuthAdmin::delete_penggunaan');
+$routes->post('/admin/delete_tagihan', 'AuthAdmin::delete_tagihan');
+$routes->post('/admin/delete_tarif', 'AuthAdmin::delete_tarif');
+$routes->post('/admin/delete_user', 'AuthAdmin::delete_user');
+
+$routes->post('/admin/auth_update_level', 'AuthAdmin::update_level');
+$routes->post('/admin/auth_update_pelanggan', 'AuthAdmin::update_pelanggan');
+$routes->post('/admin/auth_update_pembayaran', 'AuthAdmin::update_pembayaran');
+$routes->post('/admin/auth_update_penggunaan', 'AuthAdmin::update_penggunaan');
+$routes->post('/admin/auth_update_tagihan', 'AuthAdmin::update_tagihan');
+$routes->post('/admin/auth_update_tarif', 'AuthAdmin::update_tarif');
+$routes->post('/admin/auth_update_user', 'AuthAdmin::update_user');
+
+$routes->get('/admin/create_level', 'Admin::create_level');
+$routes->get('/admin/create_tarif', 'Admin::create_tarif');
+$routes->get('/admin/create_user', 'Admin::create_user');
+$routes->get('/admin/create_pelanggan', 'Admin::create_pelanggan');
+$routes->post('/admin/create_penggunaan', 'Admin::create_penggunaan');
+$routes->post('/admin/create_tagihan', 'Admin::create_tagihan');
+
+$routes->post('/admin/auth_create_level', 'AuthAdmin::create_level');
+$routes->post('/admin/auth_create_tarif', 'AuthAdmin::create_tarif');
+$routes->post('/admin/auth_create_user', 'AuthAdmin::create_user');
+$routes->post('/admin/auth_create_pelanggan', 'AuthAdmin::create_pelanggan');
+$routes->post('/admin/auth_create_penggunaan', 'AuthAdmin::create_penggunaan');
+$routes->post('/admin/auth_create_tagihan', 'AuthAdmin::create_tagihan');
+
 $routes->get('/user', 'User::index');
 
 $routes->get('/logout', 'Auth::logout');
+$routes->get('/test', 'AuthAdmin::index');
+
+// $routes->setAutoRoute(true);

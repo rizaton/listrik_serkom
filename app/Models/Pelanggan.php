@@ -35,7 +35,7 @@ class Pelanggan extends Model
         'nama_pelanggan' => 'required|max_length[100]',
         'alamat' => 'required|max_length[255]',
         'id_tarif' => 'required|numeric|max_length[6]',
-        'username' => 'required|max_length[25]|is_unique[pelanggan.username]',
+        'username' => 'required|max_length[25]',
         'password' => 'required|max_length[255]',
         'nomor_kwh' => 'required|max_length[50]',
     ];
@@ -61,7 +61,6 @@ class Pelanggan extends Model
         'username' => [
             'required' => 'Username harus diisi',
             'max_length' => 'Username maksimal 25 karakter',
-            'is_unique' => 'Username sudah digunakan',
         ],
         'password' => [
             'required' => 'Password harus diisi',
