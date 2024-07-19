@@ -297,4 +297,109 @@ class AuthAdmin extends BaseController
             throw $th;
         }
     }
+    public function create_level()
+    {
+        try {
+            $data = [
+                'nama_level' => $this->request->getPost('nama_level'),
+            ];
+            $this->model_level->insert($data);
+            session()->setFlashdata('success', 'Data berhasil ditambahkan');
+            return redirect()->to('/admin/kelola_level');
+        } catch (\Throwable $th) {
+            session()->setFlashdata('success', 'Data gagal ditambahkan');
+            throw $th;
+        }
+    }
+    public function create_tarif()
+    {
+        try {
+            $data = [
+                'daya' => $this->request->getPost('daya'),
+                'tarifperkwh' => floatval($this->request->getPost('tarif_perkwh')),
+            ];
+            $this->model_tarif->insert($data);
+            session()->setFlashdata('success', 'Data berhasil ditambahkan');
+            return redirect()->to('/admin/kelola_tarif');
+        } catch (\Throwable $th) {
+            session()->setFlashdata('success', 'Data gagal ditambahkan');
+            throw $th;
+        }
+    }
+    public function create_user()
+    {
+        try {
+            $data = [
+                'username' => $this->request->getPost('username'),
+                'password' => $this->request->getPost('password'),
+                'nama_admin' => $this->request->getPost('nama_admin'),
+                'id_level' => $this->request->getPost('id_level'),
+            ];
+            $this->model_admin->insert($data);
+            session()->setFlashdata('success', 'Data berhasil ditambahkan');
+            return redirect()->to('/admin/kelola_user');
+        } catch (\Throwable $th) {
+            session()->setFlashdata('success', 'Data gagal ditambahkan');
+            throw $th;
+        }
+    }
+    public function create_pelanggan()
+    {
+        try {
+            $data = [
+                'username' => $this->request->getPost('username'),
+                'password' => password_hash($this->request->getPost('password') ?? '', PASSWORD_DEFAULT),
+                'nomor_kwh' => $this->request->getPost('nomor_kwh'),
+                'nama_pelanggan' => $this->request->getPost('nama_pelanggan'),
+                'alamat' => $this->request->getPost('alamat'),
+                'id_tarif' => $this->request->getPost('id_tarif'),
+            ];
+            // dd($data, $this->model_pengguna->insert($data));
+            $this->model_pengguna->insert($data);
+            session()->setFlashdata('success', 'Data berhasil ditambahkan');
+            return redirect()->to('/admin/kelola_pelanggan');
+        } catch (\Throwable $th) {
+            session()->setFlashdata('success', 'Data gagal ditambahkan');
+            throw $th;
+        }
+    }
+    public function create_penggunaan()
+    {
+        try {
+            $data = [
+                'bulan' => $this->request->getPost('bulan'),
+                'tahun' => $this->request->getPost('tahun'),
+                'meter_awal' => $this->request->getPost('meter_awal'),
+                'meter_akhir' => $this->request->getPost('meter_akhir'),
+                'id_pelanggan' => $this->request->getPost('id_pelanggan'),
+                'id_user' => session()->get('id_user'),
+            ];
+            $this->model_penggunaan->insert($data);
+            session()->setFlashdata('success', 'Data berhasil ditambahkan');
+            return redirect()->to('/admin/kelola_penggunaan');
+        } catch (\Throwable $th) {
+            session()->setFlashdata('success', 'Data gagal ditambahkan');
+            throw $th;
+        }
+    }
+    public function create_tagihan()
+    {
+        try {
+            $data = [
+                'bulan' => $this->request->getPost('bulan'),
+                'tahun' => $this->request->getPost('tahun'),
+                'jumlah_meter' => $this->request->getPost('jumlah_meter'),
+                'id_status' => $this->request->getPost('id_status'),
+                'id_penggunaan' => $this->request->getPost('id_penggunaan'),
+                'id_pelanggan' => $this->request->getPost('id_pelanggan'),
+                'id_user' => session()->get('id_user'),
+            ];
+            $this->model_tagihan->insert($data);
+            session()->setFlashdata('success', 'Data berhasil ditambahkan');
+            return redirect()->to('/admin/kelola_tagihan');
+        } catch (\Throwable $th) {
+            session()->setFlashdata('success', 'Data gagal ditambahkan');
+            throw $th;
+        }
+    }
 }

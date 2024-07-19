@@ -4,16 +4,16 @@
 <div class="col py-3">
     <form method="post">
         <div class="mb-3">
-            <label for="nama" class="form-label">Nama</label>
-            <input type="text" class="form-control" id="nama" name="nama" value="<?= $user['nama'] ?>">
+            <label for="nama_admin" class="form-label">Nama</label>
+            <input type="text" class="form-control" id="nama_admin" name="nama_admin" placeholder="Nama" required>
         </div>
         <div class="mb-3">
             <label for="username" class="form-label">Username</label>
-            <input type="text" class="form-control" id="username" name="username" value="<?= $user['username'] ?>">
+            <input type="text" class="form-control" id="username" name="username" placeholder="Username" required>
         </div>
         <div class="mb-3">
             <label for="password" class="form-label">Password</label>
-            <input type="text" class="form-control" id="password" name="password" value="<?= $user['password'] ?>">
+            <input type="password" class="form-control" id="password" name="password" placeholder="Password" required>
         </div>
         <div class="mb-3">
             <label for="id_level" class="form-label">Level</label>

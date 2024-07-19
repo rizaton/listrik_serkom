@@ -31,7 +31,6 @@ class Tagihan extends Model
 
     // Validation
     protected $validationRules      = [
-        'id_tagihan' => 'required|numeric|max_length[6]',
         'id_pelanggan' => 'required|numeric|max_length[6]',
         'bulan' => 'required|numeric|max_length[2]',
         'tahun' => 'required|numeric|max_length[4]',
@@ -41,11 +40,6 @@ class Tagihan extends Model
         'id_status' => 'required|numeric|max_length[6]',
     ];
     protected $validationMessages   = [
-        'id_tagihan' => [
-            'required' => 'ID Tagihan harus diisi',
-            'numeric' => 'ID Tagihan harus berupa angka',
-            'max_length' => 'ID Tagihan maksimal 6 karakter',
-        ],
         'id_pelanggan' => [
             'required' => 'ID Pelanggan harus diisi',
             'numeric' => 'ID Pelanggan harus berupa angka',
@@ -87,11 +81,35 @@ class Tagihan extends Model
     // Callbacks
     protected $allowCallbacks = true;
     protected $beforeInsert   = [];
-    protected $afterInsert    = [];
+    protected $afterInsert    = ['tambah_pembayaran'];
     protected $beforeUpdate   = [];
     protected $afterUpdate    = [];
     protected $beforeFind     = [];
     protected $afterFind      = [];
     protected $beforeDelete   = [];
     protected $afterDelete    = [];
+
+    private function tambah_pembayaran(array $data)
+    {
+        $tb_pembayaran = new Pembayaran();
+        $tb_tarif = new Pelanggan();
+        $tb_tarif = $tb_tarif
+            ->join('tarif', 'pelanggan.id_tarif = tarif.id_tarif')
+            ->where('id_pelanggan', $data['id_pelanggan'])
+            ->select('tarifperkwh')
+            ->findAll() ?? '';
+        $subtotal_bayar = $data['jumlah_meter'] * $tb_tarif;
+        $biaya_admin = $subtotal_bayar * 0.01;
+        $total_bayar = $subtotal_bayar + $biaya_admin;
+        $data_pembayaran = [
+            'tanggal_pembayaran' => date('Y-m-d'),
+            'bulan_bayar' => $data['bulan'],
+            'biaya_admin' => $biaya_admin,
+            'total_bayar' => $total_bayar,
+            'id_tagihan' => $data['id_tagihan'],
+            'id_pelanggan' => $data['id_pelanggan'],
+            'id_user' => session()->get('id_user'),
+        ];
+        $tb_pembayaran->insert($data_pembayaran);
+    }
 }

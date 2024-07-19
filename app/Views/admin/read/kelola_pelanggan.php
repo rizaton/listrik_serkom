@@ -37,7 +37,7 @@
                             <td>*****</td>
                             <td><?= $p['nomor_kwh']  ?></td>
                             <td><?= $p['alamat']  ?></td>
-                            <td><?= $p['daya']  ?></td>
+                            <td><?= $p['daya']  ?> VA</td>
                             <td class="d-flex justify-content-center">
                                 <button formaction="<?= base_url('admin/create_penggunaan') ?>" class="btn btn-primary" id="add-data-btn">Tambah Penggunaan</button>
                                 <button formaction="<?= base_url('admin/edit_pelanggan') ?>" class="btn btn-warning mx-1" id="add-data-btn">Edit</button>

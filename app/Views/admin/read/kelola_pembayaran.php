@@ -53,6 +53,6 @@
             </tbody>
         </table>
     </div>
-    <a class="btn btn-primary float-end" href="<?= base_url('/admin/kelola_tagihan')  ?>" role="button">Tambah Pembayaran</a>
+    <a class="btn btn-primary float-end" href="<?= base_url('/admin/kelola_tagihan')  ?>" role="button">Tambah Tagihan</a>
 </div>
 <?= $this->endSection();  ?>

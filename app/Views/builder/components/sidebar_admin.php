@@ -11,21 +11,9 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a href="<?= base_url('/admin/kelola_user') ?>" class="nav-link align-middle px-0">
-                    <i class="fs-4 bi-house"> </i>
-                    <span class="ms-1 d-none d-sm-inline">Kelola User</span>
-                </a>
-            </li>
-            <li class="nav-item">
                 <a href="<?= base_url('/admin/kelola_pelanggan') ?>" class="nav-link align-middle px-0">
                     <i class="fs-4 bi-house"> </i>
                     <span class="ms-1 d-none d-sm-inline">Kelola Pelanggan</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a href="<?= base_url('/admin/kelola_pembayaran') ?>" class="nav-link align-middle px-0">
-                    <i class="fs-4 bi-house"> </i>
-                    <span class="ms-1 d-none d-sm-inline">Kelola Pembayaran</span>
                 </a>
             </li>
             <li class="nav-item">
@@ -41,6 +29,24 @@
                 </a>
             </li>
             <li class="nav-item">
+                <a href="<?= base_url('/admin/kelola_pembayaran') ?>" class="nav-link align-middle px-0">
+                    <i class="fs-4 bi-house"> </i>
+                    <span class="ms-1 d-none d-sm-inline">Kelola Pembayaran</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="<?= base_url('/admin/laporan') ?>" class="nav-link align-middle px-0">
+                    <i class="fs-4 bi-house"> </i>
+                    <span class="ms-1 d-none d-sm-inline">Laporan</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="<?= base_url('/admin/kelola_user') ?>" class="nav-link align-middle px-0">
+                    <i class="fs-4 bi-house"> </i>
+                    <span class="ms-1 d-none d-sm-inline">Kelola User</span>
+                </a>
+            </li>
+            <li class="nav-item">
                 <a href="<?= base_url('/admin/kelola_tarif') ?>" class="nav-link align-middle px-0">
                     <i class="fs-4 bi-house"> </i>
                     <span class="ms-1 d-none d-sm-inline">Kelola Tarif</span>
@@ -50,12 +56,6 @@
                 <a href="<?= base_url('/admin/kelola_level') ?>" class="nav-link align-middle px-0">
                     <i class="fs-4 bi-house"> </i>
                     <span class="ms-1 d-none d-sm-inline">Kelola Level</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a href="<?= base_url('/admin/laporan') ?>" class="nav-link align-middle px-0">
-                    <i class="fs-4 bi-house"> </i>
-                    <span class="ms-1 d-none d-sm-inline">Laporan</span>
                 </a>
             </li>
             <!-- <li class="nav-item">

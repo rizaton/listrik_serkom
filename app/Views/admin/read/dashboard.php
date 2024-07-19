@@ -42,16 +42,34 @@
             <div class="col-md-3">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">Total Pembayaran</h5>
+                        <h5 class="card-title">Total Tagihan</h5>
+                        <p class="card-text">
+                            <?php
+                            $sum_tagihan = new \App\Models\Tagihan();
+                            $sum_tagihan = $sum_tagihan
+                                ->db
+                                ->table('tagihan')
+                                ->countAllResults();
+                            echo $sum_tagihan;
+                            ?>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Total Pembayaran Lunas</h5>
                         <p class="card-text">
                             <?php
                             $sum_pembayaran = new \App\Models\Pembayaran();
                             $sum_pembayaran = $sum_pembayaran
                                 ->db
                                 ->table('pembayaran')
-                                ->selectSum('id_pembayaran')
-                                ->where('id_pembayaran != 0')
-                                ->get()->getRow('id_pembayaran');
+                                ->join('tagihan', 'tagihan.id_tagihan = pembayaran.id_tagihan')
+                                ->join('status', 'status.id_status = tagihan.id_status')
+                                ->where('status.id_status', 2)
+                                ->countAllResults();
                             if (!$sum_pembayaran) {
                                 $sum_pembayaran = 0;
                             }

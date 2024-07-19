@@ -12,12 +12,14 @@ class Auth extends BaseController
 {
     private $model_pengguna;
     private $model_admin;
+    private $db;
     protected $helpers = ['form', 'url'];
 
     public function __construct()
     {
         $this->model_pengguna = new Pelanggan();
         $this->model_admin = new User();
+        $this->db = \Config\Database::connect();
     }
     public function index()
     {
@@ -36,15 +38,16 @@ class Auth extends BaseController
                 'username' => $this->request->getPost('username'),
                 'password' => $this->request->getPost('password') ?? ''
             ];
-            // dd($data_login);
             $username_exist = $this->model_admin
                 ->select()
                 ->where('username', $data_login['username'])->first();
             if ($username_exist) {
                 if (password_verify($data_login['password'], $username_exist['password'])) {
+                    session()->set('id_user', $username_exist['id_user']);
                     session()->set('username', $username_exist['username']);
                     session()->set('name', $username_exist['nama_admin']);
                     session()->set('role', 'admin');
+                    $this->db->query('SET @current_user_id =' . $username_exist['id_user'] . ';');
                     return redirect()->to('/admin');
                 } else {
                     session()->setFlashdata('found', false);
@@ -71,7 +74,9 @@ class Auth extends BaseController
             if ($username_exist) {
                 if (password_verify($data_login['password'], $username_exist['password'])) {
                     session()->set('username', $username_exist['username']);
+                    session()->set('id_user', $username_exist['id_user']);
                     session()->set('role', 'user');
+
                     return redirect()->to('/user');
                 } else {
                     session()->setFlashdata('found', false);

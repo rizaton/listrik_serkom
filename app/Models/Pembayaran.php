@@ -31,7 +31,6 @@ class Pembayaran extends Model
 
     // Validation
     protected $validationRules      = [
-        'id_pembayaran' => 'required|numeric|max_length[6]',
         'id_user' => 'required|numeric|max_length[6]',
         'id_tagihan' => 'required|numeric|max_length[6]',
         'tanggal_pembayaran' => 'required',
@@ -40,11 +39,6 @@ class Pembayaran extends Model
         'total_bayar' => 'required|numeric|max_length[12]',
     ];
     protected $validationMessages   = [
-        'id_pembayaran' => [
-            'required' => 'ID Pembayaran harus diisi',
-            'numeric' => 'ID Pembayaran harus berupa angka',
-            'max_length' => 'ID Pembayaran maksimal 6 karakter',
-        ],
         'id_user' => [
             'required' => 'ID User harus diisi',
             'numeric' => 'ID User harus berupa angka',

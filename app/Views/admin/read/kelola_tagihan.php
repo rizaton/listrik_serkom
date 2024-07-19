@@ -34,9 +34,9 @@
                             <td><?= $t['id_tagihan']  ?></td>
                             <td><?= $t['nama_pelanggan']  ?></td>
                             <td><?= $t['bulan']  ?>/<?= $t['tahun']  ?></td>
-                            <td><?= $t['jumlah_meter']  ?> Watt</td>
-                            <td><?= $t['meter_awal']  ?> Watt</td>
-                            <td><?= $t['meter_akhir']  ?> Watt</td>
+                            <td><?= $t['jumlah_meter']  ?> VA</td>
+                            <td><?= $t['meter_awal']  ?> VA</td>
+                            <td><?= $t['meter_akhir']  ?> VA</td>
                             <td><?php
                                 foreach ($status as $s) {
                                     echo $t['id_status'] == $s['id_status'] ? $s['status'] : '';

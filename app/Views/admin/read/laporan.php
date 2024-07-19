@@ -22,7 +22,7 @@
                 <?php
                 if (empty($pembayaran)) { ?>
                     <tr>
-                        <td colspan="8" class="text-center">Data tidak ditemukan</td>
+                        <td colspan="8" class="text-center">Data Laporan tidak ditemukan</td>
                     </tr>
                 <?php }
                 foreach ($pembayaran as $p) { ?>
@@ -46,9 +46,6 @@
                 } ?>
             </tbody>
         </table>
-    </div>
-    <div class="float-end mx-4">
-        testing
     </div>
 </div>
 <?= $this->endSection();  ?>

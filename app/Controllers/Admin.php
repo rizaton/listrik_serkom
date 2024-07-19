@@ -50,13 +50,14 @@ class Admin extends BaseController
                     ->model_tagihan
                     ->join('pelanggan', 'tagihan.id_pelanggan = pelanggan.id_pelanggan')
                     ->select('tagihan.*, pelanggan.nama_pelanggan')
-                    ->where('id_status = 1')
+                    ->where('id_status', 3)
                     ->findAll(),
                 'pembayaran' => $this
                     ->model_pembayaran
                     ->join('tagihan', 'pembayaran.id_tagihan = tagihan.id_tagihan')
-                    ->select('pembayaran.*, tagihan.id_status')
-                    ->where('id_status = 3')
+                    ->join('pelanggan', 'pembayaran.id_pelanggan = pelanggan.id_pelanggan')
+                    ->select('pembayaran.*, tagihan.id_status, tagihan.bulan, tagihan.tahun, pelanggan.nama_pelanggan')
+                    ->where('id_status', 4)
                     ->findAll(),
                 'status' => $this
                     ->model_status
@@ -529,6 +530,7 @@ class Admin extends BaseController
         $data = [
             'penggunaan' => $this->request->getPost('id_penggunaan'),
             'pelanggan' => $this->request->getPost('id_pelanggan'),
+            'jumlah_meter' => ($this->request->getPost('meter_akhir') - $this->request->getPost('meter_awal')),
             'name' => session()->get('name'),
         ];
         return view('admin/create/create_tagihan', $data);

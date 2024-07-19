@@ -32,18 +32,12 @@ class Tarif extends Model
     // Validation
     protected $validationRules      = [
         'daya' => 'required|numeric|max_length[15]',
-        'tarifperkwh' => 'required|numeric|max_length[13]',
     ];
     protected $validationMessages   = [
         'daya' => [
             'required' => 'Daya harus diisi',
             'numeric' => 'Daya harus berupa angka',
             'max_length' => 'Daya maksimal 15 karakter',
-        ],
-        'tarifperkwh' => [
-            'required' => 'Tarif per kWh harus diisi',
-            'numeric' => 'Tarif per kWh harus berupa angka',
-            'max_length' => 'Tarif per kWh maksimal 13 karakter',
         ],
     ];
     protected $skipValidation       = false;

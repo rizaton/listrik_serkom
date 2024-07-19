@@ -31,7 +31,6 @@ class Pelanggan extends Model
 
     // Validation
     protected $validationRules      = [
-        'id_pelanggan' => 'required|numeric|max_length[6]',
         'nama_pelanggan' => 'required|max_length[100]',
         'alamat' => 'required|max_length[255]',
         'id_tarif' => 'required|numeric|max_length[6]',
@@ -40,11 +39,6 @@ class Pelanggan extends Model
         'nomor_kwh' => 'required|max_length[50]',
     ];
     protected $validationMessages   = [
-        'id_pelanggan' => [
-            'required' => 'ID Pelanggan harus diisi',
-            'numeric' => 'ID Pelanggan harus berupa angka',
-            'max_length' => 'ID Pelanggan maksimal 6 karakter',
-        ],
         'nama_pelanggan' => [
             'required' => 'Nama Pelanggan harus diisi',
             'max_length' => 'Nama Pelanggan maksimal 100 karakter',

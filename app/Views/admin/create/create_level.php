@@ -5,7 +5,7 @@
     <form method="post">
         <div class="mb-3">
             <label for="nama_level" class="form-label">Nama Level</label>
-            <input type="text" class="form-control" id="nama_level" name="nama_level" placeholder="Akses Level">
+            <input type="text" class="form-control" id="nama_level" name="nama_level" placeholder="Akses Level" required>
         </div>
         <button type="submit" class="btn btn-primary" formaction="<?= base_url('admin/auth_create_level') ?>">Tambah Data</button>
         <a href="<?= base_url('admin/kelola_level') ?>" class="btn btn-danger">Batal</a>

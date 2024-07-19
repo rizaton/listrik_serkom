@@ -5,23 +5,23 @@
     <form method="post">
         <div class="mb-3">
             <label for="bulan" class="form-label">Bulan</label>
-            <input type="text" class="form-control" id="bulan" name="bulan" placeholder="Bulan">
+            <input type="text" class="form-control" id="bulan" name="bulan" placeholder="Bulan" required>
         </div>
         <div class="mb-3">
             <label for="tahun" class="form-label">Tahun</label>
-            <input type="text" class="form-control" id="tahun" name="tahun" placeholder="Tahun">
+            <input type="text" class="form-control" id="tahun" name="tahun" placeholder="Tahun" required>
         </div>
         <div class="mb-3">
             <label for="meter_awal" class="form-label">Meter Awal</label>
-            <input type="text" class="form-control" id="meter_awal" name="meter_awal" placeholder="Meter Awal">
+            <input type="text" class="form-control" id="meter_awal" name="meter_awal" placeholder="Meter Awal" required>
         </div>
         <div class="mb-3">
             <label for="meter_akhir" class="form-label">Meter Akhir</label>
-            <input type="text" class="form-control" id="meter_akhir" name="meter_akhir" placeholder="Meter Akhir">
+            <input type="text" class="form-control" id="meter_akhir" name="meter_akhir" placeholder="Meter Akhir" required>
         </div>
         <div class="mb-3">
             <label for="id_pelanggan" class="form-label">ID Pelanggan</label>
-            <input type="text" class="form-control" id="id_pelanggan" name="id_pelanggan" value="<?= $pelanggan['id_pelanggan'] ?>" readonly>
+            <input type="text" class="form-control" id="id_pelanggan" name="id_pelanggan" value="<?= $pelanggan ?>" readonly>
         </div>
         <button type="submit" class="btn btn-primary" formaction="<?= base_url('admin/auth_create_penggunaan') ?>">Tambah Data</button>
         <a href="<?= base_url('admin/kelola_pelanggan') ?>" class="btn btn-danger">Batal</a>

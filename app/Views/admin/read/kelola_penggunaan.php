@@ -30,12 +30,14 @@
                         <td><?= $p['id_penggunaan']  ?></td>
                         <td><?= $p['nama_pelanggan']  ?></td>
                         <td><?= $p['bulan']  ?>/<?= $p['tahun']  ?></td>
-                        <td><?= $p['meter_awal']  ?></td>
-                        <td><?= $p['meter_akhir']  ?></td>
+                        <td><?= $p['meter_awal']  ?> VA</td>
+                        <td><?= $p['meter_akhir']  ?> VA</td>
                         <td class="d-flex justify-content-center">
                             <form method="post">
                                 <input type="hidden" name="id_penggunaan" id="id_penggunaan" value="<?= $p['id_penggunaan'] ?>">
                                 <input type="hidden" name="id_pelanggan" id="id_pelanggan" value="<?= $p['id_pelanggan'] ?>">
+                                <input type="hidden" name="meter_awal" id="meter_awal" value="<?= $p['meter_awal'];  ?>">
+                                <input type="hidden" name="meter_akhir" id="meter_akhir" value="<?= $p['meter_akhir'];  ?>">
                                 <button formaction="<?= base_url('admin/create_tagihan') ?>" class="btn btn-primary" id="add-data-btn">Tambah Tagihan</button>
                                 <button formaction="<?= base_url('admin/edit_penggunaan') ?>" class="btn btn-warning mx-1" id="add-data-btn">Edit</button>
                                 <button formaction="<?= base_url('admin/delete_penggunaan') ?>" class="btn btn-danger mx-1" id="add-data-btn">Delete</button>
