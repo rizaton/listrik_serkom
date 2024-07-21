@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="_events_8php" kind="file" language="PHP">
+    <compoundname>Events.php</compoundname>
+    <innernamespace refid="namespace_config">Config</innernamespace>
+    <innernamespace refid="namespace_code_igniter_1_1_events_1_1_events">CodeIgniter::Events::Events</innernamespace>
+    <innernamespace refid="namespace_code_igniter_1_1_exceptions_1_1_framework_exception">CodeIgniter::Exceptions::FrameworkException</innernamespace>
+    <innernamespace refid="namespace_code_igniter_1_1_hot_reloader_1_1_hot_reloader">CodeIgniter::HotReloader::HotReloader</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_config" kindref="compound">Config</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/>CodeIgniter\Events\Events;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">use<sp/>CodeIgniter\Exceptions\FrameworkException;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">use<sp/>CodeIgniter\HotReloader\HotReloader;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>--------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>Application<sp/>Events</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>--------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>Events<sp/>allow<sp/>you<sp/>to<sp/>tap<sp/>into<sp/>the<sp/>execution<sp/>of<sp/>the<sp/>program<sp/>without</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>modifying<sp/>or<sp/>extending<sp/>core<sp/>files.<sp/>This<sp/>file<sp/>provides<sp/>a<sp/>central</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>location<sp/>to<sp/>define<sp/>your<sp/>events,<sp/>though<sp/>they<sp/>can<sp/>always<sp/>be<sp/>added</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>at<sp/>run-time,<sp/>also,<sp/>if<sp/>needed.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>You<sp/>create<sp/>code<sp/>that<sp/>can<sp/>execute<sp/>by<sp/>subscribing<sp/>to<sp/>events<sp/>with</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*<sp/>the<sp/>&apos;on()&apos;<sp/>method.<sp/>This<sp/>accepts<sp/>any<sp/>form<sp/>of<sp/>callable,<sp/>including</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>Closures,<sp/>that<sp/>will<sp/>be<sp/>executed<sp/>when<sp/>the<sp/>event<sp/>is<sp/>triggered.</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/>Example:</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>Events::on(&apos;create&apos;,<sp/>[$myInstance,<sp/>&apos;myMethod&apos;]);</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">Events::on(</highlight><highlight class="stringliteral">&apos;pre_system&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>()<sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ENVIRONMENT<sp/>!==<sp/></highlight><highlight class="stringliteral">&apos;testing&apos;</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ini_get(</highlight><highlight class="stringliteral">&apos;zlib.output_compression&apos;</highlight><highlight class="normal">))<sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>FrameworkException::forEnabledZlibOutputCompression();</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(ob_get_level()<sp/>&gt;<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ob_end_flush();</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ob_start(</highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>fn<sp/>($buffer)<sp/>=&gt;<sp/>$buffer);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>--------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Debug<sp/>Toolbar<sp/>Listeners.</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>--------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="43"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>If<sp/>you<sp/>delete,<sp/>they<sp/>will<sp/>no<sp/>longer<sp/>be<sp/>collected.</highlight></codeline>
+<codeline lineno="44"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(CI_DEBUG<sp/>&amp;&amp;<sp/>!<sp/>is_cli())<sp/>{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Events::on(</highlight><highlight class="stringliteral">&apos;DBQuery&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;CodeIgniter\Debug\Toolbar\Collectors\Database::collect&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Services::toolbar()-&gt;respond();</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Hot<sp/>Reload<sp/>route<sp/>-<sp/>for<sp/>framework<sp/>use<sp/>on<sp/>the<sp/>hot<sp/>reloader.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ENVIRONMENT<sp/>===<sp/></highlight><highlight class="stringliteral">&apos;development&apos;</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Services::routes()-&gt;get(</highlight><highlight class="stringliteral">&apos;__hot-reload&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>()<sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>HotReloader())-&gt;run();</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>});</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">});</highlight></codeline>
+    </programlisting>
+    <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Events.php"/>
+  </compounddef>
+</doxygen>

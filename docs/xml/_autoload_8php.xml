@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="_autoload_8php" kind="file" language="PHP">
+    <compoundname>Autoload.php</compoundname>
+    <innerclass refid="class_config_1_1_autoload" prot="public">Config::Autoload</innerclass>
+    <innernamespace refid="namespace_config">Config</innernamespace>
+    <innernamespace refid="namespace_code_igniter_1_1_config_1_1_autoload_config">CodeIgniter::Config::AutoloadConfig</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_config" kindref="compound">Config</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/>CodeIgniter\Config\AutoloadConfig;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="class_config_1_1_autoload" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_config_1_1_autoload" kindref="compound">Autoload</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>AutoloadConfig</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>$psr4<sp/>=<sp/>[</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>APP_NAMESPACE<sp/>=&gt;<sp/>APPPATH,</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>];</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>$classmap<sp/>=<sp/>[];</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>$files<sp/>=<sp/>[];</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>$helpers<sp/>=<sp/>[];</highlight></codeline>
+<codeline lineno="94"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Autoload.php"/>
+  </compounddef>
+</doxygen>

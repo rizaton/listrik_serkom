@@ -21,7 +21,6 @@ $routes->get('/admin/kelola_tagihan', 'Admin::kelola_tagihan');
 $routes->get('/admin/kelola_tarif', 'Admin::kelola_tarif');
 $routes->get('/admin/kelola_level', 'Admin::kelola_level');
 $routes->get('/admin/laporan', 'Admin::laporan');
-$routes->get('/admin/pengaturan', 'Admin::pengaturan');
 
 $routes->post('/admin/edit_level', 'Admin::edit_level');
 $routes->post('/admin/edit_pelanggan', 'Admin::edit_pelanggan');
@@ -61,9 +60,14 @@ $routes->post('/admin/auth_create_pelanggan', 'AuthAdmin::create_pelanggan');
 $routes->post('/admin/auth_create_penggunaan', 'AuthAdmin::create_penggunaan');
 $routes->post('/admin/auth_create_tagihan', 'AuthAdmin::create_tagihan');
 
-$routes->get('/user', 'User::index');
+$routes->get('/user', 'Pengguna::penggunaan');
+$routes->get('/user/tagihan', 'Pengguna::tagihan');
+$routes->get('/user/riwayat', 'Pengguna::riwayat');
+$routes->post('/user/bayar', 'Pengguna::bayar_tagihan');
+
+$routes->post('/user/auth_bayar', 'AuthPengguna::bayar_tagihan');
 
 $routes->get('/logout', 'Auth::logout');
-$routes->get('/test', 'AuthAdmin::index');
+// $routes->get('/test', 'AuthAdmin::index');
 
 // $routes->setAutoRoute(true);

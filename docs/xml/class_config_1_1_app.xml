@@ -1,0 +1,307 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="class_config_1_1_app" kind="class" language="PHP" prot="public">
+    <compoundname>Config::App</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">BaseConfig</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_config_1_1_app_1a06723fe092ff9a60d7e87628f33156ff" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Config\App::$baseURL</definition>
+        <argsstring></argsstring>
+        <name>$baseURL</name>
+        <qualifiedname>Config\App\$baseURL</qualifiedname>
+        <initializer>= &apos;http://localhost/listrik_serkom/public/&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_app_1autotoc_md1">
+<title>Base Site URL</title><para>URL to your CodeIgniter root. Typically, this will be your base URL, WITH a trailing slash:</para>
+<para>E.g., <ulink url="http://example.com/">http://example.com/</ulink> </para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/App.php" line="19" column="19" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/App.php" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_app_1ac13f1e83fa5219ab6ab3bbf25ea70976" prot="public" static="no" mutable="no">
+        <type>array</type>
+        <definition>array Config\App::$allowedHostnames</definition>
+        <argsstring></argsstring>
+        <name>$allowedHostnames</name>
+        <qualifiedname>Config\App\$allowedHostnames</qualifiedname>
+        <initializer>= []</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/App.php" line="32" column="18" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/App.php" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_app_1a0fcc9852b02ca97bf915d8cc6fcdbe71" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Config\App::$indexPage</definition>
+        <argsstring></argsstring>
+        <name>$indexPage</name>
+        <qualifiedname>Config\App\$indexPage</qualifiedname>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_app_1autotoc_md3">
+<title>Index File</title><para>Typically, this will be your <computeroutput>index.php</computeroutput> file, unless you&apos;ve renamed it to something else. If you have configured your web server to remove this file from your site URIs, set this variable to an empty string. </para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/App.php" line="43" column="19" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/App.php" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_app_1ab1bafee82cf980242e2a999df10a460e" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Config\App::$uriProtocol</definition>
+        <argsstring></argsstring>
+        <name>$uriProtocol</name>
+        <qualifiedname>Config\App\$uriProtocol</qualifiedname>
+        <initializer>= &apos;REQUEST_URI&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_app_1autotoc_md5">
+<title>URI PROTOCOL</title><para>This item determines which server global should be used to retrieve the URI string. The default setting of &apos;REQUEST_URI&apos; works for most servers. If your links do not seem to work, try one of the other delicious flavors:</para>
+<para>&apos;REQUEST_URI&apos;: Uses $_SERVER[&apos;REQUEST_URI&apos;] &apos;QUERY_STRING&apos;: Uses $_SERVER[&apos;QUERY_STRING&apos;] &apos;PATH_INFO&apos;: Uses $_SERVER[&apos;PATH_INFO&apos;]</para>
+<para>WARNING: If you set this to &apos;PATH_INFO&apos;, URIs will always be URL-decoded! </para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/App.php" line="60" column="19" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/App.php" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_app_1a2db5e934615284f01bee7a634184e2b4" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Config\App::$permittedURIChars</definition>
+        <argsstring></argsstring>
+        <name>$permittedURIChars</name>
+        <qualifiedname>Config\App\$permittedURIChars</qualifiedname>
+        <initializer>= &apos;a-z 0-9~%.:_\-&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/App.php" line="84" column="19" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/App.php" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_app_1a51ac9a0b304c8aa63a96cfb77c13102c" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Config\App::$defaultLocale</definition>
+        <argsstring></argsstring>
+        <name>$defaultLocale</name>
+        <qualifiedname>Config\App\$defaultLocale</qualifiedname>
+        <initializer>= &apos;en&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_app_1autotoc_md7">
+<title>Default Locale</title><para>The Locale roughly represents the language and location that your visitor is viewing the site from. It affects the language strings and other strings (like currency markers, numbers, etc), that your program should run under for this request. </para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/App.php" line="96" column="19" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/App.php" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_app_1af0bb323a9fe10841320a6da4c06ba11a" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Config\App::$negotiateLocale</definition>
+        <argsstring></argsstring>
+        <name>$negotiateLocale</name>
+        <qualifiedname>Config\App\$negotiateLocale</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_app_1autotoc_md9">
+<title>Negotiate Locale</title><para>If true, the current Request object will automatically determine the language to use based on the value of the Accept-Language header.</para>
+<para>If false, no automatic detection will be performed. </para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/App.php" line="108" column="17" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/App.php" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_app_1a562af2b4dde53dca639df86ead4e7120" prot="public" static="no" mutable="no">
+        <type>array</type>
+        <definition>array Config\App::$supportedLocales</definition>
+        <argsstring></argsstring>
+        <name>$supportedLocales</name>
+        <qualifiedname>Config\App\$supportedLocales</qualifiedname>
+        <initializer>= [&apos;en&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/App.php" line="123" column="18" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/App.php" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_app_1a2c61c123fed94f60053e8cc358da7af1" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Config\App::$appTimezone</definition>
+        <argsstring></argsstring>
+        <name>$appTimezone</name>
+        <qualifiedname>Config\App\$appTimezone</qualifiedname>
+        <initializer>= &apos;UTC&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_app_1autotoc_md13">
+<title>Application Timezone</title><para>The default timezone that will be used in your application to display dates with the date helper, and can be retrieved through app_timezone()</para>
+<para><simplesect kind="see"><para><ulink url="https://www.php.net/manual/en/timezones.php">https://www.php.net/manual/en/timezones.php</ulink> for list of timezones supported by PHP. </para>
+</simplesect>
+</para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/App.php" line="136" column="19" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/App.php" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_app_1ae1b62b5e44f1b6cbaa68a7623b20dbf8" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Config\App::$charset</definition>
+        <argsstring></argsstring>
+        <name>$charset</name>
+        <qualifiedname>Config\App\$charset</qualifiedname>
+        <initializer>= &apos;UTF-8&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_app_1autotoc_md15">
+<title>Default Character Set</title><para>This determines which character set is used by default in various methods that require a character set to be provided.</para>
+<para><simplesect kind="see"><para><ulink url="http://php.net/htmlspecialchars">http://php.net/htmlspecialchars</ulink> for a list of supported charsets. </para>
+</simplesect>
+</para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/App.php" line="148" column="19" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/App.php" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_app_1a53140d60c4cd4d62f0a8f9e33234196e" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Config\App::$forceGlobalSecureRequests</definition>
+        <argsstring></argsstring>
+        <name>$forceGlobalSecureRequests</name>
+        <qualifiedname>Config\App\$forceGlobalSecureRequests</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_app_1autotoc_md17">
+<title>Force Global Secure Requests</title><para>If true, this will force every request made to this application to be made via a secure connection (HTTPS). If the incoming request is not secure, the user will be redirected to a secure version of the page and the HTTP Strict Transport Security (HSTS) header will be set. </para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/App.php" line="160" column="17" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/App.php" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_app_1a077851bd27ed672c0741e6add700c9d2" prot="public" static="no" mutable="no">
+        <type>array</type>
+        <definition>array Config\App::$proxyIPs</definition>
+        <argsstring></argsstring>
+        <name>$proxyIPs</name>
+        <qualifiedname>Config\App\$proxyIPs</qualifiedname>
+        <initializer>= []</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/App.php" line="183" column="18" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/App.php" bodystart="183" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_app_1a577084fb2e0d025390f42a7284511f23" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Config\App::$CSPEnabled</definition>
+        <argsstring></argsstring>
+        <name>$CSPEnabled</name>
+        <qualifiedname>Config\App\$CSPEnabled</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_app_1autotoc_md21">
+<title>Content Security Policy</title><para>Enables the Response&apos;s Content Secure Policy to restrict the sources that can be used for images, scripts, CSS files, audio, video, etc. If enabled, the Response object will populate default values for the policy from the <computeroutput>ContentSecurityPolicy.php</computeroutput> file. Controllers can always add to those restrictions at run time.</para>
+<para>For a better understanding of CSP, see these documents:</para>
+<para><simplesect kind="see"><para><ulink url="http://www.html5rocks.com/en/tutorials/security/content-security-policy/">http://www.html5rocks.com/en/tutorials/security/content-security-policy/</ulink> </para>
+</simplesect>
+<simplesect kind="see"><para><ulink url="http://www.w3.org/TR/CSP/">http://www.w3.org/TR/CSP/</ulink> </para>
+</simplesect>
+</para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/App.php" line="201" column="17" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/App.php" bodystart="201" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>BaseConfig</label>
+      </node>
+      <node id="1">
+        <label>Config\App</label>
+        <link refid="class_config_1_1_app"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>BaseConfig</label>
+      </node>
+      <node id="1">
+        <label>Config\App</label>
+        <link refid="class_config_1_1_app"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/App.php" line="7" column="1" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/App.php" bodystart="8" bodyend="202"/>
+    <listofallmembers>
+      <member refid="class_config_1_1_app_1ac13f1e83fa5219ab6ab3bbf25ea70976" prot="public" virt="non-virtual"><scope>Config::App</scope><name>$allowedHostnames</name></member>
+      <member refid="class_config_1_1_app_1a2c61c123fed94f60053e8cc358da7af1" prot="public" virt="non-virtual"><scope>Config::App</scope><name>$appTimezone</name></member>
+      <member refid="class_config_1_1_app_1a06723fe092ff9a60d7e87628f33156ff" prot="public" virt="non-virtual"><scope>Config::App</scope><name>$baseURL</name></member>
+      <member refid="class_config_1_1_app_1ae1b62b5e44f1b6cbaa68a7623b20dbf8" prot="public" virt="non-virtual"><scope>Config::App</scope><name>$charset</name></member>
+      <member refid="class_config_1_1_app_1a577084fb2e0d025390f42a7284511f23" prot="public" virt="non-virtual"><scope>Config::App</scope><name>$CSPEnabled</name></member>
+      <member refid="class_config_1_1_app_1a51ac9a0b304c8aa63a96cfb77c13102c" prot="public" virt="non-virtual"><scope>Config::App</scope><name>$defaultLocale</name></member>
+      <member refid="class_config_1_1_app_1a53140d60c4cd4d62f0a8f9e33234196e" prot="public" virt="non-virtual"><scope>Config::App</scope><name>$forceGlobalSecureRequests</name></member>
+      <member refid="class_config_1_1_app_1a0fcc9852b02ca97bf915d8cc6fcdbe71" prot="public" virt="non-virtual"><scope>Config::App</scope><name>$indexPage</name></member>
+      <member refid="class_config_1_1_app_1af0bb323a9fe10841320a6da4c06ba11a" prot="public" virt="non-virtual"><scope>Config::App</scope><name>$negotiateLocale</name></member>
+      <member refid="class_config_1_1_app_1a2db5e934615284f01bee7a634184e2b4" prot="public" virt="non-virtual"><scope>Config::App</scope><name>$permittedURIChars</name></member>
+      <member refid="class_config_1_1_app_1a077851bd27ed672c0741e6add700c9d2" prot="public" virt="non-virtual"><scope>Config::App</scope><name>$proxyIPs</name></member>
+      <member refid="class_config_1_1_app_1a562af2b4dde53dca639df86ead4e7120" prot="public" virt="non-virtual"><scope>Config::App</scope><name>$supportedLocales</name></member>
+      <member refid="class_config_1_1_app_1ab1bafee82cf980242e2a999df10a460e" prot="public" virt="non-virtual"><scope>Config::App</scope><name>$uriProtocol</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

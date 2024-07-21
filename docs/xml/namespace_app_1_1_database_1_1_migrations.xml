@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="namespace_app_1_1_database_1_1_migrations" kind="namespace" language="PHP">
+    <compoundname>App::Database::Migrations</compoundname>
+    <innerclass refid="class_app_1_1_database_1_1_migrations_1_1_level" prot="public">App::Database::Migrations::Level</innerclass>
+    <innerclass refid="class_app_1_1_database_1_1_migrations_1_1_pelanggan" prot="public">App::Database::Migrations::Pelanggan</innerclass>
+    <innerclass refid="class_app_1_1_database_1_1_migrations_1_1_penggunaan" prot="public">App::Database::Migrations::Penggunaan</innerclass>
+    <innerclass refid="class_app_1_1_database_1_1_migrations_1_1_status" prot="public">App::Database::Migrations::Status</innerclass>
+    <innerclass refid="class_app_1_1_database_1_1_migrations_1_1_tagihan" prot="public">App::Database::Migrations::Tagihan</innerclass>
+    <innerclass refid="class_app_1_1_database_1_1_migrations_1_1_tarif" prot="public">App::Database::Migrations::Tarif</innerclass>
+    <innerclass refid="class_app_1_1_database_1_1_migrations_1_1_user" prot="public">App::Database::Migrations::User</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Database/Migrations/2024-07-13-023442_Level.php" line="3" column="10"/>
+  </compounddef>
+</doxygen>

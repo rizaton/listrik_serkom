@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="footer__log_8php" kind="file" language="PHP">
+    <compoundname>footer_log.php</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;script<sp/>src=</highlight><highlight class="stringliteral">&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js&quot;</highlight><highlight class="normal">&gt;&lt;/script&gt;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal">&lt;script&gt;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><sp/><sp/><sp/><sp/>$(document).ready(</highlight><highlight class="keyword">function</highlight><highlight class="normal">()<sp/>{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$(</highlight><highlight class="stringliteral">&apos;.alert&apos;</highlight><highlight class="normal">).on(</highlight><highlight class="stringliteral">&apos;click&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal">()<sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>alert(</highlight><highlight class="stringliteral">&apos;Alert&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>});</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>});</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">&lt;/script&gt;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">&lt;/body&gt;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">&lt;/html&gt;</highlight></codeline>
+    </programlisting>
+    <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Views/builder/components/footer_log.php"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="namespace_config" kind="namespace" language="PHP">
+    <compoundname>Config</compoundname>
+    <innerclass refid="class_config_1_1_app" prot="public">Config::App</innerclass>
+    <innerclass refid="class_config_1_1_autoload" prot="public">Config::Autoload</innerclass>
+    <innerclass refid="class_config_1_1_cache" prot="public">Config::Cache</innerclass>
+    <innerclass refid="class_config_1_1_content_security_policy" prot="public">Config::ContentSecurityPolicy</innerclass>
+    <innerclass refid="class_config_1_1_cookie" prot="public">Config::Cookie</innerclass>
+    <innerclass refid="class_config_1_1_cors" prot="public">Config::Cors</innerclass>
+    <innerclass refid="class_config_1_1_c_u_r_l_request" prot="public">Config::CURLRequest</innerclass>
+    <innerclass refid="class_config_1_1_database" prot="public">Config::Database</innerclass>
+    <innerclass refid="class_config_1_1_doc_types" prot="public">Config::DocTypes</innerclass>
+    <innerclass refid="class_config_1_1_email" prot="public">Config::Email</innerclass>
+    <innerclass refid="class_config_1_1_encryption" prot="public">Config::Encryption</innerclass>
+    <innerclass refid="class_config_1_1_exceptions" prot="public">Config::Exceptions</innerclass>
+    <innerclass refid="class_config_1_1_feature" prot="public">Config::Feature</innerclass>
+    <innerclass refid="class_config_1_1_filters" prot="public">Config::Filters</innerclass>
+    <innerclass refid="class_config_1_1_foreign_characters" prot="public">Config::ForeignCharacters</innerclass>
+    <innerclass refid="class_config_1_1_format" prot="public">Config::Format</innerclass>
+    <innerclass refid="class_config_1_1_generators" prot="public">Config::Generators</innerclass>
+    <innerclass refid="class_config_1_1_honeypot" prot="public">Config::Honeypot</innerclass>
+    <innerclass refid="class_config_1_1_images" prot="public">Config::Images</innerclass>
+    <innerclass refid="class_config_1_1_kint" prot="public">Config::Kint</innerclass>
+    <innerclass refid="class_config_1_1_logger" prot="public">Config::Logger</innerclass>
+    <innerclass refid="class_config_1_1_migrations" prot="public">Config::Migrations</innerclass>
+    <innerclass refid="class_config_1_1_mimes" prot="public">Config::Mimes</innerclass>
+    <innerclass refid="class_config_1_1_modules" prot="public">Config::Modules</innerclass>
+    <innerclass refid="class_config_1_1_optimize" prot="public">Config::Optimize</innerclass>
+    <innerclass refid="class_config_1_1_pager" prot="public">Config::Pager</innerclass>
+    <innerclass refid="class_config_1_1_paths" prot="public">Config::Paths</innerclass>
+    <innerclass refid="class_config_1_1_publisher" prot="public">Config::Publisher</innerclass>
+    <innerclass refid="class_config_1_1_routing" prot="public">Config::Routing</innerclass>
+    <innerclass refid="class_config_1_1_security" prot="public">Config::Security</innerclass>
+    <innerclass refid="class_config_1_1_services" prot="public">Config::Services</innerclass>
+    <innerclass refid="class_config_1_1_session" prot="public">Config::Session</innerclass>
+    <innerclass refid="class_config_1_1_toolbar" prot="public">Config::Toolbar</innerclass>
+    <innerclass refid="class_config_1_1_user_agents" prot="public">Config::UserAgents</innerclass>
+    <innerclass refid="class_config_1_1_validation" prot="public">Config::Validation</innerclass>
+    <innerclass refid="class_config_1_1_view" prot="public">Config::View</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This file is part of CodeIgniter 4 framework.</para>
+<para>(c) CodeIgniter Foundation <ulink url="mailto:admin@codeigniter.com">admin@codeigniter.com</ulink></para>
+<para>For the full copyright and license information, please view the LICENSE file that was distributed with this source code. </para>
+    </detaileddescription>
+    <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/App.php" line="3" column="10"/>
+  </compounddef>
+</doxygen>

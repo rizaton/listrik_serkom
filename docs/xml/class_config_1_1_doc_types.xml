@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="class_config_1_1_doc_types" kind="class" language="PHP" prot="public">
+    <compoundname>Config::DocTypes</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_config_1_1_doc_types_1a2f7c6b5d18b432bff2f13e8f0185f616" prot="public" static="no" mutable="no">
+        <type>array</type>
+        <definition>array Config\DocTypes::$list</definition>
+        <argsstring></argsstring>
+        <name>$list</name>
+        <qualifiedname>Config\DocTypes\$list</qualifiedname>
+        <initializer>= [
+        &apos;xhtml11&apos;           =&gt; &apos;&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.1//EN&quot; &quot;http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd&quot;&gt;&apos;,
+        &apos;xhtml1-strict&apos;     =&gt; &apos;&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;&apos;,
+        &apos;xhtml1-trans&apos;      =&gt; &apos;&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;&apos;,
+        &apos;xhtml1-frame&apos;      =&gt; &apos;&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Frameset//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd&quot;&gt;&apos;,
+        &apos;xhtml-basic11&apos;     =&gt; &apos;&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML Basic 1.1//EN&quot; &quot;http://www.w3.org/TR/xhtml-basic/xhtml-basic11.dtd&quot;&gt;&apos;,
+        &apos;html5&apos;             =&gt; &apos;&lt;!DOCTYPE html&gt;&apos;,
+        &apos;html4-strict&apos;      =&gt; &apos;&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01//EN&quot; &quot;http://www.w3.org/TR/html4/strict.dtd&quot;&gt;&apos;,
+        &apos;html4-trans&apos;       =&gt; &apos;&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot; &quot;http://www.w3.org/TR/html4/loose.dtd&quot;&gt;&apos;,
+        &apos;html4-frame&apos;       =&gt; &apos;&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01 Frameset//EN&quot; &quot;http://www.w3.org/TR/html4/frameset.dtd&quot;&gt;&apos;,
+        &apos;mathml1&apos;           =&gt; &apos;&lt;!DOCTYPE math SYSTEM &quot;http://www.w3.org/Math/DTD/mathml1/mathml.dtd&quot;&gt;&apos;,
+        &apos;mathml2&apos;           =&gt; &apos;&lt;!DOCTYPE math PUBLIC &quot;-//W3C//DTD MathML 2.0//EN&quot; &quot;http://www.w3.org/Math/DTD/mathml2/mathml2.dtd&quot;&gt;&apos;,
+        &apos;svg10&apos;             =&gt; &apos;&lt;!DOCTYPE svg PUBLIC &quot;-//W3C//DTD SVG 1.0//EN&quot; &quot;http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd&quot;&gt;&apos;,
+        &apos;svg11&apos;             =&gt; &apos;&lt;!DOCTYPE svg PUBLIC &quot;-//W3C//DTD SVG 1.1//EN&quot; &quot;http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd&quot;&gt;&apos;,
+        &apos;svg11-basic&apos;       =&gt; &apos;&lt;!DOCTYPE svg PUBLIC &quot;-//W3C//DTD SVG 1.1 Basic//EN&quot; &quot;http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-basic.dtd&quot;&gt;&apos;,
+        &apos;svg11-tiny&apos;        =&gt; &apos;&lt;!DOCTYPE svg PUBLIC &quot;-//W3C//DTD SVG 1.1 Tiny//EN&quot; &quot;http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd&quot;&gt;&apos;,
+        &apos;xhtml-math-svg-xh&apos; =&gt; &apos;&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN&quot; &quot;http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg.dtd&quot;&gt;&apos;,
+        &apos;xhtml-math-svg-sh&apos; =&gt; &apos;&lt;!DOCTYPE svg:svg PUBLIC &quot;-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN&quot; &quot;http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg.dtd&quot;&gt;&apos;,
+        &apos;xhtml-rdfa-1&apos;      =&gt; &apos;&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML+RDFa 1.0//EN&quot; &quot;http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd&quot;&gt;&apos;,
+        &apos;xhtml-rdfa-2&apos;      =&gt; &apos;&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML+RDFa 1.1//EN&quot; &quot;http://www.w3.org/MarkUp/DTD/xhtml-rdfa-2.dtd&quot;&gt;&apos;,
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/DocTypes.php" line="15" column="18" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/DocTypes.php" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_doc_types_1a807f6364908ddc0a7083b57045bf69e8" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Config\DocTypes::$html5</definition>
+        <argsstring></argsstring>
+        <name>$html5</name>
+        <qualifiedname>Config\DocTypes\$html5</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Whether to remove the solidus (<computeroutput>/</computeroutput>) character for void HTML elements (e.g. <computeroutput>&lt;input&gt;</computeroutput>) for HTML5 compatibility.</para>
+<para>Set to: <computeroutput>true</computeroutput> - to be HTML5 compatible <computeroutput>false</computeroutput> - to be XHTML compatible </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/DocTypes.php" line="45" column="17" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/DocTypes.php" bodystart="45" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>@immutable </para>
+    </detaileddescription>
+    <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/DocTypes.php" line="8" column="1" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/DocTypes.php" bodystart="9" bodyend="46"/>
+    <listofallmembers>
+      <member refid="class_config_1_1_doc_types_1a807f6364908ddc0a7083b57045bf69e8" prot="public" virt="non-virtual"><scope>Config::DocTypes</scope><name>$html5</name></member>
+      <member refid="class_config_1_1_doc_types_1a2f7c6b5d18b432bff2f13e8f0185f616" prot="public" virt="non-virtual"><scope>Config::DocTypes</scope><name>$list</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

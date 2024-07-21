@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="laporan_8php" kind="file" language="PHP">
+    <compoundname>laporan.php</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="laporan_8php_1a3ab5e423dfc53b5f367d595f5a5c0234" prot="public" static="no" mutable="no">
+        <type>if(empty( $pembayaran))</type>
+        <definition>if(empty($pembayaran)) foreach($pembayaran as $p)</definition>
+        <argsstring>( $pembayaran as $p)</argsstring>
+        <name>foreach</name>
+        <initializer>= $this-&gt;endSection()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Views/admin/read/laporan.php" line="28" column="17" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Views/admin/read/laporan.php" bodystart="51" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?=<sp/>$this-&gt;extend(</highlight><highlight class="stringliteral">&apos;builder/templates/main_admin&apos;</highlight><highlight class="normal">);<sp/><sp/>?&gt;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal">&lt;?=<sp/>$this-&gt;section(</highlight><highlight class="stringliteral">&apos;content&apos;</highlight><highlight class="normal">);<sp/><sp/>?&gt;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">&lt;?=<sp/>$this-&gt;extend(</highlight><highlight class="stringliteral">&apos;builder/templates/main_admin&apos;</highlight><highlight class="normal">);<sp/><sp/>?&gt;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">&lt;?=<sp/>$this-&gt;section(</highlight><highlight class="stringliteral">&apos;content&apos;</highlight><highlight class="normal">);<sp/><sp/>?&gt;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">&lt;div<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;col<sp/>py-3&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;div<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;my-5<sp/>table-responsive<sp/>scrollbar<sp/>scrollbar-dark&quot;</highlight><highlight class="normal"><sp/>style=</highlight><highlight class="stringliteral">&quot;height:<sp/>40vh;<sp/>overflow-y:<sp/>auto;&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;table<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;table<sp/>align-middle&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;thead<sp/>style=</highlight><highlight class="stringliteral">&quot;position:<sp/>sticky;<sp/>top:<sp/>0;z-index:<sp/>1;<sp/>background-color:#fff;&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;tr&gt;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;th&gt;id_pembayaran&lt;/th&gt;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;th&gt;nama_pelanggan&lt;/th&gt;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;th&gt;biaya_admin&lt;/th&gt;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;th&gt;total_bayar&lt;/th&gt;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;th&gt;jumlah_meter&lt;/th&gt;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;th&gt;nama_admin&lt;/th&gt;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;th&gt;tanggal_pembayaran&lt;/th&gt;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/tr&gt;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/thead&gt;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;tbody&gt;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;?php</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(empty($pembayaran))<sp/>{<sp/>?&gt;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;tr&gt;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;td<sp/>colspan=</highlight><highlight class="stringliteral">&quot;8&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;text-center&quot;</highlight><highlight class="normal">&gt;Data<sp/>Laporan<sp/>tidak<sp/>ditemukan&lt;/td&gt;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/tr&gt;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;?php<sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal"><sp/>($pembayaran<sp/>as<sp/>$p)<sp/>{<sp/>?&gt;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;tr&gt;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;form<sp/>method=</highlight><highlight class="stringliteral">&quot;post&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;input<sp/>type=</highlight><highlight class="stringliteral">&quot;hidden&quot;</highlight><highlight class="normal"><sp/>name=</highlight><highlight class="stringliteral">&quot;id_pembayaran&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;id_pembayaran&quot;</highlight><highlight class="normal"><sp/>value=</highlight><highlight class="stringliteral">&quot;&lt;?=<sp/>$p[&apos;id_pembayaran&apos;]<sp/>?&gt;&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;td&gt;&lt;?=<sp/>$p[</highlight><highlight class="stringliteral">&apos;id_pembayaran&apos;</highlight><highlight class="normal">]<sp/><sp/>?&gt;&lt;/td&gt;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;td&gt;&lt;?=<sp/>$p[</highlight><highlight class="stringliteral">&apos;nama_pelanggan&apos;</highlight><highlight class="normal">]<sp/><sp/>?&gt;&lt;/td&gt;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;td&gt;Rp.&lt;?=<sp/>number_format($p[</highlight><highlight class="stringliteral">&apos;biaya_admin&apos;</highlight><highlight class="normal">])<sp/><sp/>?&gt;&lt;/td&gt;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;td&gt;Rp.&lt;?=<sp/>number_format($p[</highlight><highlight class="stringliteral">&apos;total_bayar&apos;</highlight><highlight class="normal">])<sp/><sp/>?&gt;&lt;/td&gt;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;td&gt;&lt;?=<sp/>$p[</highlight><highlight class="stringliteral">&apos;jumlah_meter&apos;</highlight><highlight class="normal">]<sp/><sp/>?&gt;<sp/>Watt&lt;/td&gt;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;td&gt;&lt;?php</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal"><sp/>($admin<sp/>as<sp/>$a)<sp/>{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>echo<sp/>$p[</highlight><highlight class="stringliteral">&apos;id_user&apos;</highlight><highlight class="normal">]<sp/>==<sp/>$a[</highlight><highlight class="stringliteral">&apos;id_user&apos;</highlight><highlight class="normal">]<sp/>?<sp/>$a[</highlight><highlight class="stringliteral">&apos;nama_admin&apos;</highlight><highlight class="normal">]<sp/>:<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/>?&gt;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/td&gt;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;td&gt;&lt;?=<sp/>$p[</highlight><highlight class="stringliteral">&apos;tanggal_pembayaran&apos;</highlight><highlight class="normal">]<sp/><sp/>?&gt;&lt;/td&gt;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/form&gt;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/tr&gt;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;?php</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/>?&gt;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/tbody&gt;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/table&gt;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/div&gt;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">&lt;/div&gt;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">&lt;?=<sp/>$this-&gt;endSection();<sp/><sp/>?&gt;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">&lt;?=<sp/>$this-&gt;endSection();<sp/><sp/>?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Views/admin/read/laporan.php"/>
+  </compounddef>
+</doxygen>

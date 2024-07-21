@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="class_config_1_1_encryption" kind="class" language="PHP" prot="public">
+    <compoundname>Config::Encryption</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">BaseConfig</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_config_1_1_encryption_1a7710766226d88ed19a3d7cc3cf962253" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Config\Encryption::$key</definition>
+        <argsstring></argsstring>
+        <name>$key</name>
+        <qualifiedname>Config\Encryption\$key</qualifiedname>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_encryption_1autotoc_md73">
+<title>Encryption Key Starter</title><para>If you use the Encryption class you must set an encryption key (seed). You need to ensure it is long enough for the cipher and mode you plan to use. See the user guide for more info. </para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Encryption.php" line="24" column="19" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Encryption.php" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_encryption_1a12abc85a997bbf40916d7463eb35fa87" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Config\Encryption::$driver</definition>
+        <argsstring></argsstring>
+        <name>$driver</name>
+        <qualifiedname>Config\Encryption\$driver</qualifiedname>
+        <initializer>= &apos;OpenSSL&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_encryption_1autotoc_md75">
+<title>Encryption Driver to Use</title><para>One of the supported encryption drivers.</para>
+<para>Available drivers:<itemizedlist>
+<listitem><para>OpenSSL</para>
+</listitem><listitem><para>Sodium </para>
+</listitem></itemizedlist>
+</para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Encryption.php" line="37" column="19" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Encryption.php" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_encryption_1a9a268944b2ffbc6b4bf68a507d12c823" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Config\Encryption::$blockSize</definition>
+        <argsstring></argsstring>
+        <name>$blockSize</name>
+        <qualifiedname>Config\Encryption\$blockSize</qualifiedname>
+        <initializer>= 16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_encryption_1autotoc_md77">
+<title>SodiumHandler&apos;s Padding Length in Bytes</title><para>This is the number of bytes that will be padded to the plaintext message before it is encrypted. This value should be greater than zero.</para>
+<para>See the user guide for more information on padding. </para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Encryption.php" line="49" column="16" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Encryption.php" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_encryption_1ad994b8602c8ac5dafebf064aabb2daad" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Config\Encryption::$digest</definition>
+        <argsstring></argsstring>
+        <name>$digest</name>
+        <qualifiedname>Config\Encryption\$digest</qualifiedname>
+        <initializer>= &apos;SHA512&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_encryption_1autotoc_md79">
+<title>Encryption digest</title><para>HMAC digest to use, e.g. &apos;SHA512&apos; or &apos;SHA256&apos;. Default value is &apos;SHA512&apos;. </para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Encryption.php" line="58" column="19" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Encryption.php" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_encryption_1a266d26a6daabbf2d1f0a9056cfed0678" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Config\Encryption::$rawData</definition>
+        <argsstring></argsstring>
+        <name>$rawData</name>
+        <qualifiedname>Config\Encryption\$rawData</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Whether the cipher-text should be raw. If set to false, then it will be base64 encoded. This setting is only used by OpenSSLHandler.</para>
+<para>Set to false for CI3 Encryption compatibility. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Encryption.php" line="66" column="17" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Encryption.php" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_encryption_1a4a59c9208cff6a61702f2820ac64cb77" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Config\Encryption::$encryptKeyInfo</definition>
+        <argsstring></argsstring>
+        <name>$encryptKeyInfo</name>
+        <qualifiedname>Config\Encryption\$encryptKeyInfo</qualifiedname>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Encryption key info. This setting is only used by OpenSSLHandler.</para>
+<para>Set to &apos;encryption&apos; for CI3 Encryption compatibility. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Encryption.php" line="74" column="19" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Encryption.php" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_encryption_1a07e2fa2ae82b83e6e0320656a844b053" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Config\Encryption::$authKeyInfo</definition>
+        <argsstring></argsstring>
+        <name>$authKeyInfo</name>
+        <qualifiedname>Config\Encryption\$authKeyInfo</qualifiedname>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Authentication key info. This setting is only used by OpenSSLHandler.</para>
+<para>Set to &apos;authentication&apos; for CI3 Encryption compatibility. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Encryption.php" line="82" column="19" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Encryption.php" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_encryption_1a4acd83dd9ebf2610562e4455734aca0c" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Config\Encryption::$cipher</definition>
+        <argsstring></argsstring>
+        <name>$cipher</name>
+        <qualifiedname>Config\Encryption\$cipher</qualifiedname>
+        <initializer>= &apos;AES-256-CTR&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Cipher to use. This setting is only used by OpenSSLHandler.</para>
+<para>Set to &apos;AES-128-CBC&apos; to decrypt encrypted data that encrypted by CI3 Encryption default configuration. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Encryption.php" line="91" column="19" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Encryption.php" bodystart="91" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Encryption configuration.</para>
+<para>These are the settings used for encryption, if you don&apos;t pass a parameter array to the encrypter for creation/initialization. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>BaseConfig</label>
+      </node>
+      <node id="1">
+        <label>Config\Encryption</label>
+        <link refid="class_config_1_1_encryption"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>BaseConfig</label>
+      </node>
+      <node id="1">
+        <label>Config\Encryption</label>
+        <link refid="class_config_1_1_encryption"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Encryption.php" line="13" column="1" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Encryption.php" bodystart="14" bodyend="92"/>
+    <listofallmembers>
+      <member refid="class_config_1_1_encryption_1a07e2fa2ae82b83e6e0320656a844b053" prot="public" virt="non-virtual"><scope>Config::Encryption</scope><name>$authKeyInfo</name></member>
+      <member refid="class_config_1_1_encryption_1a9a268944b2ffbc6b4bf68a507d12c823" prot="public" virt="non-virtual"><scope>Config::Encryption</scope><name>$blockSize</name></member>
+      <member refid="class_config_1_1_encryption_1a4acd83dd9ebf2610562e4455734aca0c" prot="public" virt="non-virtual"><scope>Config::Encryption</scope><name>$cipher</name></member>
+      <member refid="class_config_1_1_encryption_1ad994b8602c8ac5dafebf064aabb2daad" prot="public" virt="non-virtual"><scope>Config::Encryption</scope><name>$digest</name></member>
+      <member refid="class_config_1_1_encryption_1a12abc85a997bbf40916d7463eb35fa87" prot="public" virt="non-virtual"><scope>Config::Encryption</scope><name>$driver</name></member>
+      <member refid="class_config_1_1_encryption_1a4a59c9208cff6a61702f2820ac64cb77" prot="public" virt="non-virtual"><scope>Config::Encryption</scope><name>$encryptKeyInfo</name></member>
+      <member refid="class_config_1_1_encryption_1a7710766226d88ed19a3d7cc3cf962253" prot="public" virt="non-virtual"><scope>Config::Encryption</scope><name>$key</name></member>
+      <member refid="class_config_1_1_encryption_1a266d26a6daabbf2d1f0a9056cfed0678" prot="public" virt="non-virtual"><scope>Config::Encryption</scope><name>$rawData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

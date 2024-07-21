@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="dir_18bff7b1cd6d27822bfe2821f384f63f" kind="dir">
+    <compoundname>C:/DevFiles/PHP_Projects/listrik_serkom/app/Views/builder</compoundname>
+    <innerdir refid="dir_2f4d8bbb24aa92119fdb05913f0ea547">C:/DevFiles/PHP_Projects/listrik_serkom/app/Views/builder/components</innerdir>
+    <innerdir refid="dir_077649312dc815377bd54c61217c2d42">C:/DevFiles/PHP_Projects/listrik_serkom/app/Views/builder/templates</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Views/builder/"/>
+  </compounddef>
+</doxygen>

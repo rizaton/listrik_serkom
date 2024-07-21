@@ -1,0 +1,532 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="class_app_1_1_models_1_1_tagihan" kind="class" language="PHP" prot="public">
+    <compoundname>App::Models::Tagihan</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Model</basecompoundref>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_app_1_1_models_1_1_tagihan_1ab2e837443a1ef037a9131b6ef69c2d80" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>App\Models\Tagihan::$table</definition>
+        <argsstring></argsstring>
+        <name>$table</name>
+        <qualifiedname>App\Models\Tagihan\$table</qualifiedname>
+        <initializer>= &apos;tagihan&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" line="9" column="15" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_models_1_1_tagihan_1a5557ca846919cb80594f5f320a25bee5" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>App\Models\Tagihan::$primaryKey</definition>
+        <argsstring></argsstring>
+        <name>$primaryKey</name>
+        <qualifiedname>App\Models\Tagihan\$primaryKey</qualifiedname>
+        <initializer>= &apos;id_tagihan&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" line="10" column="15" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_models_1_1_tagihan_1a72fe687b13311277c80a35095f2a568f" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>App\Models\Tagihan::$useAutoIncrement</definition>
+        <argsstring></argsstring>
+        <name>$useAutoIncrement</name>
+        <qualifiedname>App\Models\Tagihan\$useAutoIncrement</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" line="11" column="15" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_models_1_1_tagihan_1ae55159653c318d227839fe78a4042287" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>App\Models\Tagihan::$returnType</definition>
+        <argsstring></argsstring>
+        <name>$returnType</name>
+        <qualifiedname>App\Models\Tagihan\$returnType</qualifiedname>
+        <initializer>= &apos;array&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" line="12" column="15" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_models_1_1_tagihan_1a0580ba5e8b3fed4b2b61f47519a343c3" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>App\Models\Tagihan::$useSoftDeletes</definition>
+        <argsstring></argsstring>
+        <name>$useSoftDeletes</name>
+        <qualifiedname>App\Models\Tagihan\$useSoftDeletes</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" line="13" column="15" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_models_1_1_tagihan_1af4f8ad06db3ab607d8cfd8d71fada2be" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>App\Models\Tagihan::$protectFields</definition>
+        <argsstring></argsstring>
+        <name>$protectFields</name>
+        <qualifiedname>App\Models\Tagihan\$protectFields</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" line="14" column="15" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_models_1_1_tagihan_1a4498755ff24edf562d144f59b92de352" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>App\Models\Tagihan::$allowedFields</definition>
+        <argsstring></argsstring>
+        <name>$allowedFields</name>
+        <qualifiedname>App\Models\Tagihan\$allowedFields</qualifiedname>
+        <initializer>= [
+        &apos;id_tagihan&apos;, &apos;id_pelanggan&apos;, &apos;bulan&apos;, &apos;tahun&apos;, &apos;jumlah_meter&apos;, &apos;id_penggunaan&apos;, &apos;id_status&apos;
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" line="15" column="15" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_models_1_1_tagihan_1afd152b165cc8b15f43c2f198bfefe305" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool App\Models\Tagihan::$allowEmptyInserts</definition>
+        <argsstring></argsstring>
+        <name>$allowEmptyInserts</name>
+        <qualifiedname>App\Models\Tagihan\$allowEmptyInserts</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" line="19" column="20" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_models_1_1_tagihan_1aea48c2e3a6bbb684dfa5d3cb49d2b3f9" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool App\Models\Tagihan::$updateOnlyChanged</definition>
+        <argsstring></argsstring>
+        <name>$updateOnlyChanged</name>
+        <qualifiedname>App\Models\Tagihan\$updateOnlyChanged</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" line="20" column="20" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_models_1_1_tagihan_1a65830cd53a80e98b1be3efef8fdac575" prot="protected" static="no" mutable="no">
+        <type>array</type>
+        <definition>array App\Models\Tagihan::$casts</definition>
+        <argsstring></argsstring>
+        <name>$casts</name>
+        <qualifiedname>App\Models\Tagihan\$casts</qualifiedname>
+        <initializer>= []</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" line="22" column="21" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_models_1_1_tagihan_1a47419b0fd25f00372e166a103a42bbca" prot="protected" static="no" mutable="no">
+        <type>array</type>
+        <definition>array App\Models\Tagihan::$castHandlers</definition>
+        <argsstring></argsstring>
+        <name>$castHandlers</name>
+        <qualifiedname>App\Models\Tagihan\$castHandlers</qualifiedname>
+        <initializer>= []</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" line="23" column="21" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_models_1_1_tagihan_1a03386a12932faa336a90a2c49dd513ed" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>App\Models\Tagihan::$useTimestamps</definition>
+        <argsstring></argsstring>
+        <name>$useTimestamps</name>
+        <qualifiedname>App\Models\Tagihan\$useTimestamps</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" line="26" column="15" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_models_1_1_tagihan_1a41e80451205b1d2677fd3d3699b0e53c" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>App\Models\Tagihan::$dateFormat</definition>
+        <argsstring></argsstring>
+        <name>$dateFormat</name>
+        <qualifiedname>App\Models\Tagihan\$dateFormat</qualifiedname>
+        <initializer>= &apos;datetime&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" line="27" column="15" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_models_1_1_tagihan_1a5ee24fd7708442ced853d9356c9a57cd" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>App\Models\Tagihan::$createdField</definition>
+        <argsstring></argsstring>
+        <name>$createdField</name>
+        <qualifiedname>App\Models\Tagihan\$createdField</qualifiedname>
+        <initializer>= &apos;created_at&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" line="28" column="15" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_models_1_1_tagihan_1a71380f2aa7227e9497c80ba0e5663727" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>App\Models\Tagihan::$updatedField</definition>
+        <argsstring></argsstring>
+        <name>$updatedField</name>
+        <qualifiedname>App\Models\Tagihan\$updatedField</qualifiedname>
+        <initializer>= &apos;updated_at&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" line="29" column="15" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_models_1_1_tagihan_1ac4bd8fb8a851b5f008a20067cc025b78" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>App\Models\Tagihan::$deletedField</definition>
+        <argsstring></argsstring>
+        <name>$deletedField</name>
+        <qualifiedname>App\Models\Tagihan\$deletedField</qualifiedname>
+        <initializer>= &apos;deleted_at&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" line="30" column="15" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_models_1_1_tagihan_1accd078516f844f7d8c6ab4d3d440f815" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>App\Models\Tagihan::$validationRules</definition>
+        <argsstring></argsstring>
+        <name>$validationRules</name>
+        <qualifiedname>App\Models\Tagihan\$validationRules</qualifiedname>
+        <initializer>= [
+        &apos;id_pelanggan&apos; =&gt; &apos;required|numeric|max_length[6]&apos;,
+        &apos;bulan&apos; =&gt; &apos;required|numeric|max_length[2]&apos;,
+        &apos;tahun&apos; =&gt; &apos;required|numeric|max_length[4]&apos;,
+        &apos;jumlah_meter&apos; =&gt; &apos;required|numeric|max_length[20]&apos;,
+        &apos;status&apos; =&gt; &apos;required|max_length[1]&apos;,
+        &apos;id_penggunaan&apos; =&gt; &apos;required|numeric|max_length[6]&apos;,
+        &apos;id_status&apos; =&gt; &apos;required|numeric|max_length[6]&apos;,
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" line="33" column="15" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_models_1_1_tagihan_1a085b256925edcbf6a2669c930a0df64e" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>App\Models\Tagihan::$validationMessages</definition>
+        <argsstring></argsstring>
+        <name>$validationMessages</name>
+        <qualifiedname>App\Models\Tagihan\$validationMessages</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" line="42" column="15" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_models_1_1_tagihan_1a77721da55cc6908928f5031bef4cec5c" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>App\Models\Tagihan::$skipValidation</definition>
+        <argsstring></argsstring>
+        <name>$skipValidation</name>
+        <qualifiedname>App\Models\Tagihan\$skipValidation</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" line="78" column="15" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_models_1_1_tagihan_1ae908e8ab9534611f986908be7fbf1e17" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>App\Models\Tagihan::$cleanValidationRules</definition>
+        <argsstring></argsstring>
+        <name>$cleanValidationRules</name>
+        <qualifiedname>App\Models\Tagihan\$cleanValidationRules</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" line="79" column="15" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_models_1_1_tagihan_1abf176413b49e7c8521476bbd8822b1d4" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>App\Models\Tagihan::$allowCallbacks</definition>
+        <argsstring></argsstring>
+        <name>$allowCallbacks</name>
+        <qualifiedname>App\Models\Tagihan\$allowCallbacks</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" line="82" column="15" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_models_1_1_tagihan_1a1d7626b612b96fca1caff2eb179dfb0b" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>App\Models\Tagihan::$beforeInsert</definition>
+        <argsstring></argsstring>
+        <name>$beforeInsert</name>
+        <qualifiedname>App\Models\Tagihan\$beforeInsert</qualifiedname>
+        <initializer>= []</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" line="83" column="15" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_models_1_1_tagihan_1a008c6044b190ce45d0dcd4caf62b5a8f" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>App\Models\Tagihan::$afterInsert</definition>
+        <argsstring></argsstring>
+        <name>$afterInsert</name>
+        <qualifiedname>App\Models\Tagihan\$afterInsert</qualifiedname>
+        <initializer>= [&apos;tambah_pembayaran&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" line="84" column="15" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_models_1_1_tagihan_1a089a10a875866ee3ef0bc732a0d96c4d" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>App\Models\Tagihan::$beforeUpdate</definition>
+        <argsstring></argsstring>
+        <name>$beforeUpdate</name>
+        <qualifiedname>App\Models\Tagihan\$beforeUpdate</qualifiedname>
+        <initializer>= []</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" line="85" column="15" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_models_1_1_tagihan_1a3adf73c732c6878b439ee929c9d84a7f" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>App\Models\Tagihan::$afterUpdate</definition>
+        <argsstring></argsstring>
+        <name>$afterUpdate</name>
+        <qualifiedname>App\Models\Tagihan\$afterUpdate</qualifiedname>
+        <initializer>= []</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" line="86" column="15" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_models_1_1_tagihan_1ae6a93e042577ea768b2a1c1ff973466f" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>App\Models\Tagihan::$beforeFind</definition>
+        <argsstring></argsstring>
+        <name>$beforeFind</name>
+        <qualifiedname>App\Models\Tagihan\$beforeFind</qualifiedname>
+        <initializer>= []</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" line="87" column="15" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_models_1_1_tagihan_1ae9976878e1628c47f7e6adab3a9a121f" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>App\Models\Tagihan::$afterFind</definition>
+        <argsstring></argsstring>
+        <name>$afterFind</name>
+        <qualifiedname>App\Models\Tagihan\$afterFind</qualifiedname>
+        <initializer>= []</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" line="88" column="15" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_models_1_1_tagihan_1acf0c069d59ad7815d9ad3ded7eb754f6" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>App\Models\Tagihan::$beforeDelete</definition>
+        <argsstring></argsstring>
+        <name>$beforeDelete</name>
+        <qualifiedname>App\Models\Tagihan\$beforeDelete</qualifiedname>
+        <initializer>= []</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" line="89" column="15" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_models_1_1_tagihan_1aaef1ebee760f180c9a02261d345d21ca" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>App\Models\Tagihan::$afterDelete</definition>
+        <argsstring></argsstring>
+        <name>$afterDelete</name>
+        <qualifiedname>App\Models\Tagihan\$afterDelete</qualifiedname>
+        <initializer>= []</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" line="90" column="15" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" bodystart="90" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_app_1_1_models_1_1_tagihan_1a6b7e487a69979e0493313681f9f03e64" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Models\Tagihan::tambah_pembayaran</definition>
+        <argsstring>(array $data)</argsstring>
+        <name>tambah_pembayaran</name>
+        <qualifiedname>App\Models\Tagihan\tambah_pembayaran</qualifiedname>
+        <param>
+          <type>array</type>
+          <declname>$data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" line="92" column="22" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" bodystart="92" bodyend="114"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>App\Models\Tagihan</label>
+        <link refid="class_app_1_1_models_1_1_tagihan"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Model</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>App\Models\Tagihan</label>
+        <link refid="class_app_1_1_models_1_1_tagihan"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Model</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" line="7" column="1" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php" bodystart="8" bodyend="115"/>
+    <listofallmembers>
+      <member refid="class_app_1_1_models_1_1_tagihan_1aaef1ebee760f180c9a02261d345d21ca" prot="protected" virt="non-virtual"><scope>App::Models::Tagihan</scope><name>$afterDelete</name></member>
+      <member refid="class_app_1_1_models_1_1_tagihan_1ae9976878e1628c47f7e6adab3a9a121f" prot="protected" virt="non-virtual"><scope>App::Models::Tagihan</scope><name>$afterFind</name></member>
+      <member refid="class_app_1_1_models_1_1_tagihan_1a008c6044b190ce45d0dcd4caf62b5a8f" prot="protected" virt="non-virtual"><scope>App::Models::Tagihan</scope><name>$afterInsert</name></member>
+      <member refid="class_app_1_1_models_1_1_tagihan_1a3adf73c732c6878b439ee929c9d84a7f" prot="protected" virt="non-virtual"><scope>App::Models::Tagihan</scope><name>$afterUpdate</name></member>
+      <member refid="class_app_1_1_models_1_1_tagihan_1abf176413b49e7c8521476bbd8822b1d4" prot="protected" virt="non-virtual"><scope>App::Models::Tagihan</scope><name>$allowCallbacks</name></member>
+      <member refid="class_app_1_1_models_1_1_tagihan_1a4498755ff24edf562d144f59b92de352" prot="protected" virt="non-virtual"><scope>App::Models::Tagihan</scope><name>$allowedFields</name></member>
+      <member refid="class_app_1_1_models_1_1_tagihan_1afd152b165cc8b15f43c2f198bfefe305" prot="protected" virt="non-virtual"><scope>App::Models::Tagihan</scope><name>$allowEmptyInserts</name></member>
+      <member refid="class_app_1_1_models_1_1_tagihan_1acf0c069d59ad7815d9ad3ded7eb754f6" prot="protected" virt="non-virtual"><scope>App::Models::Tagihan</scope><name>$beforeDelete</name></member>
+      <member refid="class_app_1_1_models_1_1_tagihan_1ae6a93e042577ea768b2a1c1ff973466f" prot="protected" virt="non-virtual"><scope>App::Models::Tagihan</scope><name>$beforeFind</name></member>
+      <member refid="class_app_1_1_models_1_1_tagihan_1a1d7626b612b96fca1caff2eb179dfb0b" prot="protected" virt="non-virtual"><scope>App::Models::Tagihan</scope><name>$beforeInsert</name></member>
+      <member refid="class_app_1_1_models_1_1_tagihan_1a089a10a875866ee3ef0bc732a0d96c4d" prot="protected" virt="non-virtual"><scope>App::Models::Tagihan</scope><name>$beforeUpdate</name></member>
+      <member refid="class_app_1_1_models_1_1_tagihan_1a47419b0fd25f00372e166a103a42bbca" prot="protected" virt="non-virtual"><scope>App::Models::Tagihan</scope><name>$castHandlers</name></member>
+      <member refid="class_app_1_1_models_1_1_tagihan_1a65830cd53a80e98b1be3efef8fdac575" prot="protected" virt="non-virtual"><scope>App::Models::Tagihan</scope><name>$casts</name></member>
+      <member refid="class_app_1_1_models_1_1_tagihan_1ae908e8ab9534611f986908be7fbf1e17" prot="protected" virt="non-virtual"><scope>App::Models::Tagihan</scope><name>$cleanValidationRules</name></member>
+      <member refid="class_app_1_1_models_1_1_tagihan_1a5ee24fd7708442ced853d9356c9a57cd" prot="protected" virt="non-virtual"><scope>App::Models::Tagihan</scope><name>$createdField</name></member>
+      <member refid="class_app_1_1_models_1_1_tagihan_1a41e80451205b1d2677fd3d3699b0e53c" prot="protected" virt="non-virtual"><scope>App::Models::Tagihan</scope><name>$dateFormat</name></member>
+      <member refid="class_app_1_1_models_1_1_tagihan_1ac4bd8fb8a851b5f008a20067cc025b78" prot="protected" virt="non-virtual"><scope>App::Models::Tagihan</scope><name>$deletedField</name></member>
+      <member refid="class_app_1_1_models_1_1_tagihan_1a5557ca846919cb80594f5f320a25bee5" prot="protected" virt="non-virtual"><scope>App::Models::Tagihan</scope><name>$primaryKey</name></member>
+      <member refid="class_app_1_1_models_1_1_tagihan_1af4f8ad06db3ab607d8cfd8d71fada2be" prot="protected" virt="non-virtual"><scope>App::Models::Tagihan</scope><name>$protectFields</name></member>
+      <member refid="class_app_1_1_models_1_1_tagihan_1ae55159653c318d227839fe78a4042287" prot="protected" virt="non-virtual"><scope>App::Models::Tagihan</scope><name>$returnType</name></member>
+      <member refid="class_app_1_1_models_1_1_tagihan_1a77721da55cc6908928f5031bef4cec5c" prot="protected" virt="non-virtual"><scope>App::Models::Tagihan</scope><name>$skipValidation</name></member>
+      <member refid="class_app_1_1_models_1_1_tagihan_1ab2e837443a1ef037a9131b6ef69c2d80" prot="protected" virt="non-virtual"><scope>App::Models::Tagihan</scope><name>$table</name></member>
+      <member refid="class_app_1_1_models_1_1_tagihan_1a71380f2aa7227e9497c80ba0e5663727" prot="protected" virt="non-virtual"><scope>App::Models::Tagihan</scope><name>$updatedField</name></member>
+      <member refid="class_app_1_1_models_1_1_tagihan_1aea48c2e3a6bbb684dfa5d3cb49d2b3f9" prot="protected" virt="non-virtual"><scope>App::Models::Tagihan</scope><name>$updateOnlyChanged</name></member>
+      <member refid="class_app_1_1_models_1_1_tagihan_1a72fe687b13311277c80a35095f2a568f" prot="protected" virt="non-virtual"><scope>App::Models::Tagihan</scope><name>$useAutoIncrement</name></member>
+      <member refid="class_app_1_1_models_1_1_tagihan_1a0580ba5e8b3fed4b2b61f47519a343c3" prot="protected" virt="non-virtual"><scope>App::Models::Tagihan</scope><name>$useSoftDeletes</name></member>
+      <member refid="class_app_1_1_models_1_1_tagihan_1a03386a12932faa336a90a2c49dd513ed" prot="protected" virt="non-virtual"><scope>App::Models::Tagihan</scope><name>$useTimestamps</name></member>
+      <member refid="class_app_1_1_models_1_1_tagihan_1a085b256925edcbf6a2669c930a0df64e" prot="protected" virt="non-virtual"><scope>App::Models::Tagihan</scope><name>$validationMessages</name></member>
+      <member refid="class_app_1_1_models_1_1_tagihan_1accd078516f844f7d8c6ab4d3d440f815" prot="protected" virt="non-virtual"><scope>App::Models::Tagihan</scope><name>$validationRules</name></member>
+      <member refid="class_app_1_1_models_1_1_tagihan_1a6b7e487a69979e0493313681f9f03e64" prot="private" virt="non-virtual"><scope>App::Models::Tagihan</scope><name>tambah_pembayaran</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

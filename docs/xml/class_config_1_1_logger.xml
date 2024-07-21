@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="class_config_1_1_logger" kind="class" language="PHP" prot="public">
+    <compoundname>Config::Logger</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">BaseConfig</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_config_1_1_logger_1a601fb8396d15b23403d71947b46d4d45" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Config\Logger::$threshold</definition>
+        <argsstring></argsstring>
+        <name>$threshold</name>
+        <qualifiedname>Config\Logger\$threshold</qualifiedname>
+        <initializer>= (ENVIRONMENT === &apos;production&apos;) ? 4 : 9</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Logger.php" line="41" column="12" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Logger.php" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_logger_1ab745df0b888342f096176c91e27b3f45" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Config\Logger::$dateFormat</definition>
+        <argsstring></argsstring>
+        <name>$dateFormat</name>
+        <qualifiedname>Config\Logger\$dateFormat</qualifiedname>
+        <initializer>= &apos;Y-m-d H:i:s&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_logger_1autotoc_md105">
+<title>Date Format for Logs</title><para>Each item that is logged has an associated date. You can use PHP date codes to set your own date formatting </para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Logger.php" line="51" column="19" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Logger.php" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_logger_1ad25b7c5c75cbf901f29cb7ea81fc5461" prot="public" static="no" mutable="no">
+        <type>array</type>
+        <definition>array Config\Logger::$handlers</definition>
+        <argsstring></argsstring>
+        <name>$handlers</name>
+        <qualifiedname>Config\Logger\$handlers</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Logger.php" line="78" column="18" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Logger.php" bodystart="78" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>BaseConfig</label>
+      </node>
+      <node id="1">
+        <label>Config\Logger</label>
+        <link refid="class_config_1_1_logger"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>BaseConfig</label>
+      </node>
+      <node id="1">
+        <label>Config\Logger</label>
+        <link refid="class_config_1_1_logger"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Logger.php" line="8" column="1" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Logger.php" bodystart="9" bodyend="150"/>
+    <listofallmembers>
+      <member refid="class_config_1_1_logger_1ab745df0b888342f096176c91e27b3f45" prot="public" virt="non-virtual"><scope>Config::Logger</scope><name>$dateFormat</name></member>
+      <member refid="class_config_1_1_logger_1ad25b7c5c75cbf901f29cb7ea81fc5461" prot="public" virt="non-virtual"><scope>Config::Logger</scope><name>$handlers</name></member>
+      <member refid="class_config_1_1_logger_1a601fb8396d15b23403d71947b46d4d45" prot="public" virt="non-virtual"><scope>Config::Logger</scope><name>$threshold</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,249 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="class_config_1_1_session" kind="class" language="PHP" prot="public">
+    <compoundname>Config::Session</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">BaseConfig</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_config_1_1_session_1abe2caeb78be9e87101ec81784c9c3532" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Config\Session::$driver</definition>
+        <argsstring></argsstring>
+        <name>$driver</name>
+        <qualifiedname>Config\Session\$driver</qualifiedname>
+        <initializer>= FileHandler::class</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Session.php" line="24" column="19" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Session.php" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_session_1a4cbf677447c69c8f09ae78af133cda90" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Config\Session::$cookieName</definition>
+        <argsstring></argsstring>
+        <name>$cookieName</name>
+        <qualifiedname>Config\Session\$cookieName</qualifiedname>
+        <initializer>= &apos;ci_session&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_session_1autotoc_md159">
+<title>Session Cookie Name</title><para>The session cookie name, must contain only [0-9a-z_-] characters </para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Session.php" line="33" column="19" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Session.php" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_session_1a00a50d5364935f7085d4b8294246f4b0" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Config\Session::$expiration</definition>
+        <argsstring></argsstring>
+        <name>$expiration</name>
+        <qualifiedname>Config\Session\$expiration</qualifiedname>
+        <initializer>= 7200</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_session_1autotoc_md161">
+<title>Session Expiration</title><para>The number of SECONDS you want the session to last. Setting to 0 (zero) means expire when the browser is closed. </para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Session.php" line="43" column="16" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Session.php" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_session_1a1b1b78551d378263efd29ac8e92be919" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Config\Session::$savePath</definition>
+        <argsstring></argsstring>
+        <name>$savePath</name>
+        <qualifiedname>Config\Session\$savePath</qualifiedname>
+        <initializer>= WRITEPATH . &apos;session&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_session_1autotoc_md163">
+<title>Session Save Path</title><para>The location to save sessions to and is driver dependent.</para>
+<para>For the &apos;files&apos; driver, it&apos;s a path to a writable directory. WARNING: Only absolute paths are supported!</para>
+<para>For the &apos;database&apos; driver, it&apos;s a table name. Please read up the manual for the format with other session drivers.</para>
+<para>IMPORTANT: You are REQUIRED to set a valid save path! </para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Session.php" line="60" column="19" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Session.php" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_session_1a180778c1e66888fd6a3e7c8d43fe45f7" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Config\Session::$matchIP</definition>
+        <argsstring></argsstring>
+        <name>$matchIP</name>
+        <qualifiedname>Config\Session\$matchIP</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_session_1autotoc_md165">
+<title>Session Match IP</title><para>Whether to match the user&apos;s IP address when reading the session data.</para>
+<para>WARNING: If you&apos;re using the database driver, don&apos;t forget to update your session table&apos;s PRIMARY KEY when changing this setting. </para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Session.php" line="72" column="17" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Session.php" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_session_1a0020ee48b461e4270e8ce1b425ed1d84" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Config\Session::$timeToUpdate</definition>
+        <argsstring></argsstring>
+        <name>$timeToUpdate</name>
+        <qualifiedname>Config\Session\$timeToUpdate</qualifiedname>
+        <initializer>= 300</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_session_1autotoc_md167">
+<title>Session Time to Update</title><para>How many seconds between CI regenerating the session ID. </para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Session.php" line="81" column="16" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Session.php" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_session_1a6a533d14644ae80e69c1dcf9c46c87db" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Config\Session::$regenerateDestroy</definition>
+        <argsstring></argsstring>
+        <name>$regenerateDestroy</name>
+        <qualifiedname>Config\Session\$regenerateDestroy</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_session_1autotoc_md169">
+<title>Session Regenerate Destroy</title><para>Whether to destroy session data associated with the old session ID when auto-regenerating the session ID. When set to FALSE, the data will be later deleted by the garbage collector. </para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Session.php" line="92" column="17" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Session.php" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_session_1aa195f4c4b9eba1c6d16f9aadf3eafbe3" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Config\Session::$DBGroup</definition>
+        <argsstring></argsstring>
+        <name>$DBGroup</name>
+        <qualifiedname>Config\Session\$DBGroup</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_session_1autotoc_md171">
+<title>Session Database Group</title><para>DB Group for the database session. </para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Session.php" line="101" column="19" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Session.php" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_session_1a94ad173adcee730718adc1751adc9163" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Config\Session::$lockRetryInterval</definition>
+        <argsstring></argsstring>
+        <name>$lockRetryInterval</name>
+        <qualifiedname>Config\Session\$lockRetryInterval</qualifiedname>
+        <initializer>= 100_000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_session_1autotoc_md173">
+<title>Lock Retry Interval (microseconds)</title><para>This is used for RedisHandler.</para>
+<para>Time (microseconds) to wait if lock cannot be acquired. The default is 100,000 microseconds (= 0.1 seconds). </para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Session.php" line="113" column="16" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Session.php" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_session_1a80b5ae2c3ee83d1949aa23b9a11acacb" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Config\Session::$lockMaxRetries</definition>
+        <argsstring></argsstring>
+        <name>$lockMaxRetries</name>
+        <qualifiedname>Config\Session\$lockMaxRetries</qualifiedname>
+        <initializer>= 300</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_session_1autotoc_md175">
+<title>Lock Max Retries</title><para>This is used for RedisHandler.</para>
+<para>Maximum number of lock acquisition attempts. The default is 300 times. That is lock timeout is about 30 (0.1 * 300) seconds. </para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Session.php" line="126" column="16" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Session.php" bodystart="126" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>BaseConfig</label>
+      </node>
+      <node id="1">
+        <label>Config\Session</label>
+        <link refid="class_config_1_1_session"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>BaseConfig</label>
+      </node>
+      <node id="1">
+        <label>Config\Session</label>
+        <link refid="class_config_1_1_session"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Session.php" line="9" column="1" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Session.php" bodystart="10" bodyend="127"/>
+    <listofallmembers>
+      <member refid="class_config_1_1_session_1a4cbf677447c69c8f09ae78af133cda90" prot="public" virt="non-virtual"><scope>Config::Session</scope><name>$cookieName</name></member>
+      <member refid="class_config_1_1_session_1aa195f4c4b9eba1c6d16f9aadf3eafbe3" prot="public" virt="non-virtual"><scope>Config::Session</scope><name>$DBGroup</name></member>
+      <member refid="class_config_1_1_session_1abe2caeb78be9e87101ec81784c9c3532" prot="public" virt="non-virtual"><scope>Config::Session</scope><name>$driver</name></member>
+      <member refid="class_config_1_1_session_1a00a50d5364935f7085d4b8294246f4b0" prot="public" virt="non-virtual"><scope>Config::Session</scope><name>$expiration</name></member>
+      <member refid="class_config_1_1_session_1a80b5ae2c3ee83d1949aa23b9a11acacb" prot="public" virt="non-virtual"><scope>Config::Session</scope><name>$lockMaxRetries</name></member>
+      <member refid="class_config_1_1_session_1a94ad173adcee730718adc1751adc9163" prot="public" virt="non-virtual"><scope>Config::Session</scope><name>$lockRetryInterval</name></member>
+      <member refid="class_config_1_1_session_1a180778c1e66888fd6a3e7c8d43fe45f7" prot="public" virt="non-virtual"><scope>Config::Session</scope><name>$matchIP</name></member>
+      <member refid="class_config_1_1_session_1a6a533d14644ae80e69c1dcf9c46c87db" prot="public" virt="non-virtual"><scope>Config::Session</scope><name>$regenerateDestroy</name></member>
+      <member refid="class_config_1_1_session_1a1b1b78551d378263efd29ac8e92be919" prot="public" virt="non-virtual"><scope>Config::Session</scope><name>$savePath</name></member>
+      <member refid="class_config_1_1_session_1a0020ee48b461e4270e8ce1b425ed1d84" prot="public" virt="non-virtual"><scope>Config::Session</scope><name>$timeToUpdate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

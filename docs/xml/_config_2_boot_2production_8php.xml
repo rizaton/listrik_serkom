@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="_config_2_boot_2production_8php" kind="file" language="PHP">
+    <compoundname>production.php</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="_config_2_boot_2production_8php_1a999095ddde66c8893119b9c941aaf97d" prot="public" static="no" mutable="no">
+        <type>defined(&apos;CI_DEBUG&apos;)||define(&apos;CI_DEBUG&apos;</type>
+        <definition>defined ( &apos;CI_DEBUG&apos;)||define( &apos;CI_DEBUG&apos; false</definition>
+        <argsstring></argsstring>
+        <name>false</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Boot/production.php" line="25" column="11" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Boot/production.php" bodystart="25" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>|<sp/>ERROR<sp/>DISPLAY</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>|<sp/>Don&apos;t<sp/>show<sp/>ANY<sp/>in<sp/>production<sp/>environments.<sp/>Instead,<sp/>let<sp/>the<sp/>system<sp/>catch</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>|<sp/>it<sp/>and<sp/>display<sp/>a<sp/>generic<sp/>error<sp/>message.</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>|</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>|<sp/>If<sp/>you<sp/>set<sp/>&apos;display_errors&apos;<sp/>to<sp/>&apos;1&apos;,<sp/>CI4&apos;s<sp/>detailed<sp/>error<sp/>report<sp/>will<sp/>show.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">error_reporting(E_ALL<sp/>&amp;<sp/>~E_DEPRECATED);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/>If<sp/>you<sp/>want<sp/>to<sp/>suppress<sp/>more<sp/>types<sp/>of<sp/>errors.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//<sp/>error_reporting(E_ALL<sp/>&amp;<sp/>~E_NOTICE<sp/>&amp;<sp/>~E_DEPRECATED<sp/>&amp;<sp/>~E_STRICT<sp/>&amp;<sp/>~E_USER_NOTICE<sp/>&amp;<sp/>~E_USER_DEPRECATED);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">ini_set(</highlight><highlight class="stringliteral">&apos;display_errors&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;0&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>|<sp/>DEBUG<sp/>MODE</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>|<sp/>Debug<sp/>mode<sp/>is<sp/>an<sp/>experimental<sp/>flag<sp/>that<sp/>can<sp/>allow<sp/>changes<sp/>throughout</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>|<sp/>the<sp/>system.<sp/>It&apos;s<sp/>not<sp/>widely<sp/>used<sp/>currently,<sp/>and<sp/>may<sp/>not<sp/>survive</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>|<sp/>release<sp/>of<sp/>the<sp/>framework.</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">defined(</highlight><highlight class="stringliteral">&apos;CI_DEBUG&apos;</highlight><highlight class="normal">)<sp/>||<sp/>define(</highlight><highlight class="stringliteral">&apos;CI_DEBUG&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+    </programlisting>
+    <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Boot/production.php"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="log__admin_8php" kind="file" language="PHP">
+    <compoundname>log_admin.php</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?=<sp/>$this-&gt;include(</highlight><highlight class="stringliteral">&apos;builder/components/header_log&apos;</highlight><highlight class="normal">);<sp/><sp/>?&gt;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal">&lt;?=<sp/>$this-&gt;include(</highlight><highlight class="stringliteral">&apos;builder/components/nav_log_admin&apos;</highlight><highlight class="normal">);<sp/><sp/>?&gt;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal">&lt;div<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;content&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;?=<sp/>$this-&gt;renderSection(</highlight><highlight class="stringliteral">&apos;content&apos;</highlight><highlight class="normal">);<sp/><sp/>?&gt;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">&lt;/div&gt;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">&lt;?=<sp/>$this-&gt;include(</highlight><highlight class="stringliteral">&apos;builder/components/footer_log&apos;</highlight><highlight class="normal">);<sp/><sp/>?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Views/builder/templates/log_admin.php"/>
+  </compounddef>
+</doxygen>

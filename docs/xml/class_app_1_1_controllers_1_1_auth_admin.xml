@@ -1,0 +1,507 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="class_app_1_1_controllers_1_1_auth_admin" kind="class" language="PHP" prot="public">
+    <compoundname>App::Controllers::AuthAdmin</compoundname>
+    <basecompoundref refid="class_app_1_1_controllers_1_1_base_controller" prot="public" virt="non-virtual">App\Controllers\BaseController</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_app_1_1_controllers_1_1_auth_admin_1a1f3e0ed8cd7ec7b8eb5fd150b5ac7074" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>App\Controllers\AuthAdmin::$model_pengguna</definition>
+        <argsstring></argsstring>
+        <name>$model_pengguna</name>
+        <qualifiedname>App\Controllers\AuthAdmin\$model_pengguna</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" line="17" column="13" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_controllers_1_1_auth_admin_1a872883c47c6fc095e5a9462ce6660db7" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>App\Controllers\AuthAdmin::$model_admin</definition>
+        <argsstring></argsstring>
+        <name>$model_admin</name>
+        <qualifiedname>App\Controllers\AuthAdmin\$model_admin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" line="18" column="13" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_controllers_1_1_auth_admin_1ad8fcc7901aadc05f18881d608557c2cd" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>App\Controllers\AuthAdmin::$model_pembayaran</definition>
+        <argsstring></argsstring>
+        <name>$model_pembayaran</name>
+        <qualifiedname>App\Controllers\AuthAdmin\$model_pembayaran</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" line="19" column="13" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_controllers_1_1_auth_admin_1a07a62e9e37580df58e8f3032de091e6c" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>App\Controllers\AuthAdmin::$model_penggunaan</definition>
+        <argsstring></argsstring>
+        <name>$model_penggunaan</name>
+        <qualifiedname>App\Controllers\AuthAdmin\$model_penggunaan</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" line="20" column="13" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_controllers_1_1_auth_admin_1a5a6eb731d048b793cde40332e11fec9c" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>App\Controllers\AuthAdmin::$model_tagihan</definition>
+        <argsstring></argsstring>
+        <name>$model_tagihan</name>
+        <qualifiedname>App\Controllers\AuthAdmin\$model_tagihan</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" line="21" column="13" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_controllers_1_1_auth_admin_1a0afa44d69911c5560af243d45d5e8a9c" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>App\Controllers\AuthAdmin::$model_tarif</definition>
+        <argsstring></argsstring>
+        <name>$model_tarif</name>
+        <qualifiedname>App\Controllers\AuthAdmin\$model_tarif</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" line="22" column="13" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_controllers_1_1_auth_admin_1ad489de7b6b64f867632dfebf0d0aa4bc" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>App\Controllers\AuthAdmin::$model_level</definition>
+        <argsstring></argsstring>
+        <name>$model_level</name>
+        <qualifiedname>App\Controllers\AuthAdmin\$model_level</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" line="23" column="13" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" bodystart="23" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_app_1_1_controllers_1_1_auth_admin_1afe08186fd4a1cb62abf9262ad73f5fac" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>App\Controllers\AuthAdmin::$helpers</definition>
+        <argsstring></argsstring>
+        <name>$helpers</name>
+        <qualifiedname>App\Controllers\AuthAdmin\$helpers</qualifiedname>
+        <initializer>= [&apos;form&apos;, &apos;url&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" line="24" column="15" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" bodystart="24" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_app_1_1_controllers_1_1_auth_admin_1ac3b9608cf90ee1f39278d286de5c28e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Controllers\AuthAdmin::__construct</definition>
+        <argsstring>()</argsstring>
+        <name>__construct</name>
+        <qualifiedname>App\Controllers\AuthAdmin\__construct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" line="26" column="21" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" bodystart="26" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_controllers_1_1_auth_admin_1a2871b5cf29f111f9cdf207204a71645f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Controllers\AuthAdmin::index</definition>
+        <argsstring>()</argsstring>
+        <name>index</name>
+        <qualifiedname>App\Controllers\AuthAdmin\index</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" line="36" column="21" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" bodystart="36" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_controllers_1_1_auth_admin_1a857d176a40810d6c54a4d263e9b63a68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Controllers\AuthAdmin::delete_level</definition>
+        <argsstring>()</argsstring>
+        <name>delete_level</name>
+        <qualifiedname>App\Controllers\AuthAdmin\delete_level</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" line="40" column="21" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" bodystart="40" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_controllers_1_1_auth_admin_1a309923c0c9abf5f2e2da1366c28f7f00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Controllers\AuthAdmin::delete_tarif</definition>
+        <argsstring>()</argsstring>
+        <name>delete_tarif</name>
+        <qualifiedname>App\Controllers\AuthAdmin\delete_tarif</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" line="56" column="21" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" bodystart="56" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_controllers_1_1_auth_admin_1a1987755e678048bd9fa8438d260e0509" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Controllers\AuthAdmin::delete_tagihan</definition>
+        <argsstring>()</argsstring>
+        <name>delete_tagihan</name>
+        <qualifiedname>App\Controllers\AuthAdmin\delete_tagihan</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" line="72" column="21" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" bodystart="72" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_controllers_1_1_auth_admin_1afa8bd85da92fe30134773f62301351a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Controllers\AuthAdmin::delete_penggunaan</definition>
+        <argsstring>()</argsstring>
+        <name>delete_penggunaan</name>
+        <qualifiedname>App\Controllers\AuthAdmin\delete_penggunaan</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" line="88" column="21" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" bodystart="88" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_controllers_1_1_auth_admin_1a1b79965b25d0c2f7012e761543ae8c00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Controllers\AuthAdmin::delete_pembayaran</definition>
+        <argsstring>()</argsstring>
+        <name>delete_pembayaran</name>
+        <qualifiedname>App\Controllers\AuthAdmin\delete_pembayaran</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" line="104" column="21" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" bodystart="104" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_controllers_1_1_auth_admin_1a853b2ad6117ddf04113ce30217b639ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Controllers\AuthAdmin::delete_pelanggan</definition>
+        <argsstring>()</argsstring>
+        <name>delete_pelanggan</name>
+        <qualifiedname>App\Controllers\AuthAdmin\delete_pelanggan</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" line="120" column="21" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" bodystart="120" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_controllers_1_1_auth_admin_1a22e6877cddedec708c86661dbbc7e250" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Controllers\AuthAdmin::delete_user</definition>
+        <argsstring>()</argsstring>
+        <name>delete_user</name>
+        <qualifiedname>App\Controllers\AuthAdmin\delete_user</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" line="136" column="21" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" bodystart="136" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_controllers_1_1_auth_admin_1a5588dc464b6f798d881d6528feaa76e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Controllers\AuthAdmin::update_level</definition>
+        <argsstring>()</argsstring>
+        <name>update_level</name>
+        <qualifiedname>App\Controllers\AuthAdmin\update_level</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" line="152" column="21" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" bodystart="152" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_controllers_1_1_auth_admin_1a43d4c70a818a5721ea6c8066714119ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Controllers\AuthAdmin::update_pelanggan</definition>
+        <argsstring>()</argsstring>
+        <name>update_pelanggan</name>
+        <qualifiedname>App\Controllers\AuthAdmin\update_pelanggan</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" line="172" column="21" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" bodystart="172" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_controllers_1_1_auth_admin_1a3033ee705b2da4277870b56d7aa8a8df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Controllers\AuthAdmin::update_tarif</definition>
+        <argsstring>()</argsstring>
+        <name>update_tarif</name>
+        <qualifiedname>App\Controllers\AuthAdmin\update_tarif</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" line="198" column="21" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" bodystart="198" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_controllers_1_1_auth_admin_1ae52c5eed13e8a63cef587a362781f775" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Controllers\AuthAdmin::update_user</definition>
+        <argsstring>()</argsstring>
+        <name>update_user</name>
+        <qualifiedname>App\Controllers\AuthAdmin\update_user</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" line="219" column="21" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" bodystart="219" bodyend="241"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_controllers_1_1_auth_admin_1a876a43fa6a9985ea4f71da5e74e45cf9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Controllers\AuthAdmin::update_tagihan</definition>
+        <argsstring>()</argsstring>
+        <name>update_tagihan</name>
+        <qualifiedname>App\Controllers\AuthAdmin\update_tagihan</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" line="242" column="21" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" bodystart="242" bodyend="261"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_controllers_1_1_auth_admin_1ad6e960ba9e3aabd6593e54f24cc618b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Controllers\AuthAdmin::update_penggunaan</definition>
+        <argsstring>()</argsstring>
+        <name>update_penggunaan</name>
+        <qualifiedname>App\Controllers\AuthAdmin\update_penggunaan</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" line="262" column="21" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" bodystart="262" bodyend="280"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_controllers_1_1_auth_admin_1a963d96f39ac7f07ce4cba380a25d0b3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Controllers\AuthAdmin::update_pembayaran</definition>
+        <argsstring>()</argsstring>
+        <name>update_pembayaran</name>
+        <qualifiedname>App\Controllers\AuthAdmin\update_pembayaran</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" line="281" column="21" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" bodystart="281" bodyend="299"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_controllers_1_1_auth_admin_1adee2eeae033825719e7c1a070eaaf6c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Controllers\AuthAdmin::create_level</definition>
+        <argsstring>()</argsstring>
+        <name>create_level</name>
+        <qualifiedname>App\Controllers\AuthAdmin\create_level</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" line="300" column="21" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" bodystart="300" bodyend="313"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_controllers_1_1_auth_admin_1af714f83d82ad5a87667f5bfdc9d069f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Controllers\AuthAdmin::create_tarif</definition>
+        <argsstring>()</argsstring>
+        <name>create_tarif</name>
+        <qualifiedname>App\Controllers\AuthAdmin\create_tarif</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" line="314" column="21" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" bodystart="314" bodyend="328"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_controllers_1_1_auth_admin_1afde2b6a9d03288a0a5b99c4a2f3ba1b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Controllers\AuthAdmin::create_user</definition>
+        <argsstring>()</argsstring>
+        <name>create_user</name>
+        <qualifiedname>App\Controllers\AuthAdmin\create_user</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" line="329" column="21" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" bodystart="329" bodyend="345"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_controllers_1_1_auth_admin_1a1b52544fecd65fc07951240604678d34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Controllers\AuthAdmin::create_pelanggan</definition>
+        <argsstring>()</argsstring>
+        <name>create_pelanggan</name>
+        <qualifiedname>App\Controllers\AuthAdmin\create_pelanggan</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" line="346" column="21" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" bodystart="346" bodyend="365"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_controllers_1_1_auth_admin_1a352d5c149115685e3bf698126671caf6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Controllers\AuthAdmin::create_penggunaan</definition>
+        <argsstring>()</argsstring>
+        <name>create_penggunaan</name>
+        <qualifiedname>App\Controllers\AuthAdmin\create_penggunaan</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" line="366" column="21" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" bodystart="366" bodyend="384"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_controllers_1_1_auth_admin_1afe7c4968ad09a1aba1f731c00dfa20f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Controllers\AuthAdmin::create_tagihan</definition>
+        <argsstring>()</argsstring>
+        <name>create_tagihan</name>
+        <qualifiedname>App\Controllers\AuthAdmin\create_tagihan</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" line="385" column="21" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" bodystart="385" bodyend="404"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>App\Controllers\BaseController</label>
+        <link refid="class_app_1_1_controllers_1_1_base_controller"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>App\Controllers\AuthAdmin</label>
+        <link refid="class_app_1_1_controllers_1_1_auth_admin"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Controller</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>App\Controllers\BaseController</label>
+        <link refid="class_app_1_1_controllers_1_1_base_controller"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>App\Controllers\AuthAdmin</label>
+        <link refid="class_app_1_1_controllers_1_1_auth_admin"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Controller</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" line="15" column="1" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php" bodystart="16" bodyend="405"/>
+    <listofallmembers>
+      <member refid="class_app_1_1_controllers_1_1_auth_admin_1afe08186fd4a1cb62abf9262ad73f5fac" prot="protected" virt="non-virtual"><scope>App::Controllers::AuthAdmin</scope><name>$helpers</name></member>
+      <member refid="class_app_1_1_controllers_1_1_auth_admin_1a872883c47c6fc095e5a9462ce6660db7" prot="private" virt="non-virtual"><scope>App::Controllers::AuthAdmin</scope><name>$model_admin</name></member>
+      <member refid="class_app_1_1_controllers_1_1_auth_admin_1ad489de7b6b64f867632dfebf0d0aa4bc" prot="private" virt="non-virtual"><scope>App::Controllers::AuthAdmin</scope><name>$model_level</name></member>
+      <member refid="class_app_1_1_controllers_1_1_auth_admin_1ad8fcc7901aadc05f18881d608557c2cd" prot="private" virt="non-virtual"><scope>App::Controllers::AuthAdmin</scope><name>$model_pembayaran</name></member>
+      <member refid="class_app_1_1_controllers_1_1_auth_admin_1a1f3e0ed8cd7ec7b8eb5fd150b5ac7074" prot="private" virt="non-virtual"><scope>App::Controllers::AuthAdmin</scope><name>$model_pengguna</name></member>
+      <member refid="class_app_1_1_controllers_1_1_auth_admin_1a07a62e9e37580df58e8f3032de091e6c" prot="private" virt="non-virtual"><scope>App::Controllers::AuthAdmin</scope><name>$model_penggunaan</name></member>
+      <member refid="class_app_1_1_controllers_1_1_auth_admin_1a5a6eb731d048b793cde40332e11fec9c" prot="private" virt="non-virtual"><scope>App::Controllers::AuthAdmin</scope><name>$model_tagihan</name></member>
+      <member refid="class_app_1_1_controllers_1_1_auth_admin_1a0afa44d69911c5560af243d45d5e8a9c" prot="private" virt="non-virtual"><scope>App::Controllers::AuthAdmin</scope><name>$model_tarif</name></member>
+      <member refid="class_app_1_1_controllers_1_1_base_controller_1a9dd913a7056bdd324a7c9f0ce57619ad" prot="protected" virt="non-virtual"><scope>App::Controllers::AuthAdmin</scope><name>$request</name></member>
+      <member refid="class_app_1_1_controllers_1_1_auth_admin_1ac3b9608cf90ee1f39278d286de5c28e9" prot="public" virt="non-virtual"><scope>App::Controllers::AuthAdmin</scope><name>__construct</name></member>
+      <member refid="class_app_1_1_controllers_1_1_auth_admin_1adee2eeae033825719e7c1a070eaaf6c9" prot="public" virt="non-virtual"><scope>App::Controllers::AuthAdmin</scope><name>create_level</name></member>
+      <member refid="class_app_1_1_controllers_1_1_auth_admin_1a1b52544fecd65fc07951240604678d34" prot="public" virt="non-virtual"><scope>App::Controllers::AuthAdmin</scope><name>create_pelanggan</name></member>
+      <member refid="class_app_1_1_controllers_1_1_auth_admin_1a352d5c149115685e3bf698126671caf6" prot="public" virt="non-virtual"><scope>App::Controllers::AuthAdmin</scope><name>create_penggunaan</name></member>
+      <member refid="class_app_1_1_controllers_1_1_auth_admin_1afe7c4968ad09a1aba1f731c00dfa20f2" prot="public" virt="non-virtual"><scope>App::Controllers::AuthAdmin</scope><name>create_tagihan</name></member>
+      <member refid="class_app_1_1_controllers_1_1_auth_admin_1af714f83d82ad5a87667f5bfdc9d069f5" prot="public" virt="non-virtual"><scope>App::Controllers::AuthAdmin</scope><name>create_tarif</name></member>
+      <member refid="class_app_1_1_controllers_1_1_auth_admin_1afde2b6a9d03288a0a5b99c4a2f3ba1b6" prot="public" virt="non-virtual"><scope>App::Controllers::AuthAdmin</scope><name>create_user</name></member>
+      <member refid="class_app_1_1_controllers_1_1_auth_admin_1a857d176a40810d6c54a4d263e9b63a68" prot="public" virt="non-virtual"><scope>App::Controllers::AuthAdmin</scope><name>delete_level</name></member>
+      <member refid="class_app_1_1_controllers_1_1_auth_admin_1a853b2ad6117ddf04113ce30217b639ef" prot="public" virt="non-virtual"><scope>App::Controllers::AuthAdmin</scope><name>delete_pelanggan</name></member>
+      <member refid="class_app_1_1_controllers_1_1_auth_admin_1a1b79965b25d0c2f7012e761543ae8c00" prot="public" virt="non-virtual"><scope>App::Controllers::AuthAdmin</scope><name>delete_pembayaran</name></member>
+      <member refid="class_app_1_1_controllers_1_1_auth_admin_1afa8bd85da92fe30134773f62301351a4" prot="public" virt="non-virtual"><scope>App::Controllers::AuthAdmin</scope><name>delete_penggunaan</name></member>
+      <member refid="class_app_1_1_controllers_1_1_auth_admin_1a1987755e678048bd9fa8438d260e0509" prot="public" virt="non-virtual"><scope>App::Controllers::AuthAdmin</scope><name>delete_tagihan</name></member>
+      <member refid="class_app_1_1_controllers_1_1_auth_admin_1a309923c0c9abf5f2e2da1366c28f7f00" prot="public" virt="non-virtual"><scope>App::Controllers::AuthAdmin</scope><name>delete_tarif</name></member>
+      <member refid="class_app_1_1_controllers_1_1_auth_admin_1a22e6877cddedec708c86661dbbc7e250" prot="public" virt="non-virtual"><scope>App::Controllers::AuthAdmin</scope><name>delete_user</name></member>
+      <member refid="class_app_1_1_controllers_1_1_auth_admin_1a2871b5cf29f111f9cdf207204a71645f" prot="public" virt="non-virtual"><scope>App::Controllers::AuthAdmin</scope><name>index</name></member>
+      <member refid="class_app_1_1_controllers_1_1_base_controller_1ac61356917268915c1f13cbb9f563b71c" prot="public" virt="non-virtual"><scope>App::Controllers::AuthAdmin</scope><name>initController</name></member>
+      <member refid="class_app_1_1_controllers_1_1_auth_admin_1a5588dc464b6f798d881d6528feaa76e6" prot="public" virt="non-virtual"><scope>App::Controllers::AuthAdmin</scope><name>update_level</name></member>
+      <member refid="class_app_1_1_controllers_1_1_auth_admin_1a43d4c70a818a5721ea6c8066714119ed" prot="public" virt="non-virtual"><scope>App::Controllers::AuthAdmin</scope><name>update_pelanggan</name></member>
+      <member refid="class_app_1_1_controllers_1_1_auth_admin_1a963d96f39ac7f07ce4cba380a25d0b3b" prot="public" virt="non-virtual"><scope>App::Controllers::AuthAdmin</scope><name>update_pembayaran</name></member>
+      <member refid="class_app_1_1_controllers_1_1_auth_admin_1ad6e960ba9e3aabd6593e54f24cc618b1" prot="public" virt="non-virtual"><scope>App::Controllers::AuthAdmin</scope><name>update_penggunaan</name></member>
+      <member refid="class_app_1_1_controllers_1_1_auth_admin_1a876a43fa6a9985ea4f71da5e74e45cf9" prot="public" virt="non-virtual"><scope>App::Controllers::AuthAdmin</scope><name>update_tagihan</name></member>
+      <member refid="class_app_1_1_controllers_1_1_auth_admin_1a3033ee705b2da4277870b56d7aa8a8df" prot="public" virt="non-virtual"><scope>App::Controllers::AuthAdmin</scope><name>update_tarif</name></member>
+      <member refid="class_app_1_1_controllers_1_1_auth_admin_1ae52c5eed13e8a63cef587a362781f775" prot="public" virt="non-virtual"><scope>App::Controllers::AuthAdmin</scope><name>update_user</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

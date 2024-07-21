@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="class_config_1_1_paths" kind="class" language="PHP" prot="public">
+    <compoundname>Config::Paths</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_config_1_1_paths_1a7d149e83666f8e933aa641a870da7b3c" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Config\Paths::$systemDirectory</definition>
+        <argsstring></argsstring>
+        <name>$systemDirectory</name>
+        <qualifiedname>Config\Paths\$systemDirectory</qualifiedname>
+        <initializer>= __DIR__ . &apos;/../../vendor/codeigniter4/framework/system&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_paths_1autotoc_md129">
+<title>SYSTEM FOLDER NAME</title><para>This must contain the name of your &quot;system&quot; folder. Include the path if the folder is not in the same directory as this file. </para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Paths.php" line="26" column="19" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Paths.php" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_paths_1ad41e5c13d4ddb6820086cbe62b01c981" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Config\Paths::$appDirectory</definition>
+        <argsstring></argsstring>
+        <name>$appDirectory</name>
+        <qualifiedname>Config\Paths\$appDirectory</qualifiedname>
+        <initializer>= __DIR__ . &apos;/..&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_paths_1autotoc_md131">
+<title>APPLICATION FOLDER NAME</title><para>If you want this front controller to use a different &quot;app&quot; folder than the default one you can set its name here. The folder can also be renamed or relocated anywhere on your server. If you do, use a full server path.</para>
+<para><simplesect kind="see"><para><ulink url="http://codeigniter.com/user_guide/general/managing_apps.html">http://codeigniter.com/user_guide/general/managing_apps.html</ulink> </para>
+</simplesect>
+</para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Paths.php" line="40" column="19" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Paths.php" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_paths_1aa783fbd28fe9c0e9dc2bdb5e3e2e4012" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Config\Paths::$writableDirectory</definition>
+        <argsstring></argsstring>
+        <name>$writableDirectory</name>
+        <qualifiedname>Config\Paths\$writableDirectory</qualifiedname>
+        <initializer>= __DIR__ . &apos;/../../writable&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_paths_1autotoc_md133">
+<title>WRITABLE DIRECTORY NAME</title><para>This variable must contain the name of your &quot;writable&quot; directory. The writable directory allows you to group all directories that need write permission to a single place that can be tucked away for maximum security, keeping it out of the app and/or system directories. </para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Paths.php" line="53" column="19" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Paths.php" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_paths_1ae41f4f42cadcbb831f4c45daafdbf676" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Config\Paths::$testsDirectory</definition>
+        <argsstring></argsstring>
+        <name>$testsDirectory</name>
+        <qualifiedname>Config\Paths\$testsDirectory</qualifiedname>
+        <initializer>= __DIR__ . &apos;/../../tests&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_paths_1autotoc_md135">
+<title>TESTS DIRECTORY NAME</title><para>This variable must contain the name of your &quot;tests&quot; directory. </para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Paths.php" line="62" column="19" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Paths.php" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_paths_1aaa36a902ecb65a7cb0bf57c276e35e3e" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Config\Paths::$viewDirectory</definition>
+        <argsstring></argsstring>
+        <name>$viewDirectory</name>
+        <qualifiedname>Config\Paths\$viewDirectory</qualifiedname>
+        <initializer>= __DIR__ . &apos;/../Views&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_paths_1autotoc_md137">
+<title>VIEW DIRECTORY NAME</title><para>This variable must contain the name of the directory that contains the view files used by your application. By default this is in <computeroutput>app/Views</computeroutput>. This value is used when no value is provided to <computeroutput>Services\renderer()</computeroutput>. </para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Paths.php" line="74" column="19" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Paths.php" bodystart="74" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Paths</para>
+<para>Holds the paths that are used by the system to locate the main directories, app, system, etc.</para>
+<para>Modifying these allows you to restructure your application, share a system folder between multiple applications, and more.</para>
+<para>All paths are relative to the project&apos;s root folder. </para>
+    </detaileddescription>
+    <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Paths.php" line="16" column="1" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Paths.php" bodystart="17" bodyend="75"/>
+    <listofallmembers>
+      <member refid="class_config_1_1_paths_1ad41e5c13d4ddb6820086cbe62b01c981" prot="public" virt="non-virtual"><scope>Config::Paths</scope><name>$appDirectory</name></member>
+      <member refid="class_config_1_1_paths_1a7d149e83666f8e933aa641a870da7b3c" prot="public" virt="non-virtual"><scope>Config::Paths</scope><name>$systemDirectory</name></member>
+      <member refid="class_config_1_1_paths_1ae41f4f42cadcbb831f4c45daafdbf676" prot="public" virt="non-virtual"><scope>Config::Paths</scope><name>$testsDirectory</name></member>
+      <member refid="class_config_1_1_paths_1aaa36a902ecb65a7cb0bf57c276e35e3e" prot="public" virt="non-virtual"><scope>Config::Paths</scope><name>$viewDirectory</name></member>
+      <member refid="class_config_1_1_paths_1aa783fbd28fe9c0e9dc2bdb5e3e2e4012" prot="public" virt="non-virtual"><scope>Config::Paths</scope><name>$writableDirectory</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

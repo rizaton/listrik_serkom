@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="class_config_1_1_c_u_r_l_request" kind="class" language="PHP" prot="public">
+    <compoundname>Config::CURLRequest</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">BaseConfig</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_config_1_1_c_u_r_l_request_1a7f85281a14ac6feba8b782f5494bce60" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Config\CURLRequest::$shareOptions</definition>
+        <argsstring></argsstring>
+        <name>$shareOptions</name>
+        <qualifiedname>Config\CURLRequest\$shareOptions</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_c_u_r_l_request_1autotoc_md71">
+<title>CURLRequest Share Options</title><para>Whether share options between requests or not.</para>
+<para>If true, all the options won&apos;t be reset between requests. It may cause an error request with unnecessary headers. </para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/CURLRequest.php" line="19" column="17" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/CURLRequest.php" bodystart="19" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>BaseConfig</label>
+      </node>
+      <node id="1">
+        <label>Config\CURLRequest</label>
+        <link refid="class_config_1_1_c_u_r_l_request"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>BaseConfig</label>
+      </node>
+      <node id="1">
+        <label>Config\CURLRequest</label>
+        <link refid="class_config_1_1_c_u_r_l_request"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/CURLRequest.php" line="7" column="1" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/CURLRequest.php" bodystart="8" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_config_1_1_c_u_r_l_request_1a7f85281a14ac6feba8b782f5494bce60" prot="public" virt="non-virtual"><scope>Config::CURLRequest</scope><name>$shareOptions</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

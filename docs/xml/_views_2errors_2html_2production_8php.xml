@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="_views_2errors_2html_2production_8php" kind="file" language="PHP">
+    <compoundname>production.php</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;!doctype<sp/>html&gt;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal">&lt;html&gt;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal">&lt;head&gt;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;meta<sp/>charset=</highlight><highlight class="stringliteral">&quot;UTF-8&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;meta<sp/>name=</highlight><highlight class="stringliteral">&quot;robots&quot;</highlight><highlight class="normal"><sp/>content=</highlight><highlight class="stringliteral">&quot;noindex&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;title&gt;&lt;?=<sp/>lang(</highlight><highlight class="stringliteral">&apos;Errors.whoops&apos;</highlight><highlight class="normal">)<sp/>?&gt;&lt;/title&gt;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;style&gt;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;?=<sp/>preg_replace(</highlight><highlight class="stringliteral">&apos;#[\r\n\t<sp/>]+#&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;<sp/>&apos;</highlight><highlight class="normal">,<sp/>file_get_contents(__DIR__<sp/>.<sp/>DIRECTORY_SEPARATOR<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;debug.css&apos;</highlight><highlight class="normal">))<sp/>?&gt;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/style&gt;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">&lt;/head&gt;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">&lt;body&gt;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;div<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;container<sp/>text-center&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;h1<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;headline&quot;</highlight><highlight class="normal">&gt;&lt;?=<sp/>lang(</highlight><highlight class="stringliteral">&apos;Errors.whoops&apos;</highlight><highlight class="normal">)<sp/>?&gt;&lt;/h1&gt;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;p<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;lead&quot;</highlight><highlight class="normal">&gt;&lt;?=<sp/>lang(</highlight><highlight class="stringliteral">&apos;Errors.weHitASnag&apos;</highlight><highlight class="normal">)<sp/>?&gt;&lt;/p&gt;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/div&gt;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">&lt;/body&gt;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">&lt;/html&gt;</highlight></codeline>
+    </programlisting>
+    <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Views/errors/html/production.php"/>
+  </compounddef>
+</doxygen>

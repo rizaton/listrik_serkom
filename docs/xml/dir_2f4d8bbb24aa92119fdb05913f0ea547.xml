@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="dir_2f4d8bbb24aa92119fdb05913f0ea547" kind="dir">
+    <compoundname>C:/DevFiles/PHP_Projects/listrik_serkom/app/Views/builder/components</compoundname>
+    <innerfile refid="footer_8php">footer.php</innerfile>
+    <innerfile refid="footer__log_8php">footer_log.php</innerfile>
+    <innerfile refid="header_8php">header.php</innerfile>
+    <innerfile refid="header__log_8php">header_log.php</innerfile>
+    <innerfile refid="nav__admin_8php">nav_admin.php</innerfile>
+    <innerfile refid="nav__log__admin_8php">nav_log_admin.php</innerfile>
+    <innerfile refid="nav__log__user_8php">nav_log_user.php</innerfile>
+    <innerfile refid="nav__user_8php">nav_user.php</innerfile>
+    <innerfile refid="sidebar__admin_8php">sidebar_admin.php</innerfile>
+    <innerfile refid="sidebar__user_8php">sidebar_user.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Views/builder/components/"/>
+  </compounddef>
+</doxygen>

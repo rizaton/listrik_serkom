@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="namespace_app_1_1_validation" kind="namespace" language="PHP">
+    <compoundname>App::Validation</compoundname>
+    <innerclass refid="class_app_1_1_validation_1_1_login" prot="public">App::Validation::Login</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Validation/Login.php" line="3" column="10"/>
+  </compounddef>
+</doxygen>

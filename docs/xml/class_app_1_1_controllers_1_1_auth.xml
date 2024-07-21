@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="class_app_1_1_controllers_1_1_auth" kind="class" language="PHP" prot="public">
+    <compoundname>App::Controllers::Auth</compoundname>
+    <basecompoundref refid="class_app_1_1_controllers_1_1_base_controller" prot="public" virt="non-virtual">App\Controllers\BaseController</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_app_1_1_controllers_1_1_auth_1a6955b8e2ed1c3afa89f9df2f32272521" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>App\Controllers\Auth::$model_pengguna</definition>
+        <argsstring></argsstring>
+        <name>$model_pengguna</name>
+        <qualifiedname>App\Controllers\Auth\$model_pengguna</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Auth.php" line="13" column="13" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Auth.php" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_controllers_1_1_auth_1a873c3a3dff52c878205a17a3a6b592a3" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>App\Controllers\Auth::$model_admin</definition>
+        <argsstring></argsstring>
+        <name>$model_admin</name>
+        <qualifiedname>App\Controllers\Auth\$model_admin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Auth.php" line="14" column="13" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Auth.php" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_controllers_1_1_auth_1a611594518765cc9fa3e6bcfdfc5b98a3" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>App\Controllers\Auth::$db</definition>
+        <argsstring></argsstring>
+        <name>$db</name>
+        <qualifiedname>App\Controllers\Auth\$db</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Auth.php" line="15" column="13" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Auth.php" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_app_1_1_controllers_1_1_auth_1a5e3dbf6d7a68e840200d66a922ad141a" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>App\Controllers\Auth::$helpers</definition>
+        <argsstring></argsstring>
+        <name>$helpers</name>
+        <qualifiedname>App\Controllers\Auth\$helpers</qualifiedname>
+        <initializer>= [&apos;form&apos;, &apos;url&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Auth.php" line="16" column="15" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Auth.php" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_app_1_1_controllers_1_1_auth_1adb33d59c2689c50cb07adb8876448a5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Controllers\Auth::__construct</definition>
+        <argsstring>()</argsstring>
+        <name>__construct</name>
+        <qualifiedname>App\Controllers\Auth\__construct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Auth.php" line="18" column="21" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Auth.php" bodystart="18" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_controllers_1_1_auth_1afe655702cb4716cfed4ebb9702c7730c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Controllers\Auth::index</definition>
+        <argsstring>()</argsstring>
+        <name>index</name>
+        <qualifiedname>App\Controllers\Auth\index</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Auth.php" line="24" column="21" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Auth.php" bodystart="24" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_controllers_1_1_auth_1ad9a277245f328f5e204680c4e1296f44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Controllers\Auth::auth_admin</definition>
+        <argsstring>()</argsstring>
+        <name>auth_admin</name>
+        <qualifiedname>App\Controllers\Auth\auth_admin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Auth.php" line="34" column="21" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Auth.php" bodystart="34" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_controllers_1_1_auth_1ae985167ed1e44a943d7758ae95625f14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Controllers\Auth::auth_user</definition>
+        <argsstring>()</argsstring>
+        <name>auth_user</name>
+        <qualifiedname>App\Controllers\Auth\auth_user</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Auth.php" line="63" column="21" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Auth.php" bodystart="63" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_controllers_1_1_auth_1a409009b17f52819070e4f10b4f1b9a2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Controllers\Auth::logout</definition>
+        <argsstring>()</argsstring>
+        <name>logout</name>
+        <qualifiedname>App\Controllers\Auth\logout</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Auth.php" line="92" column="21" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Auth.php" bodystart="92" bodyend="96"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>App\Controllers\BaseController</label>
+        <link refid="class_app_1_1_controllers_1_1_base_controller"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>App\Controllers\Auth</label>
+        <link refid="class_app_1_1_controllers_1_1_auth"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Controller</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>App\Controllers\BaseController</label>
+        <link refid="class_app_1_1_controllers_1_1_base_controller"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>App\Controllers\Auth</label>
+        <link refid="class_app_1_1_controllers_1_1_auth"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Controller</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Auth.php" line="11" column="1" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Auth.php" bodystart="12" bodyend="97"/>
+    <listofallmembers>
+      <member refid="class_app_1_1_controllers_1_1_auth_1a611594518765cc9fa3e6bcfdfc5b98a3" prot="private" virt="non-virtual"><scope>App::Controllers::Auth</scope><name>$db</name></member>
+      <member refid="class_app_1_1_controllers_1_1_auth_1a5e3dbf6d7a68e840200d66a922ad141a" prot="protected" virt="non-virtual"><scope>App::Controllers::Auth</scope><name>$helpers</name></member>
+      <member refid="class_app_1_1_controllers_1_1_auth_1a873c3a3dff52c878205a17a3a6b592a3" prot="private" virt="non-virtual"><scope>App::Controllers::Auth</scope><name>$model_admin</name></member>
+      <member refid="class_app_1_1_controllers_1_1_auth_1a6955b8e2ed1c3afa89f9df2f32272521" prot="private" virt="non-virtual"><scope>App::Controllers::Auth</scope><name>$model_pengguna</name></member>
+      <member refid="class_app_1_1_controllers_1_1_base_controller_1a9dd913a7056bdd324a7c9f0ce57619ad" prot="protected" virt="non-virtual"><scope>App::Controllers::Auth</scope><name>$request</name></member>
+      <member refid="class_app_1_1_controllers_1_1_auth_1adb33d59c2689c50cb07adb8876448a5b" prot="public" virt="non-virtual"><scope>App::Controllers::Auth</scope><name>__construct</name></member>
+      <member refid="class_app_1_1_controllers_1_1_auth_1ad9a277245f328f5e204680c4e1296f44" prot="public" virt="non-virtual"><scope>App::Controllers::Auth</scope><name>auth_admin</name></member>
+      <member refid="class_app_1_1_controllers_1_1_auth_1ae985167ed1e44a943d7758ae95625f14" prot="public" virt="non-virtual"><scope>App::Controllers::Auth</scope><name>auth_user</name></member>
+      <member refid="class_app_1_1_controllers_1_1_auth_1afe655702cb4716cfed4ebb9702c7730c" prot="public" virt="non-virtual"><scope>App::Controllers::Auth</scope><name>index</name></member>
+      <member refid="class_app_1_1_controllers_1_1_base_controller_1ac61356917268915c1f13cbb9f563b71c" prot="public" virt="non-virtual"><scope>App::Controllers::Auth</scope><name>initController</name></member>
+      <member refid="class_app_1_1_controllers_1_1_auth_1a409009b17f52819070e4f10b4f1b9a2c" prot="public" virt="non-virtual"><scope>App::Controllers::Auth</scope><name>logout</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

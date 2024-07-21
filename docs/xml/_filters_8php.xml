@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="_filters_8php" kind="file" language="PHP">
+    <compoundname>Filters.php</compoundname>
+    <innerclass refid="class_config_1_1_filters" prot="public">Config::Filters</innerclass>
+    <innernamespace refid="namespace_config">Config</innernamespace>
+    <innernamespace refid="namespace_code_igniter_1_1_filters_1_1_cors">CodeIgniter::Filters::Cors</innernamespace>
+    <innernamespace refid="namespace_code_igniter_1_1_filters_1_1_c_s_r_f">CodeIgniter::Filters::CSRF</innernamespace>
+    <innernamespace refid="namespace_code_igniter_1_1_filters_1_1_debug_toolbar">CodeIgniter::Filters::DebugToolbar</innernamespace>
+    <innernamespace refid="namespace_code_igniter_1_1_filters_1_1_force_h_t_t_p_s">CodeIgniter::Filters::ForceHTTPS</innernamespace>
+    <innernamespace refid="namespace_code_igniter_1_1_filters_1_1_honeypot">CodeIgniter::Filters::Honeypot</innernamespace>
+    <innernamespace refid="namespace_code_igniter_1_1_filters_1_1_invalid_chars">CodeIgniter::Filters::InvalidChars</innernamespace>
+    <innernamespace refid="namespace_code_igniter_1_1_filters_1_1_page_cache">CodeIgniter::Filters::PageCache</innernamespace>
+    <innernamespace refid="namespace_code_igniter_1_1_filters_1_1_performance_metrics">CodeIgniter::Filters::PerformanceMetrics</innernamespace>
+    <innernamespace refid="namespace_code_igniter_1_1_filters_1_1_secure_headers">CodeIgniter::Filters::SecureHeaders</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_config" kindref="compound">Config</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/>CodeIgniter\Config\Filters<sp/>as<sp/>BaseFilters;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">use<sp/>CodeIgniter\Filters\Cors;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">use<sp/>CodeIgniter\Filters\CSRF;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">use<sp/>CodeIgniter\Filters\DebugToolbar;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">use<sp/>CodeIgniter\Filters\ForceHTTPS;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">use<sp/>CodeIgniter\Filters\Honeypot;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">use<sp/>CodeIgniter\Filters\InvalidChars;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">use<sp/>CodeIgniter\Filters\PageCache;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">use<sp/>CodeIgniter\Filters\PerformanceMetrics;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">use<sp/>CodeIgniter\Filters\SecureHeaders;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="class_config_1_1_filters" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_config_1_1_filters" kindref="compound">Filters</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>BaseFilters</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>array<sp/>$aliases<sp/>=<sp/>[</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;csrf&apos;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=&gt;<sp/>CSRF::class,</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;toolbar&apos;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=&gt;<sp/>DebugToolbar::class,</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;honeypot&apos;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>=&gt;<sp/>Honeypot::class,</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;invalidchars&apos;</highlight><highlight class="normal"><sp/><sp/>=&gt;<sp/>InvalidChars::class,</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;secureheaders&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>SecureHeaders::class,</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;cors&apos;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=&gt;<sp/>Cors::class,</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;forcehttps&apos;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/>=&gt;<sp/>ForceHTTPS::class,</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;pagecache&apos;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>=&gt;<sp/>PageCache::class,</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;performance&apos;</highlight><highlight class="normal"><sp/><sp/><sp/>=&gt;<sp/>PerformanceMetrics::class,</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>];</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>array<sp/>$required<sp/>=<sp/>[</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;before&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>[</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;forcehttps&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="comment">//<sp/>Force<sp/>Global<sp/>Secure<sp/>Requests</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;pagecache&apos;</highlight><highlight class="normal">,<sp/><sp/></highlight><highlight class="comment">//<sp/>Web<sp/>Page<sp/>Caching</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>],</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;after&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>[</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;pagecache&apos;</highlight><highlight class="normal">,<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Web<sp/>Page<sp/>Caching</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;performance&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="comment">//<sp/>Performance<sp/>Metrics</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;toolbar&apos;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Debug<sp/>Toolbar</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>],</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>];</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>array<sp/>$globals<sp/>=<sp/>[</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;before&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>[</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>&apos;honeypot&apos;,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>&apos;csrf&apos;,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>&apos;invalidchars&apos;,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>],</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;after&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>[</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>&apos;honeypot&apos;,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>&apos;secureheaders&apos;,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>],</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>];</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>array<sp/>$methods<sp/>=<sp/>[];</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>array<sp/>$filters<sp/>=<sp/>[];</highlight></codeline>
+<codeline lineno="107"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Filters.php"/>
+  </compounddef>
+</doxygen>

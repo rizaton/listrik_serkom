@@ -1,0 +1,221 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="class_config_1_1_cookie" kind="class" language="PHP" prot="public">
+    <compoundname>Config::Cookie</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">BaseConfig</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_config_1_1_cookie_1a7753cad722a246137c8819ae9e588f5c" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Config\Cookie::$prefix</definition>
+        <argsstring></argsstring>
+        <name>$prefix</name>
+        <qualifiedname>Config\Cookie\$prefix</qualifiedname>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_cookie_1autotoc_md55">
+<title>Cookie Prefix</title><para>Set a cookie name prefix if you need to avoid collisions. </para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Cookie.php" line="17" column="19" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Cookie.php" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_cookie_1a18265285cc89c74087efce9772b8fd5e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Config\Cookie::$expires</definition>
+        <argsstring></argsstring>
+        <name>$expires</name>
+        <qualifiedname>Config\Cookie\$expires</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Cookie.php" line="30" column="12" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Cookie.php" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_cookie_1a144907bed4a60c0b6bc58c8af27a266b" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Config\Cookie::$path</definition>
+        <argsstring></argsstring>
+        <name>$path</name>
+        <qualifiedname>Config\Cookie\$path</qualifiedname>
+        <initializer>= &apos;/&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_cookie_1autotoc_md59">
+<title>Cookie Path</title><para>Typically will be a forward slash. </para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Cookie.php" line="39" column="19" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Cookie.php" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_cookie_1a2973430aff3fb1564e331bf19485c515" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Config\Cookie::$domain</definition>
+        <argsstring></argsstring>
+        <name>$domain</name>
+        <qualifiedname>Config\Cookie\$domain</qualifiedname>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_cookie_1autotoc_md61">
+<title>Cookie Domain</title><para>Set to <computeroutput>.your-domain.com</computeroutput> for site-wide cookies. </para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Cookie.php" line="48" column="19" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Cookie.php" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_cookie_1a7d4cd8636b84d47c16d23ede422c482b" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Config\Cookie::$secure</definition>
+        <argsstring></argsstring>
+        <name>$secure</name>
+        <qualifiedname>Config\Cookie\$secure</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_cookie_1autotoc_md63">
+<title>Cookie Secure</title><para>Cookie will only be set if a secure HTTPS connection exists. </para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Cookie.php" line="57" column="17" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Cookie.php" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_cookie_1a8664af7ff6bb9cbf4173bfb3398a0868" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Config\Cookie::$httponly</definition>
+        <argsstring></argsstring>
+        <name>$httponly</name>
+        <qualifiedname>Config\Cookie\$httponly</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_cookie_1autotoc_md65">
+<title>Cookie HTTPOnly</title><para>Cookie will only be accessible via HTTP(S) (no JavaScript). </para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Cookie.php" line="66" column="17" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Cookie.php" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_cookie_1a71a5ea2552a4f14506a8edc4f1a0fc53" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Config\Cookie::$samesite</definition>
+        <argsstring></argsstring>
+        <name>$samesite</name>
+        <qualifiedname>Config\Cookie\$samesite</qualifiedname>
+        <initializer>= &apos;Lax&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_cookie_1autotoc_md67">
+<title>Cookie SameSite</title><para>Configure cookie SameSite setting. Allowed values are:<itemizedlist>
+<listitem><para>None</para>
+</listitem><listitem><para>Lax</para>
+</listitem><listitem><para>Strict</para>
+</listitem><listitem><para>&apos;&apos;</para>
+</listitem></itemizedlist>
+</para>
+<para>Alternatively, you can use the constant names:<itemizedlist>
+<listitem><para><computeroutput>Cookie\SAMESITE_NONE</computeroutput></para>
+</listitem><listitem><para><computeroutput>Cookie\SAMESITE_LAX</computeroutput></para>
+</listitem><listitem><para><computeroutput>Cookie\SAMESITE_STRICT</computeroutput></para>
+</listitem></itemizedlist>
+</para>
+<para>Defaults to <computeroutput>Lax</computeroutput> for compatibility with modern browsers. Setting <lsquo/><rsquo/>&apos;<computeroutput> (empty string) means default SameSite attribute set by browsers (</computeroutput>Lax<computeroutput>) will be set on cookies. If set to</computeroutput>None<computeroutput>,</computeroutput>$secure` must also be set.</para>
+<para>@phpstan-var &apos;None&apos;|&apos;Lax&apos;|&apos;Strict&apos;|&apos;&apos; </para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Cookie.php" line="90" column="19" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Cookie.php" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_cookie_1a46e984086d31b2861acfc8e23e251718" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Config\Cookie::$raw</definition>
+        <argsstring></argsstring>
+        <name>$raw</name>
+        <qualifiedname>Config\Cookie\$raw</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_cookie_1autotoc_md69">
+<title>Cookie Raw</title><para>This flag allows setting a &quot;raw&quot; cookie, i.e., its name and value are not URL encoded using <computeroutput>rawurlencode()</computeroutput>.</para>
+<para>If this is set to <computeroutput>true</computeroutput>, cookie names should be compliant of RFC 2616&apos;s list of allowed characters.</para>
+<para><simplesect kind="see"><para><ulink url="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie#attributes">https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie#attributes</ulink> </para>
+</simplesect>
+<simplesect kind="see"><para><ulink url="https://tools.ietf.org/html/rfc2616#section-2.2">https://tools.ietf.org/html/rfc2616#section-2.2</ulink> </para>
+</simplesect>
+</para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Cookie.php" line="106" column="17" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Cookie.php" bodystart="106" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>BaseConfig</label>
+      </node>
+      <node id="1">
+        <label>Config\Cookie</label>
+        <link refid="class_config_1_1_cookie"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>BaseConfig</label>
+      </node>
+      <node id="1">
+        <label>Config\Cookie</label>
+        <link refid="class_config_1_1_cookie"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Cookie.php" line="8" column="1" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Cookie.php" bodystart="9" bodyend="107"/>
+    <listofallmembers>
+      <member refid="class_config_1_1_cookie_1a2973430aff3fb1564e331bf19485c515" prot="public" virt="non-virtual"><scope>Config::Cookie</scope><name>$domain</name></member>
+      <member refid="class_config_1_1_cookie_1a18265285cc89c74087efce9772b8fd5e" prot="public" virt="non-virtual"><scope>Config::Cookie</scope><name>$expires</name></member>
+      <member refid="class_config_1_1_cookie_1a8664af7ff6bb9cbf4173bfb3398a0868" prot="public" virt="non-virtual"><scope>Config::Cookie</scope><name>$httponly</name></member>
+      <member refid="class_config_1_1_cookie_1a144907bed4a60c0b6bc58c8af27a266b" prot="public" virt="non-virtual"><scope>Config::Cookie</scope><name>$path</name></member>
+      <member refid="class_config_1_1_cookie_1a7753cad722a246137c8819ae9e588f5c" prot="public" virt="non-virtual"><scope>Config::Cookie</scope><name>$prefix</name></member>
+      <member refid="class_config_1_1_cookie_1a46e984086d31b2861acfc8e23e251718" prot="public" virt="non-virtual"><scope>Config::Cookie</scope><name>$raw</name></member>
+      <member refid="class_config_1_1_cookie_1a71a5ea2552a4f14506a8edc4f1a0fc53" prot="public" virt="non-virtual"><scope>Config::Cookie</scope><name>$samesite</name></member>
+      <member refid="class_config_1_1_cookie_1a7d4cd8636b84d47c16d23ede422c482b" prot="public" virt="non-virtual"><scope>Config::Cookie</scope><name>$secure</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

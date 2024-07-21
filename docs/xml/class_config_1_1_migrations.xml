@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="class_config_1_1_migrations" kind="class" language="PHP" prot="public">
+    <compoundname>Config::Migrations</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">BaseConfig</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_config_1_1_migrations_1a9db9f3f0d4c52d8c5b4dfe9fbf748ac9" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Config\Migrations::$enabled</definition>
+        <argsstring></argsstring>
+        <name>$enabled</name>
+        <qualifiedname>Config\Migrations\$enabled</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_migrations_1autotoc_md109">
+<title>Enable/Disable Migrations</title><para>Migrations are enabled by default.</para>
+<para>You should enable migrations whenever you intend to do a schema migration and disable it back when you&apos;re done. </para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Migrations.php" line="19" column="17" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Migrations.php" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_migrations_1adef1451152442e4ceb7a240a73d1cc0f" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Config\Migrations::$table</definition>
+        <argsstring></argsstring>
+        <name>$table</name>
+        <qualifiedname>Config\Migrations\$table</qualifiedname>
+        <initializer>= &apos;migrations&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_migrations_1autotoc_md111">
+<title>Migrations Table</title><para>This is the name of the table that will store the current migrations state. When migrations runs it will store in a database table which migration files have already been run. </para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Migrations.php" line="30" column="19" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Migrations.php" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_migrations_1a3f4cd895dc3fbd172e5f083f4e2f48af" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Config\Migrations::$timestampFormat</definition>
+        <argsstring></argsstring>
+        <name>$timestampFormat</name>
+        <qualifiedname>Config\Migrations\$timestampFormat</qualifiedname>
+        <initializer>= &apos;Y-m-d-His_&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_migrations_1autotoc_md113">
+<title>Timestamp Format</title><para>This is the format that will be used when creating new migrations using the CLI command: <blockquote><para><zwj/>php spark make:migration </para>
+</blockquote></para>
+<para>NOTE: if you set an unsupported format, migration runner will not find your migration files.</para>
+<para>Supported formats:<itemizedlist>
+<listitem><para>YmdHis_</para>
+</listitem><listitem><para>Y-m-d-His_</para>
+</listitem><listitem><para>Y_m_d_His_ </para>
+</listitem></itemizedlist>
+</para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Migrations.php" line="49" column="19" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Migrations.php" bodystart="49" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>BaseConfig</label>
+      </node>
+      <node id="1">
+        <label>Config\Migrations</label>
+        <link refid="class_config_1_1_migrations"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>BaseConfig</label>
+      </node>
+      <node id="1">
+        <label>Config\Migrations</label>
+        <link refid="class_config_1_1_migrations"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Migrations.php" line="7" column="1" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Migrations.php" bodystart="8" bodyend="50"/>
+    <listofallmembers>
+      <member refid="class_config_1_1_migrations_1a9db9f3f0d4c52d8c5b4dfe9fbf748ac9" prot="public" virt="non-virtual"><scope>Config::Migrations</scope><name>$enabled</name></member>
+      <member refid="class_config_1_1_migrations_1adef1451152442e4ceb7a240a73d1cc0f" prot="public" virt="non-virtual"><scope>Config::Migrations</scope><name>$table</name></member>
+      <member refid="class_config_1_1_migrations_1a3f4cd895dc3fbd172e5f083f4e2f48af" prot="public" virt="non-virtual"><scope>Config::Migrations</scope><name>$timestampFormat</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

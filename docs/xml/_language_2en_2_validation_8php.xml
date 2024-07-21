@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="_language_2en_2_validation_8php" kind="file" language="PHP">
+    <compoundname>Validation.php</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="_language_2en_2_validation_8php_1aee4892f7301893d96b796b6586c09a1e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>return[]</definition>
+        <argsstring>[]</argsstring>
+        <name>return</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Language/en/Validation.php" line="4" column="1" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Language/en/Validation.php" bodystart="4" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>override<sp/>core<sp/>en<sp/>language<sp/>system<sp/>validation<sp/>or<sp/>define<sp/>your<sp/>own<sp/>en<sp/>language<sp/>validation<sp/>message</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[];</highlight></codeline>
+    </programlisting>
+    <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Language/en/Validation.php"/>
+  </compounddef>
+</doxygen>

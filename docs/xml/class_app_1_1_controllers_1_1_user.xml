@@ -1,0 +1,267 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="class_app_1_1_controllers_1_1_user" kind="class" language="PHP" prot="public">
+    <compoundname>App::Controllers::User</compoundname>
+    <basecompoundref refid="class_app_1_1_controllers_1_1_base_controller" prot="public" virt="non-virtual">App\Controllers\BaseController</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_app_1_1_controllers_1_1_user_1a2d33fba195e8efb702b92034b72a839e" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>App\Controllers\User::$model_pengguna</definition>
+        <argsstring></argsstring>
+        <name>$model_pengguna</name>
+        <qualifiedname>App\Controllers\User\$model_pengguna</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/User.php" line="10" column="13" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/User.php" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_controllers_1_1_user_1afaf1279d96d2cd25748954b42390c2ca" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>App\Controllers\User::$model_admin</definition>
+        <argsstring></argsstring>
+        <name>$model_admin</name>
+        <qualifiedname>App\Controllers\User\$model_admin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/User.php" line="11" column="13" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/User.php" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_controllers_1_1_user_1a3f394733e01d4c1a2396238aa50f36f8" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>App\Controllers\User::$model_pembayaran</definition>
+        <argsstring></argsstring>
+        <name>$model_pembayaran</name>
+        <qualifiedname>App\Controllers\User\$model_pembayaran</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/User.php" line="12" column="13" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/User.php" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_controllers_1_1_user_1a2f7fd132fc047095626c97931309e423" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>App\Controllers\User::$model_penggunaan</definition>
+        <argsstring></argsstring>
+        <name>$model_penggunaan</name>
+        <qualifiedname>App\Controllers\User\$model_penggunaan</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/User.php" line="13" column="13" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/User.php" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_controllers_1_1_user_1ad83fa353ad198779cd7c93e039db3262" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>App\Controllers\User::$model_tagihan</definition>
+        <argsstring></argsstring>
+        <name>$model_tagihan</name>
+        <qualifiedname>App\Controllers\User\$model_tagihan</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/User.php" line="14" column="13" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/User.php" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_controllers_1_1_user_1aac4fac9ffde21ed4e587fc45bb049270" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>App\Controllers\User::$model_tarif</definition>
+        <argsstring></argsstring>
+        <name>$model_tarif</name>
+        <qualifiedname>App\Controllers\User\$model_tarif</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/User.php" line="15" column="13" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/User.php" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_controllers_1_1_user_1acdf43c549c0e2e29a70afe49d7c5b410" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>App\Controllers\User::$model_level</definition>
+        <argsstring></argsstring>
+        <name>$model_level</name>
+        <qualifiedname>App\Controllers\User\$model_level</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/User.php" line="16" column="13" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/User.php" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_controllers_1_1_user_1a187b389a91e0affe287adea154ac956d" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>App\Controllers\User::$model_status</definition>
+        <argsstring></argsstring>
+        <name>$model_status</name>
+        <qualifiedname>App\Controllers\User\$model_status</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/User.php" line="17" column="13" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/User.php" bodystart="17" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_app_1_1_controllers_1_1_user_1ad83227b31ef86d64d250be010e83598a" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>App\Controllers\User::$helpers</definition>
+        <argsstring></argsstring>
+        <name>$helpers</name>
+        <qualifiedname>App\Controllers\User\$helpers</qualifiedname>
+        <initializer>= [&apos;form&apos;, &apos;url&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/User.php" line="18" column="15" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/User.php" bodystart="18" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_app_1_1_controllers_1_1_user_1afd445d70a7cadd47c66cf0ead6818cd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Controllers\User::__construct</definition>
+        <argsstring>()</argsstring>
+        <name>__construct</name>
+        <qualifiedname>App\Controllers\User\__construct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/User.php" line="20" column="21" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/User.php" bodystart="20" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_controllers_1_1_user_1ad88ed89bad68195cac2efab3096d677b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Controllers\User::penggunaan</definition>
+        <argsstring>()</argsstring>
+        <name>penggunaan</name>
+        <qualifiedname>App\Controllers\User\penggunaan</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/User.php" line="31" column="21" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/User.php" bodystart="31" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_controllers_1_1_user_1a255a1a47ad8b2464fcbb7b81c18894fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Controllers\User::tagihan</definition>
+        <argsstring>()</argsstring>
+        <name>tagihan</name>
+        <qualifiedname>App\Controllers\User\tagihan</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/User.php" line="48" column="21" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/User.php" bodystart="48" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_controllers_1_1_user_1a4454d769aa897fed1e43fbb6bd390189" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Controllers\User::riwayat</definition>
+        <argsstring>()</argsstring>
+        <name>riwayat</name>
+        <qualifiedname>App\Controllers\User\riwayat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/User.php" line="71" column="21" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/User.php" bodystart="71" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_controllers_1_1_user_1a95154777e8865b19b06b98511b3793a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Controllers\User::bayar_tagihan</definition>
+        <argsstring>()</argsstring>
+        <name>bayar_tagihan</name>
+        <qualifiedname>App\Controllers\User\bayar_tagihan</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/User.php" line="93" column="21" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/User.php" bodystart="93" bodyend="116"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>App\Controllers\BaseController</label>
+        <link refid="class_app_1_1_controllers_1_1_base_controller"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>App\Controllers\User</label>
+        <link refid="class_app_1_1_controllers_1_1_user"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Controller</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>App\Controllers\BaseController</label>
+        <link refid="class_app_1_1_controllers_1_1_base_controller"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>App\Controllers\User</label>
+        <link refid="class_app_1_1_controllers_1_1_user"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Controller</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/User.php" line="8" column="1" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/User.php" bodystart="9" bodyend="117"/>
+    <listofallmembers>
+      <member refid="class_app_1_1_controllers_1_1_user_1ad83227b31ef86d64d250be010e83598a" prot="protected" virt="non-virtual"><scope>App::Controllers::User</scope><name>$helpers</name></member>
+      <member refid="class_app_1_1_controllers_1_1_user_1afaf1279d96d2cd25748954b42390c2ca" prot="private" virt="non-virtual"><scope>App::Controllers::User</scope><name>$model_admin</name></member>
+      <member refid="class_app_1_1_controllers_1_1_user_1acdf43c549c0e2e29a70afe49d7c5b410" prot="private" virt="non-virtual"><scope>App::Controllers::User</scope><name>$model_level</name></member>
+      <member refid="class_app_1_1_controllers_1_1_user_1a3f394733e01d4c1a2396238aa50f36f8" prot="private" virt="non-virtual"><scope>App::Controllers::User</scope><name>$model_pembayaran</name></member>
+      <member refid="class_app_1_1_controllers_1_1_user_1a2d33fba195e8efb702b92034b72a839e" prot="private" virt="non-virtual"><scope>App::Controllers::User</scope><name>$model_pengguna</name></member>
+      <member refid="class_app_1_1_controllers_1_1_user_1a2f7fd132fc047095626c97931309e423" prot="private" virt="non-virtual"><scope>App::Controllers::User</scope><name>$model_penggunaan</name></member>
+      <member refid="class_app_1_1_controllers_1_1_user_1a187b389a91e0affe287adea154ac956d" prot="private" virt="non-virtual"><scope>App::Controllers::User</scope><name>$model_status</name></member>
+      <member refid="class_app_1_1_controllers_1_1_user_1ad83fa353ad198779cd7c93e039db3262" prot="private" virt="non-virtual"><scope>App::Controllers::User</scope><name>$model_tagihan</name></member>
+      <member refid="class_app_1_1_controllers_1_1_user_1aac4fac9ffde21ed4e587fc45bb049270" prot="private" virt="non-virtual"><scope>App::Controllers::User</scope><name>$model_tarif</name></member>
+      <member refid="class_app_1_1_controllers_1_1_base_controller_1a9dd913a7056bdd324a7c9f0ce57619ad" prot="protected" virt="non-virtual"><scope>App::Controllers::User</scope><name>$request</name></member>
+      <member refid="class_app_1_1_controllers_1_1_user_1afd445d70a7cadd47c66cf0ead6818cd7" prot="public" virt="non-virtual"><scope>App::Controllers::User</scope><name>__construct</name></member>
+      <member refid="class_app_1_1_controllers_1_1_user_1a95154777e8865b19b06b98511b3793a6" prot="public" virt="non-virtual"><scope>App::Controllers::User</scope><name>bayar_tagihan</name></member>
+      <member refid="class_app_1_1_controllers_1_1_base_controller_1ac61356917268915c1f13cbb9f563b71c" prot="public" virt="non-virtual"><scope>App::Controllers::User</scope><name>initController</name></member>
+      <member refid="class_app_1_1_controllers_1_1_user_1ad88ed89bad68195cac2efab3096d677b" prot="public" virt="non-virtual"><scope>App::Controllers::User</scope><name>penggunaan</name></member>
+      <member refid="class_app_1_1_controllers_1_1_user_1a4454d769aa897fed1e43fbb6bd390189" prot="public" virt="non-virtual"><scope>App::Controllers::User</scope><name>riwayat</name></member>
+      <member refid="class_app_1_1_controllers_1_1_user_1a255a1a47ad8b2464fcbb7b81c18894fa" prot="public" virt="non-virtual"><scope>App::Controllers::User</scope><name>tagihan</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

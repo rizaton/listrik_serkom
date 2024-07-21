@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="class_config_1_1_exceptions" kind="class" language="PHP" prot="public">
+    <compoundname>Config::Exceptions</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">BaseConfig</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_config_1_1_exceptions_1a16a0e1dbb2aa6a475fe445052c7c9f7a" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Config\Exceptions::$log</definition>
+        <argsstring></argsstring>
+        <name>$log</name>
+        <qualifiedname>Config\Exceptions\$log</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_exceptions_1autotoc_md81">
+<title>LOG EXCEPTIONS?</title><para>If true, then exceptions will be logged through Services\Log.</para>
+<para>Default: true </para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Exceptions.php" line="25" column="17" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Exceptions.php" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_exceptions_1ab151caa2b0802a9ca960ea0f6b313267" prot="public" static="no" mutable="no">
+        <type>array</type>
+        <definition>array Config\Exceptions::$ignoreCodes</definition>
+        <argsstring></argsstring>
+        <name>$ignoreCodes</name>
+        <qualifiedname>Config\Exceptions\$ignoreCodes</qualifiedname>
+        <initializer>= [404]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Exceptions.php" line="36" column="18" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Exceptions.php" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_exceptions_1a4bb1fd0e3c9d55b2a6a9d2089a022199" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Config\Exceptions::$errorViewPath</definition>
+        <argsstring></argsstring>
+        <name>$errorViewPath</name>
+        <qualifiedname>Config\Exceptions\$errorViewPath</qualifiedname>
+        <initializer>= APPPATH . &apos;Views/errors&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_exceptions_1autotoc_md85">
+<title>Error Views Path</title><para>This is the path to the directory that contains the &apos;cli&apos; and &apos;html&apos; directories that hold the views used to generate errors.</para>
+<para>Default: APPPATH.&apos;Views/errors&apos; </para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Exceptions.php" line="47" column="19" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Exceptions.php" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_exceptions_1ae1c2ffba1387e25d5ae8f9138e86d8ab" prot="public" static="no" mutable="no">
+        <type>array</type>
+        <definition>array Config\Exceptions::$sensitiveDataInTrace</definition>
+        <argsstring></argsstring>
+        <name>$sensitiveDataInTrace</name>
+        <qualifiedname>Config\Exceptions\$sensitiveDataInTrace</qualifiedname>
+        <initializer>= []</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Exceptions.php" line="59" column="18" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Exceptions.php" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_exceptions_1ae7bbec1099e8d6f975c2ec9a696e3323" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Config\Exceptions::$logDeprecations</definition>
+        <argsstring></argsstring>
+        <name>$logDeprecations</name>
+        <qualifiedname>Config\Exceptions\$logDeprecations</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_exceptions_1autotoc_md89">
+<title>WHETHER TO THROW AN EXCEPTION ON DEPRECATED ERRORS</title><para>If set to <computeroutput>true</computeroutput>, DEPRECATED errors are only logged and no exceptions are thrown. This option also works for user deprecations. </para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Exceptions.php" line="68" column="17" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Exceptions.php" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_exceptions_1afeace51c43ab5421bdaf3285256fadad" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Config\Exceptions::$deprecationLogLevel</definition>
+        <argsstring></argsstring>
+        <name>$deprecationLogLevel</name>
+        <qualifiedname>Config\Exceptions\$deprecationLogLevel</qualifiedname>
+        <initializer>= LogLevel::WARNING</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_exceptions_1autotoc_md91">
+<title>LOG LEVEL THRESHOLD FOR DEPRECATIONS</title><para>If <computeroutput>$logDeprecations</computeroutput> is set to <computeroutput>true</computeroutput>, this sets the log level to which the deprecation will be logged. This should be one of the log levels recognized by PSR-3.</para>
+<para>The related <computeroutput><ref refid="namespace_config" kindref="compound">Config</ref>\Logger::$threshold</computeroutput> should be adjusted, if needed, to capture logging the deprecations. </para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Exceptions.php" line="81" column="19" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Exceptions.php" bodystart="81" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_config_1_1_exceptions_1a1a6d0cf478f8bd2cd5f14609bc61088d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Config\Exceptions::handler</definition>
+        <argsstring>(int $statusCode, Throwable $exception)</argsstring>
+        <name>handler</name>
+        <qualifiedname>Config\Exceptions\handler</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>$statusCode</declname>
+        </param>
+        <param>
+          <type>Throwable</type>
+          <declname>$exception</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Exceptions.php" line="102" column="21" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Exceptions.php" bodystart="102" bodyend="105"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Setup how the exception handler works. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>BaseConfig</label>
+      </node>
+      <node id="1">
+        <label>Config\Exceptions</label>
+        <link refid="class_config_1_1_exceptions"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>BaseConfig</label>
+      </node>
+      <node id="1">
+        <label>Config\Exceptions</label>
+        <link refid="class_config_1_1_exceptions"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Exceptions.php" line="14" column="1" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Exceptions.php" bodystart="15" bodyend="106"/>
+    <listofallmembers>
+      <member refid="class_config_1_1_exceptions_1afeace51c43ab5421bdaf3285256fadad" prot="public" virt="non-virtual"><scope>Config::Exceptions</scope><name>$deprecationLogLevel</name></member>
+      <member refid="class_config_1_1_exceptions_1a4bb1fd0e3c9d55b2a6a9d2089a022199" prot="public" virt="non-virtual"><scope>Config::Exceptions</scope><name>$errorViewPath</name></member>
+      <member refid="class_config_1_1_exceptions_1ab151caa2b0802a9ca960ea0f6b313267" prot="public" virt="non-virtual"><scope>Config::Exceptions</scope><name>$ignoreCodes</name></member>
+      <member refid="class_config_1_1_exceptions_1a16a0e1dbb2aa6a475fe445052c7c9f7a" prot="public" virt="non-virtual"><scope>Config::Exceptions</scope><name>$log</name></member>
+      <member refid="class_config_1_1_exceptions_1ae7bbec1099e8d6f975c2ec9a696e3323" prot="public" virt="non-virtual"><scope>Config::Exceptions</scope><name>$logDeprecations</name></member>
+      <member refid="class_config_1_1_exceptions_1ae1c2ffba1387e25d5ae8f9138e86d8ab" prot="public" virt="non-virtual"><scope>Config::Exceptions</scope><name>$sensitiveDataInTrace</name></member>
+      <member refid="class_config_1_1_exceptions_1a1a6d0cf478f8bd2cd5f14609bc61088d" prot="public" virt="non-virtual"><scope>Config::Exceptions</scope><name>handler</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

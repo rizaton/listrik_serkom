@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="namespace_app_1_1_controllers" kind="namespace" language="PHP">
+    <compoundname>App::Controllers</compoundname>
+    <innerclass refid="class_app_1_1_controllers_1_1_admin" prot="public">App::Controllers::Admin</innerclass>
+    <innerclass refid="class_app_1_1_controllers_1_1_auth" prot="public">App::Controllers::Auth</innerclass>
+    <innerclass refid="class_app_1_1_controllers_1_1_auth_admin" prot="public">App::Controllers::AuthAdmin</innerclass>
+    <innerclass refid="class_app_1_1_controllers_1_1_auth_pengguna" prot="public">App::Controllers::AuthPengguna</innerclass>
+    <innerclass refid="class_app_1_1_controllers_1_1_base_controller" prot="public">App::Controllers::BaseController</innerclass>
+    <innerclass refid="class_app_1_1_controllers_1_1_home" prot="public">App::Controllers::Home</innerclass>
+    <innerclass refid="class_app_1_1_controllers_1_1_pengguna" prot="public">App::Controllers::Pengguna</innerclass>
+    <innerclass refid="class_app_1_1_controllers_1_1_user" prot="public">App::Controllers::User</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Admin.php" line="3" column="10"/>
+  </compounddef>
+</doxygen>

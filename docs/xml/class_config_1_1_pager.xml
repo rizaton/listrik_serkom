@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="class_config_1_1_pager" kind="class" language="PHP" prot="public">
+    <compoundname>Config::Pager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">BaseConfig</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_config_1_1_pager_1ab38972aed2dfa58084dfabf15f0db3a1" prot="public" static="no" mutable="no">
+        <type>array</type>
+        <definition>array Config\Pager::$templates</definition>
+        <argsstring></argsstring>
+        <name>$templates</name>
+        <qualifiedname>Config\Pager\$templates</qualifiedname>
+        <initializer>= [
+        &apos;default_full&apos;   =&gt; &apos;CodeIgniter\Pager\Views\default_full&apos;,
+        &apos;default_simple&apos; =&gt; &apos;CodeIgniter\Pager\Views\default_simple&apos;,
+        &apos;default_head&apos;   =&gt; &apos;CodeIgniter\Pager\Views\default_head&apos;,
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Pager.php" line="23" column="18" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Pager.php" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_pager_1a1b6a449bc0d5c558acc13ec063207b7b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Config\Pager::$perPage</definition>
+        <argsstring></argsstring>
+        <name>$perPage</name>
+        <qualifiedname>Config\Pager\$perPage</qualifiedname>
+        <initializer>= 20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_pager_1autotoc_md127">
+<title>Items Per Page</title><para>The default number of results shown in a single page. </para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Pager.php" line="36" column="16" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Pager.php" bodystart="36" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>BaseConfig</label>
+      </node>
+      <node id="1">
+        <label>Config\Pager</label>
+        <link refid="class_config_1_1_pager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>BaseConfig</label>
+      </node>
+      <node id="1">
+        <label>Config\Pager</label>
+        <link refid="class_config_1_1_pager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Pager.php" line="7" column="1" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Pager.php" bodystart="8" bodyend="37"/>
+    <listofallmembers>
+      <member refid="class_config_1_1_pager_1a1b6a449bc0d5c558acc13ec063207b7b" prot="public" virt="non-virtual"><scope>Config::Pager</scope><name>$perPage</name></member>
+      <member refid="class_config_1_1_pager_1ab38972aed2dfa58084dfabf15f0db3a1" prot="public" virt="non-virtual"><scope>Config::Pager</scope><name>$templates</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

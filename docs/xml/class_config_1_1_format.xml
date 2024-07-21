@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="class_config_1_1_format" kind="class" language="PHP" prot="public">
+    <compoundname>Config::Format</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">BaseConfig</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_config_1_1_format_1a60fe6a0f0ada524006c1ed83e109dcf2" prot="public" static="no" mutable="no">
+        <type>array</type>
+        <definition>array Config\Format::$supportedResponseFormats</definition>
+        <argsstring></argsstring>
+        <name>$supportedResponseFormats</name>
+        <qualifiedname>Config\Format\$supportedResponseFormats</qualifiedname>
+        <initializer>= [
+        &apos;application/json&apos;,
+        &apos;application/xml&apos;, 
+        &apos;text/xml&apos;, 
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Format.php" line="27" column="18" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Format.php" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_format_1add157f11fc62d25b27b946c4642bb940" prot="public" static="no" mutable="no">
+        <type>array</type>
+        <definition>array Config\Format::$formatters</definition>
+        <argsstring></argsstring>
+        <name>$formatters</name>
+        <qualifiedname>Config\Format\$formatters</qualifiedname>
+        <initializer>= [
+        &apos;application/json&apos; =&gt; JSONFormatter::class,
+        &apos;application/xml&apos;  =&gt; XMLFormatter::class,
+        &apos;text/xml&apos;         =&gt; XMLFormatter::class,
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Format.php" line="44" column="18" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Format.php" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_format_1a167148e0c0f3bda420eb26093a390ed5" prot="public" static="no" mutable="no">
+        <type>array</type>
+        <definition>array Config\Format::$formatterOptions</definition>
+        <argsstring></argsstring>
+        <name>$formatterOptions</name>
+        <qualifiedname>Config\Format\$formatterOptions</qualifiedname>
+        <initializer>= [
+        &apos;application/json&apos; =&gt; JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES,
+        &apos;application/xml&apos;  =&gt; 0,
+        &apos;text/xml&apos;         =&gt; 0,
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Format.php" line="60" column="18" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Format.php" bodystart="60" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_config_1_1_format_1ad33bee4523a8a72d55f3b39bbef23844" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Config\Format::getFormatter</definition>
+        <argsstring>(string $mime)</argsstring>
+        <name>getFormatter</name>
+        <qualifiedname>Config\Format\getFormatter</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>$mime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A Factory method to return the appropriate formatter for the given mime type.</para>
+<para><simplesect kind="return"><para>FormatterInterface</para>
+</simplesect>
+<xrefsect id="deprecated_1_deprecated000005"><xreftitle>Deprecated</xreftitle><xrefdescription><para>This is an alias of <computeroutput>\CodeIgniter\Format\Format\getFormatter</computeroutput>. Use that instead. </para>
+</xrefdescription></xrefsect></para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Format.php" line="73" column="21" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Format.php" bodystart="73" bodyend="76"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>BaseConfig</label>
+      </node>
+      <node id="1">
+        <label>Config\Format</label>
+        <link refid="class_config_1_1_format"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>BaseConfig</label>
+      </node>
+      <node id="1">
+        <label>Config\Format</label>
+        <link refid="class_config_1_1_format"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Format.php" line="10" column="1" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Format.php" bodystart="11" bodyend="77"/>
+    <listofallmembers>
+      <member refid="class_config_1_1_format_1a167148e0c0f3bda420eb26093a390ed5" prot="public" virt="non-virtual"><scope>Config::Format</scope><name>$formatterOptions</name></member>
+      <member refid="class_config_1_1_format_1add157f11fc62d25b27b946c4642bb940" prot="public" virt="non-virtual"><scope>Config::Format</scope><name>$formatters</name></member>
+      <member refid="class_config_1_1_format_1a60fe6a0f0ada524006c1ed83e109dcf2" prot="public" virt="non-virtual"><scope>Config::Format</scope><name>$supportedResponseFormats</name></member>
+      <member refid="class_config_1_1_format_1ad33bee4523a8a72d55f3b39bbef23844" prot="public" virt="non-virtual"><scope>Config::Format</scope><name>getFormatter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

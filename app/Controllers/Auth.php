@@ -47,7 +47,6 @@ class Auth extends BaseController
                     session()->set('username', $username_exist['username']);
                     session()->set('name', $username_exist['nama_admin']);
                     session()->set('role', 'admin');
-                    $this->db->query('SET @current_user_id =' . $username_exist['id_user'] . ';');
                     return redirect()->to('/admin');
                 } else {
                     session()->setFlashdata('found', false);
@@ -73,10 +72,10 @@ class Auth extends BaseController
                 ->where('username', $data_login['username'])->first();
             if ($username_exist) {
                 if (password_verify($data_login['password'], $username_exist['password'])) {
+                    session()->set('id_pelanggan', $username_exist['id_pelanggan']);
                     session()->set('username', $username_exist['username']);
-                    session()->set('id_user', $username_exist['id_user']);
+                    session()->set('name', $username_exist['nama_pelanggan']);
                     session()->set('role', 'user');
-
                     return redirect()->to('/user');
                 } else {
                     session()->setFlashdata('found', false);

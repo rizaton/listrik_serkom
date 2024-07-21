@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="class_config_1_1_modules" kind="class" language="PHP" prot="public">
+    <compoundname>Config::Modules</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">BaseModules</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_config_1_1_modules_1a3605d334cbceb50f86d0dce53f3692a8" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Config\Modules::$enabled</definition>
+        <argsstring></argsstring>
+        <name>$enabled</name>
+        <qualifiedname>Config\Modules\$enabled</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Modules.php" line="28" column="12" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Modules.php" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_modules_1a470c711187ee1e16a50c1e8c5c1c84e7" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Config\Modules::$discoverInComposer</definition>
+        <argsstring></argsstring>
+        <name>$discoverInComposer</name>
+        <qualifiedname>Config\Modules\$discoverInComposer</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Modules.php" line="40" column="12" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Modules.php" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_modules_1a95b93118f28c51b8fd26a4ca22a9a4be" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Config\Modules::$composerPackages</definition>
+        <argsstring></argsstring>
+        <name>$composerPackages</name>
+        <qualifiedname>Config\Modules\$composerPackages</qualifiedname>
+        <initializer>= []</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Modules.php" line="63" column="12" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Modules.php" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_modules_1a1f37dae32e39c89b62fe03cfa730eb38" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Config\Modules::$aliases</definition>
+        <argsstring></argsstring>
+        <name>$aliases</name>
+        <qualifiedname>Config\Modules\$aliases</qualifiedname>
+        <initializer>= [
+        &apos;events&apos;,
+        &apos;filters&apos;,
+        &apos;registrars&apos;,
+        &apos;routes&apos;,
+        &apos;services&apos;,
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Modules.php" line="77" column="12" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Modules.php" bodystart="77" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Modules Configuration.</para>
+<para>NOTE: This class is required prior to Autoloader instantiation, and does not extend BaseConfig.</para>
+<para>@immutable </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>BaseModules</label>
+      </node>
+      <node id="1">
+        <label>Config\Modules</label>
+        <link refid="class_config_1_1_modules"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>BaseModules</label>
+      </node>
+      <node id="1">
+        <label>Config\Modules</label>
+        <link refid="class_config_1_1_modules"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Modules.php" line="15" column="1" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Modules.php" bodystart="16" bodyend="84"/>
+    <listofallmembers>
+      <member refid="class_config_1_1_modules_1a1f37dae32e39c89b62fe03cfa730eb38" prot="public" virt="non-virtual"><scope>Config::Modules</scope><name>$aliases</name></member>
+      <member refid="class_config_1_1_modules_1a95b93118f28c51b8fd26a4ca22a9a4be" prot="public" virt="non-virtual"><scope>Config::Modules</scope><name>$composerPackages</name></member>
+      <member refid="class_config_1_1_modules_1a470c711187ee1e16a50c1e8c5c1c84e7" prot="public" virt="non-virtual"><scope>Config::Modules</scope><name>$discoverInComposer</name></member>
+      <member refid="class_config_1_1_modules_1a3605d334cbceb50f86d0dce53f3692a8" prot="public" virt="non-virtual"><scope>Config::Modules</scope><name>$enabled</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

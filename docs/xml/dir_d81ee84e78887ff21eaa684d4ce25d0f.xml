@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="dir_d81ee84e78887ff21eaa684d4ce25d0f" kind="dir">
+    <compoundname>C:/DevFiles/PHP_Projects/listrik_serkom/app/Views/admin/edit</compoundname>
+    <innerfile refid="edit__level_8php">edit_level.php</innerfile>
+    <innerfile refid="edit__pelanggan_8php">edit_pelanggan.php</innerfile>
+    <innerfile refid="edit__pembayaran_8php">edit_pembayaran.php</innerfile>
+    <innerfile refid="edit__penggunaan_8php">edit_penggunaan.php</innerfile>
+    <innerfile refid="admin_2edit_2edit__tagihan_8php">edit_tagihan.php</innerfile>
+    <innerfile refid="edit__tarif_8php">edit_tarif.php</innerfile>
+    <innerfile refid="edit__user_8php">edit_user.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Views/admin/edit/"/>
+  </compounddef>
+</doxygen>

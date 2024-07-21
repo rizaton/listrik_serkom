@@ -80,33 +80,39 @@ class Penggunaan extends Model
 
     protected function tambah_tagihan(array $data)
     {
+        $jumlah_meter = $data['data']['meter_akhir'] - $data['data']['meter_awal'];
         $data_tagihan = [
             'bulan' => $data['data']['bulan'],
             'tahun' => $data['data']['tahun'],
-            'jumlah_meter' => (int) ($data['data']['meter_akhir'] - $data['data']['meter_awal']),
+            'jumlah_meter' => $jumlah_meter,
             'id_status' => 1,
             'id_penggunaan' => $data['id'],
-            'id_pelanggan' => (int) $data['data']['id_pelanggan'],
+            'id_pelanggan' => $data['data']['id_pelanggan'],
         ];
-        $jumlah_meter = $data['data']['meter_akhir'] - $data['data']['meter_awal'];
+        $this->db->table('tagihan')->insert($data_tagihan);
+
         $tb_pelanggan = $this->db->table('pelanggan')
             ->join('tarif', 'pelanggan.id_tarif = tarif.id_tarif')
             ->where('id_pelanggan', $data['data']['id_pelanggan'],)
             ->select('tarifperkwh')
-            ->get()->getFirstRow() ?? '';
-        $this->db->table('tagihan')->insert($data_tagihan);
-        $subtotal_bayar = $jumlah_meter * $tb_pelanggan->tarifperkwh;
+            ->get()
+            ->getFirstRow()
+            ->tarifperkwh;
+
+        $subtotal_bayar = $jumlah_meter * $tb_pelanggan;
         $biaya_admin = $subtotal_bayar * 0.01;
         $total_bayar = $subtotal_bayar + $biaya_admin;
+
         $data_pembayaran = [
             'tanggal_pembayaran' => date('Y-m-d'),
             'bulan_bayar' => $data['data']['bulan'],
             'biaya_admin' => $biaya_admin,
             'total_bayar' => $total_bayar,
-            'id_tagihan' => $this->db->insertID(),
+            'id_tagihan' => $this->db->table('tagihan')->orderBy('id_tagihan', 'DESC')->limit(1)->get()->getRowArray()['id_tagihan'],
             'id_pelanggan' => $data['data']['id_pelanggan'],
             'id_user' => session()->get('id_user'),
         ];
+        // dd($data_pembayaran);
         $this->db->table('pembayaran')->insert($data_pembayaran);
         return $data;
     }

@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="class_config_1_1_images" kind="class" language="PHP" prot="public">
+    <compoundname>Config::Images</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">BaseConfig</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_config_1_1_images_1aab015d25b3e9b6fc0fab904790c04894" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Config\Images::$defaultHandler</definition>
+        <argsstring></argsstring>
+        <name>$defaultHandler</name>
+        <qualifiedname>Config\Images\$defaultHandler</qualifiedname>
+        <initializer>= &apos;gd&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default handler used if no other handler is specified. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Images.php" line="14" column="19" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Images.php" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_images_1ae0448fbfe47aed83629945e35f069fc1" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Config\Images::$libraryPath</definition>
+        <argsstring></argsstring>
+        <name>$libraryPath</name>
+        <qualifiedname>Config\Images\$libraryPath</qualifiedname>
+        <initializer>= &apos;/usr/local/bin/convert&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The path to the image library. Required for ImageMagick, GraphicsMagick, or NetPBM. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Images.php" line="20" column="19" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Images.php" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_images_1a1c81070bf4c0e3c0a78df4c6514aa0b7" prot="public" static="no" mutable="no">
+        <type>array</type>
+        <definition>array Config\Images::$handlers</definition>
+        <argsstring></argsstring>
+        <name>$handlers</name>
+        <qualifiedname>Config\Images\$handlers</qualifiedname>
+        <initializer>= [
+        &apos;gd&apos;      =&gt; GDHandler::class,
+        &apos;imagick&apos; =&gt; ImageMagickHandler::class,
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Images.php" line="27" column="18" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Images.php" bodystart="27" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>BaseConfig</label>
+      </node>
+      <node id="1">
+        <label>Config\Images</label>
+        <link refid="class_config_1_1_images"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>BaseConfig</label>
+      </node>
+      <node id="1">
+        <label>Config\Images</label>
+        <link refid="class_config_1_1_images"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Images.php" line="9" column="1" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Images.php" bodystart="10" bodyend="31"/>
+    <listofallmembers>
+      <member refid="class_config_1_1_images_1aab015d25b3e9b6fc0fab904790c04894" prot="public" virt="non-virtual"><scope>Config::Images</scope><name>$defaultHandler</name></member>
+      <member refid="class_config_1_1_images_1a1c81070bf4c0e3c0a78df4c6514aa0b7" prot="public" virt="non-virtual"><scope>Config::Images</scope><name>$handlers</name></member>
+      <member refid="class_config_1_1_images_1ae0448fbfe47aed83629945e35f069fc1" prot="public" virt="non-virtual"><scope>Config::Images</scope><name>$libraryPath</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="dir_7a7a0b44b2b5105fcf035bc0c6aaa8f8" kind="dir">
+    <compoundname>C:/DevFiles/PHP_Projects/listrik_serkom/app/Language</compoundname>
+    <innerdir refid="dir_334fa6a0944223c08fc6b0a7fa70a084">C:/DevFiles/PHP_Projects/listrik_serkom/app/Language/en</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Language/"/>
+  </compounddef>
+</doxygen>

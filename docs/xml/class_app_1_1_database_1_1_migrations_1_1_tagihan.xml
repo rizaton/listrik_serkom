@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="class_app_1_1_database_1_1_migrations_1_1_tagihan" kind="class" language="PHP" prot="public">
+    <compoundname>App::Database::Migrations::Tagihan</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Migration</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_app_1_1_database_1_1_migrations_1_1_tagihan_1a13342b2362ab7dc4569c388e14b3842f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Database\Migrations\Tagihan::up</definition>
+        <argsstring>()</argsstring>
+        <name>up</name>
+        <qualifiedname>App\Database\Migrations\Tagihan\up</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Database/Migrations/2024-07-13-024055_Tagihan.php" line="9" column="21" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Database/Migrations/2024-07-13-024055_Tagihan.php" bodystart="9" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_database_1_1_migrations_1_1_tagihan_1a7b7e4309d963afe25e44188e9f4c8d64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Database\Migrations\Tagihan::down</definition>
+        <argsstring>()</argsstring>
+        <name>down</name>
+        <qualifiedname>App\Database\Migrations\Tagihan\down</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Database/Migrations/2024-07-13-024055_Tagihan.php" line="49" column="21" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Database/Migrations/2024-07-13-024055_Tagihan.php" bodystart="49" bodyend="52"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>App\Database\Migrations\Tagihan</label>
+        <link refid="class_app_1_1_database_1_1_migrations_1_1_tagihan"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Migration</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>App\Database\Migrations\Tagihan</label>
+        <link refid="class_app_1_1_database_1_1_migrations_1_1_tagihan"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Migration</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Database/Migrations/2024-07-13-024055_Tagihan.php" line="7" column="1" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Database/Migrations/2024-07-13-024055_Tagihan.php" bodystart="8" bodyend="53"/>
+    <listofallmembers>
+      <member refid="class_app_1_1_database_1_1_migrations_1_1_tagihan_1a7b7e4309d963afe25e44188e9f4c8d64" prot="public" virt="non-virtual"><scope>App::Database::Migrations::Tagihan</scope><name>down</name></member>
+      <member refid="class_app_1_1_database_1_1_migrations_1_1_tagihan_1a13342b2362ab7dc4569c388e14b3842f" prot="public" virt="non-virtual"><scope>App::Database::Migrations::Tagihan</scope><name>up</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

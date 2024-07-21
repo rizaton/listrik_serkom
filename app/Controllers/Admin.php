@@ -259,6 +259,7 @@ class Admin extends BaseController
                     ->join('tagihan', 'pembayaran.id_tagihan = tagihan.id_tagihan')
                     ->join('user', 'pembayaran.id_user = user.id_user')
                     ->select('pembayaran.*, pelanggan.nama_pelanggan, tagihan.id_status, tagihan.jumlah_meter, user.nama_admin')
+                    ->where()
                     ->findAll(),
                 'admin' => $this
                     ->model_admin

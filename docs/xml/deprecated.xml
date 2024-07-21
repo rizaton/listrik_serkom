@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="deprecated" kind="page">
+    <compoundname>deprecated</compoundname>
+    <title>Deprecated List</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><variablelist>
+<varlistentry><term>Member <ref refid="class_config_1_1_cache_1a3a4c4e232d03b0577ff485a165178a9d" kindref="member">Config\Cache::$storePath</ref>  </term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000001"/>Use the driver-specific variant under $file  </para>
+</listitem>
+<varlistentry><term>Member <ref refid="class_config_1_1_format_1ad33bee4523a8a72d55f3b39bbef23844" kindref="member">Config\Format::getFormatter</ref>  (string $mime)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000005"/>This is an alias of <computeroutput>\CodeIgniter\<ref refid="class_config_1_1_format" kindref="compound">Format</ref>\<ref refid="class_config_1_1_format_1ad33bee4523a8a72d55f3b39bbef23844" kindref="member">Format::getFormatter</ref></computeroutput>. Use that instead.  </para>
+</listitem>
+<varlistentry><term>Member <ref refid="class_config_1_1_security_1ae69ed890a29dd2952555bb08072138eb" kindref="member">Config\Security::$samesite</ref>  </term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000006"/><computeroutput><ref refid="namespace_config" kindref="compound">Config</ref>\<ref refid="class_config_1_1_cookie" kindref="compound">Cookie</ref></computeroutput> $samesite property is used. </para>
+</listitem>
+</variablelist>
+</para>
+    </detaileddescription>
+    <location file="deprecated"/>
+  </compounddef>
+</doxygen>

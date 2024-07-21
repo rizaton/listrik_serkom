@@ -1,0 +1,581 @@
+warning: Specified markdown mainpage '../README.md' has not been defined as input file
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Filters.php:108: warning: Reached end of file while still inside a (nested) comment. Nesting level 2 (probable line reference: 102, 97)
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Admin.php:16: warning: Compound App::Controllers::Admin is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Auth.php:11: warning: Compound App::Controllers::Auth is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php:15: warning: Compound App::Controllers::AuthAdmin is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthPengguna.php:16: warning: Compound App::Controllers::AuthPengguna is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Home.php:5: warning: Compound App::Controllers::Home is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Pengguna.php:8: warning: Compound App::Controllers::Pengguna is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/User.php:8: warning: Compound App::Controllers::User is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Database/Migrations/2024-07-13-023442_Level.php:7: warning: Compound App::Database::Migrations::Level is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Database/Migrations/2024-07-13-023655_Pelanggan.php:7: warning: Compound App::Database::Migrations::Pelanggan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Database/Migrations/2024-07-13-023858_Penggunaan.php:7: warning: Compound App::Database::Migrations::Penggunaan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Database/Migrations/2024-07-15-121930_Status.php:7: warning: Compound App::Database::Migrations::Status is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Database/Migrations/2024-07-13-024055_Tagihan.php:7: warning: Compound App::Database::Migrations::Tagihan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Database/Migrations/2024-07-13-023514_Tarif.php:7: warning: Compound App::Database::Migrations::Tarif is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Database/Migrations/2024-07-13-023555_User.php:7: warning: Compound App::Database::Migrations::User is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Level.php:7: warning: Compound App::Models::Level is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pelanggan.php:7: warning: Compound App::Models::Pelanggan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pembayaran.php:7: warning: Compound App::Models::Pembayaran is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Penggunaan.php:7: warning: Compound App::Models::Penggunaan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Status.php:7: warning: Compound App::Models::Status is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php:7: warning: Compound App::Models::Tagihan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tarif.php:7: warning: Compound App::Models::Tarif is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/User.php:7: warning: Compound App::Models::User is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/App.php:7: warning: Compound Config::App is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/CURLRequest.php:7: warning: Compound Config::CURLRequest is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Cache.php:14: warning: Compound Config::Cache is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Cookie.php:8: warning: Compound Config::Cookie is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Email.php:7: warning: Compound Config::Email is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Filters.php:16: warning: Compound Config::Filters is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Format.php:10: warning: Compound Config::Format is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Generators.php:7: warning: Compound Config::Generators is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Honeypot.php:7: warning: Compound Config::Honeypot is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Images.php:9: warning: Compound Config::Images is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Logger.php:8: warning: Compound Config::Logger is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Migrations.php:7: warning: Compound Config::Migrations is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Pager.php:7: warning: Compound Config::Pager is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Security.php:7: warning: Compound Config::Security is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Session.php:9: warning: Compound Config::Session is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Validation.php:11: warning: Compound Config::Validation is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/App.php:30: warning: documented symbol 'Config\App::list' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/App.php:121: warning: documented symbol 'Config\App::list' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/App.php:181: warning: documented symbol 'Config\App::array' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Autoload.php:40: warning: documented symbol 'Config\Autoload::array' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Autoload.php:61: warning: documented symbol 'Config\Autoload::array' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Autoload.php:78: warning: documented symbol 'Config\Autoload::list' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Autoload.php:91: warning: documented symbol 'Config\Autoload::list' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Cache.php:92: warning: documented symbol 'Config\Cache::array' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Cache.php:108: warning: documented symbol 'Config\Cache::array' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Cache.php:124: warning: documented symbol 'Config\Cache::array' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Cache.php:142: warning: documented symbol 'Config\Cache::array' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Cache.php:168: warning: documented symbol 'bool Config\Cache::list' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php:48: warning: documented symbol 'list< string > string Config\ContentSecurityPolicy::null' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php:55: warning: documented symbol 'list< string > Config\ContentSecurityPolicy::string' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php:62: warning: documented symbol 'list< string > Config\ContentSecurityPolicy::string' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php:69: warning: documented symbol 'list< string > Config\ContentSecurityPolicy::string' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php:78: warning: documented symbol 'list< string > string Config\ContentSecurityPolicy::null' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php:85: warning: documented symbol 'list< string > Config\ContentSecurityPolicy::string' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php:93: warning: documented symbol 'list< string > Config\ContentSecurityPolicy::string' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php:100: warning: documented symbol 'list< string > Config\ContentSecurityPolicy::string' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php:107: warning: documented symbol 'list< string > Config\ContentSecurityPolicy::string' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php:117: warning: documented symbol 'list< string > string Config\ContentSecurityPolicy::null' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php:125: warning: documented symbol 'list< string > string Config\ContentSecurityPolicy::null' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php:132: warning: documented symbol 'list< string > string Config\ContentSecurityPolicy::null' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php:139: warning: documented symbol 'list< string > Config\ContentSecurityPolicy::string' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php:144: warning: documented symbol 'list< string > string Config\ContentSecurityPolicy::null' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php:151: warning: documented symbol 'list< string > string Config\ContentSecurityPolicy::null' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php:158: warning: documented symbol 'list< string > string Config\ContentSecurityPolicy::null' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Cookie.php:28: warning: documented symbol 'DateTimeInterface int Config\Cookie::string' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Cors.php:17: warning: documented symbol 'Config\Cors::array' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Database.php:25: warning: documented symbol 'Config\Database::array' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Database.php:56: warning: documented symbol 'Config\Database::array' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Database.php:77: warning: documented symbol 'Config\Database::array' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Database.php:104: warning: documented symbol 'Config\Database::array' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Database.php:138: warning: documented symbol 'Config\Database::array' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Database.php:161: warning: documented symbol 'Config\Database::array' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/DocTypes.php:13: warning: documented symbol 'Config\DocTypes::array' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Email.php:61: warning: documented symbol 'string tls or ssl tls will issue a STARTTLS Config\Email::command' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Exceptions.php:34: warning: documented symbol 'Config\Exceptions::list' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Exceptions.php:57: warning: documented symbol 'Config\Exceptions::list' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Filters.php:22: warning: documented symbol 'Config\Filters::array' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Filters.php:50: warning: documented symbol 'array before:list< string > after: Config\Filters::list' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Filters.php:68: warning: documented symbol 'Config\Filters::array' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Filters.php:93: warning: documented symbol 'Config\Filters::array' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Filters.php:104: warning: documented symbol 'Config\Filters::array' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Format.php:25: warning: documented symbol 'Config\Format::list' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Format.php:42: warning: documented symbol 'Config\Format::array' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Format.php:58: warning: documented symbol 'Config\Format::array' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Generators.php:26: warning: documented symbol 'Config\Generators::array' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Images.php:25: warning: documented symbol 'Config\Images::array' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Kint.php:29: warning: documented symbol 'list< class-string< ConstructablePluginInterface >|ConstructablePluginInterface > Config\Kint::null' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Kint.php:47: warning: documented symbol 'Config\Kint::array' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Kint.php:52: warning: documented symbol 'Config\Kint::array' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Logger.php:39: warning: documented symbol 'int Config\Logger::list' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Logger.php:76: warning: documented symbol 'Config\Logger::array' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Mimes.php:26: warning: documented symbol 'Config\Mimes::array' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Modules.php:26: warning: documented symbol 'Config\Modules::bool' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Modules.php:38: warning: documented symbol 'Config\Modules::bool' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Modules.php:61: warning: documented symbol 'array only:list< string > exclude: Config\Modules::list' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Modules.php:75: warning: documented symbol 'Config\Modules::list' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Pager.php:21: warning: documented symbol 'Config\Pager::array' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Publisher.php:22: warning: documented symbol 'Config\Publisher::array' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Routes.php:6: warning: documented symbol 'RouteCollection $routes' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Routing.php:29: warning: documented symbol 'Config\Routing::list' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Routing.php:126: warning: documented symbol 'Config\Routing::array' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Security.php:16: warning: documented symbol 'string cookie or Config\Security::session' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Session.php:22: warning: documented symbol 'class Config\Session::string' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Toolbar.php:34: warning: documented symbol 'Config\Toolbar::list' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Toolbar.php:103: warning: documented symbol 'Config\Toolbar::list' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Toolbar.php:117: warning: documented symbol 'Config\Toolbar::list' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/UserAgents.php:24: warning: documented symbol 'Config\UserAgents::array' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/UserAgents.php:79: warning: documented symbol 'Config\UserAgents::array' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/UserAgents.php:120: warning: documented symbol 'Config\UserAgents::array' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/UserAgents.php:229: warning: documented symbol 'Config\UserAgents::array' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Validation.php:21: warning: documented symbol 'Config\Validation::list' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Validation.php:34: warning: documented symbol 'Config\Validation::array' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/View.php:22: warning: documented symbol 'Config\View::bool' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/View.php:37: warning: documented symbol 'Config\View::array' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/View.php:47: warning: documented symbol 'Config\View::array' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/View.php:59: warning: documented symbol 'Config\View::list' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/BaseController.php:27: warning: documented symbol 'CLIRequest App\Controllers\BaseController::IncomingRequest' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/BaseController.php:36: warning: documented symbol 'App\Controllers\BaseController::list' was not declared or defined.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Views/errors/html/error_exception.php:144: warning: member with no name found.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Admin.php:39: warning: Member index() (function) of class App::Controllers::Admin is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Admin.php:78: warning: Member kelola_tarif() (function) of class App::Controllers::Admin is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Admin.php:98: warning: Member kelola_level() (function) of class App::Controllers::Admin is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Admin.php:118: warning: Member kelola_user() (function) of class App::Controllers::Admin is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Admin.php:143: warning: Member kelola_pelanggan() (function) of class App::Controllers::Admin is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Admin.php:167: warning: Member kelola_penggunaan() (function) of class App::Controllers::Admin is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Admin.php:191: warning: Member kelola_tagihan() (function) of class App::Controllers::Admin is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Admin.php:217: warning: Member kelola_pembayaran() (function) of class App::Controllers::Admin is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Admin.php:247: warning: Member laporan() (function) of class App::Controllers::Admin is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Admin.php:279: warning: Member edit_level() (function) of class App::Controllers::Admin is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Admin.php:302: warning: Member edit_tarif() (function) of class App::Controllers::Admin is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Admin.php:325: warning: Member edit_user() (function) of class App::Controllers::Admin is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Admin.php:350: warning: Member edit_pelanggan() (function) of class App::Controllers::Admin is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Admin.php:377: warning: Member edit_penggunaan() (function) of class App::Controllers::Admin is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Admin.php:402: warning: Member edit_tagihan() (function) of class App::Controllers::Admin is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Admin.php:429: warning: Member edit_pembayaran() (function) of class App::Controllers::Admin is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Admin.php:461: warning: Member create_level() (function) of class App::Controllers::Admin is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Admin.php:473: warning: Member create_tarif() (function) of class App::Controllers::Admin is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Admin.php:485: warning: Member create_user() (function) of class App::Controllers::Admin is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Admin.php:498: warning: Member create_pelanggan() (function) of class App::Controllers::Admin is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Admin.php:511: warning: Member create_penggunaan() (function) of class App::Controllers::Admin is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Admin.php:524: warning: Member create_tagihan() (function) of class App::Controllers::Admin is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Admin.php:26: warning: Member $helpers (variable) of class App::Controllers::Admin is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/BaseController.php:29: warning: Member $request (variable) of class App::Controllers::BaseController is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/BaseController.php:38: warning: Member $helpers (variable) of class App::Controllers::BaseController is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Auth.php:24: warning: Member index() (function) of class App::Controllers::Auth is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Auth.php:34: warning: Member auth_admin() (function) of class App::Controllers::Auth is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Auth.php:63: warning: Member auth_user() (function) of class App::Controllers::Auth is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Auth.php:92: warning: Member logout() (function) of class App::Controllers::Auth is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Auth.php:16: warning: Member $helpers (variable) of class App::Controllers::Auth is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/BaseController.php:29: warning: Member $request (variable) of class App::Controllers::BaseController is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/BaseController.php:38: warning: Member $helpers (variable) of class App::Controllers::BaseController is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php:36: warning: Member index() (function) of class App::Controllers::AuthAdmin is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php:40: warning: Member delete_level() (function) of class App::Controllers::AuthAdmin is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php:56: warning: Member delete_tarif() (function) of class App::Controllers::AuthAdmin is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php:72: warning: Member delete_tagihan() (function) of class App::Controllers::AuthAdmin is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php:88: warning: Member delete_penggunaan() (function) of class App::Controllers::AuthAdmin is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php:104: warning: Member delete_pembayaran() (function) of class App::Controllers::AuthAdmin is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php:120: warning: Member delete_pelanggan() (function) of class App::Controllers::AuthAdmin is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php:136: warning: Member delete_user() (function) of class App::Controllers::AuthAdmin is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php:152: warning: Member update_level() (function) of class App::Controllers::AuthAdmin is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php:172: warning: Member update_pelanggan() (function) of class App::Controllers::AuthAdmin is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php:198: warning: Member update_tarif() (function) of class App::Controllers::AuthAdmin is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php:219: warning: Member update_user() (function) of class App::Controllers::AuthAdmin is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php:242: warning: Member update_tagihan() (function) of class App::Controllers::AuthAdmin is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php:262: warning: Member update_penggunaan() (function) of class App::Controllers::AuthAdmin is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php:281: warning: Member update_pembayaran() (function) of class App::Controllers::AuthAdmin is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php:300: warning: Member create_level() (function) of class App::Controllers::AuthAdmin is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php:314: warning: Member create_tarif() (function) of class App::Controllers::AuthAdmin is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php:329: warning: Member create_user() (function) of class App::Controllers::AuthAdmin is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php:346: warning: Member create_pelanggan() (function) of class App::Controllers::AuthAdmin is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php:366: warning: Member create_penggunaan() (function) of class App::Controllers::AuthAdmin is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php:385: warning: Member create_tagihan() (function) of class App::Controllers::AuthAdmin is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthAdmin.php:24: warning: Member $helpers (variable) of class App::Controllers::AuthAdmin is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/BaseController.php:29: warning: Member $request (variable) of class App::Controllers::BaseController is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/BaseController.php:38: warning: Member $helpers (variable) of class App::Controllers::BaseController is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthPengguna.php:37: warning: Member index() (function) of class App::Controllers::AuthPengguna is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthPengguna.php:47: warning: Member bayar_tagihan() (function) of class App::Controllers::AuthPengguna is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/AuthPengguna.php:25: warning: Member $helpers (variable) of class App::Controllers::AuthPengguna is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/BaseController.php:29: warning: Member $request (variable) of class App::Controllers::BaseController is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/BaseController.php:38: warning: Member $helpers (variable) of class App::Controllers::BaseController is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/BaseController.php:29: warning: Member $request (variable) of class App::Controllers::BaseController is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/BaseController.php:38: warning: Member $helpers (variable) of class App::Controllers::BaseController is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Home.php:8: warning: Member index() (function) of class App::Controllers::Home is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Home.php:15: warning: Member login_admin() (function) of class App::Controllers::Home is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Home.php:7: warning: Member $helpers (variable) of class App::Controllers::Home is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/BaseController.php:29: warning: Member $request (variable) of class App::Controllers::BaseController is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/BaseController.php:38: warning: Member $helpers (variable) of class App::Controllers::BaseController is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Pengguna.php:31: warning: Member penggunaan() (function) of class App::Controllers::Pengguna is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Pengguna.php:48: warning: Member tagihan() (function) of class App::Controllers::Pengguna is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Pengguna.php:71: warning: Member riwayat() (function) of class App::Controllers::Pengguna is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Pengguna.php:93: warning: Member bayar_tagihan() (function) of class App::Controllers::Pengguna is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/Pengguna.php:18: warning: Member $helpers (variable) of class App::Controllers::Pengguna is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/BaseController.php:29: warning: Member $request (variable) of class App::Controllers::BaseController is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/BaseController.php:38: warning: Member $helpers (variable) of class App::Controllers::BaseController is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/User.php:31: warning: Member penggunaan() (function) of class App::Controllers::User is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/User.php:48: warning: Member tagihan() (function) of class App::Controllers::User is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/User.php:71: warning: Member riwayat() (function) of class App::Controllers::User is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/User.php:93: warning: Member bayar_tagihan() (function) of class App::Controllers::User is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/User.php:18: warning: Member $helpers (variable) of class App::Controllers::User is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/BaseController.php:29: warning: Member $request (variable) of class App::Controllers::BaseController is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Controllers/BaseController.php:38: warning: Member $helpers (variable) of class App::Controllers::BaseController is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Database/Migrations/2024-07-13-023442_Level.php:9: warning: Member up() (function) of class App::Database::Migrations::Level is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Database/Migrations/2024-07-13-023442_Level.php:27: warning: Member down() (function) of class App::Database::Migrations::Level is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Database/Migrations/2024-07-13-023655_Pelanggan.php:9: warning: Member up() (function) of class App::Database::Migrations::Pelanggan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Database/Migrations/2024-07-13-023655_Pelanggan.php:49: warning: Member down() (function) of class App::Database::Migrations::Pelanggan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Database/Migrations/2024-07-13-023858_Penggunaan.php:9: warning: Member up() (function) of class App::Database::Migrations::Penggunaan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Database/Migrations/2024-07-13-023858_Penggunaan.php:44: warning: Member down() (function) of class App::Database::Migrations::Penggunaan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Database/Migrations/2024-07-15-121930_Status.php:9: warning: Member up() (function) of class App::Database::Migrations::Status is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Database/Migrations/2024-07-15-121930_Status.php:14: warning: Member down() (function) of class App::Database::Migrations::Status is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Database/Migrations/2024-07-13-024055_Tagihan.php:9: warning: Member up() (function) of class App::Database::Migrations::Tagihan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Database/Migrations/2024-07-13-024055_Tagihan.php:49: warning: Member down() (function) of class App::Database::Migrations::Tagihan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Database/Migrations/2024-07-13-023514_Tarif.php:9: warning: Member up() (function) of class App::Database::Migrations::Tarif is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Database/Migrations/2024-07-13-023514_Tarif.php:31: warning: Member down() (function) of class App::Database::Migrations::Tarif is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Database/Migrations/2024-07-13-023555_User.php:9: warning: Member up() (function) of class App::Database::Migrations::User is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Database/Migrations/2024-07-13-023555_User.php:41: warning: Member down() (function) of class App::Database::Migrations::User is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Level.php:9: warning: Member $table (variable) of class App::Models::Level is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Level.php:10: warning: Member $primaryKey (variable) of class App::Models::Level is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Level.php:11: warning: Member $useAutoIncrement (variable) of class App::Models::Level is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Level.php:12: warning: Member $returnType (variable) of class App::Models::Level is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Level.php:13: warning: Member $useSoftDeletes (variable) of class App::Models::Level is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Level.php:14: warning: Member $protectFields (variable) of class App::Models::Level is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Level.php:15: warning: Member $allowedFields (variable) of class App::Models::Level is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Level.php:19: warning: Member $allowEmptyInserts (variable) of class App::Models::Level is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Level.php:20: warning: Member $updateOnlyChanged (variable) of class App::Models::Level is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Level.php:22: warning: Member $casts (variable) of class App::Models::Level is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Level.php:23: warning: Member $castHandlers (variable) of class App::Models::Level is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Level.php:26: warning: Member $useTimestamps (variable) of class App::Models::Level is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Level.php:27: warning: Member $dateFormat (variable) of class App::Models::Level is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Level.php:28: warning: Member $createdField (variable) of class App::Models::Level is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Level.php:29: warning: Member $updatedField (variable) of class App::Models::Level is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Level.php:30: warning: Member $deletedField (variable) of class App::Models::Level is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Level.php:33: warning: Member $validationRules (variable) of class App::Models::Level is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Level.php:36: warning: Member $validationMessages (variable) of class App::Models::Level is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Level.php:42: warning: Member $skipValidation (variable) of class App::Models::Level is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Level.php:43: warning: Member $cleanValidationRules (variable) of class App::Models::Level is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Level.php:46: warning: Member $allowCallbacks (variable) of class App::Models::Level is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Level.php:47: warning: Member $beforeInsert (variable) of class App::Models::Level is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Level.php:48: warning: Member $afterInsert (variable) of class App::Models::Level is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Level.php:49: warning: Member $beforeUpdate (variable) of class App::Models::Level is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Level.php:50: warning: Member $afterUpdate (variable) of class App::Models::Level is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Level.php:51: warning: Member $beforeFind (variable) of class App::Models::Level is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Level.php:52: warning: Member $afterFind (variable) of class App::Models::Level is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Level.php:53: warning: Member $beforeDelete (variable) of class App::Models::Level is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Level.php:54: warning: Member $afterDelete (variable) of class App::Models::Level is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pelanggan.php:9: warning: Member $table (variable) of class App::Models::Pelanggan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pelanggan.php:10: warning: Member $primaryKey (variable) of class App::Models::Pelanggan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pelanggan.php:11: warning: Member $useAutoIncrement (variable) of class App::Models::Pelanggan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pelanggan.php:12: warning: Member $returnType (variable) of class App::Models::Pelanggan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pelanggan.php:13: warning: Member $useSoftDeletes (variable) of class App::Models::Pelanggan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pelanggan.php:14: warning: Member $protectFields (variable) of class App::Models::Pelanggan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pelanggan.php:15: warning: Member $allowedFields (variable) of class App::Models::Pelanggan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pelanggan.php:19: warning: Member $allowEmptyInserts (variable) of class App::Models::Pelanggan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pelanggan.php:20: warning: Member $updateOnlyChanged (variable) of class App::Models::Pelanggan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pelanggan.php:22: warning: Member $casts (variable) of class App::Models::Pelanggan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pelanggan.php:23: warning: Member $castHandlers (variable) of class App::Models::Pelanggan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pelanggan.php:26: warning: Member $useTimestamps (variable) of class App::Models::Pelanggan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pelanggan.php:27: warning: Member $dateFormat (variable) of class App::Models::Pelanggan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pelanggan.php:28: warning: Member $createdField (variable) of class App::Models::Pelanggan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pelanggan.php:29: warning: Member $updatedField (variable) of class App::Models::Pelanggan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pelanggan.php:30: warning: Member $deletedField (variable) of class App::Models::Pelanggan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pelanggan.php:33: warning: Member $validationRules (variable) of class App::Models::Pelanggan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pelanggan.php:41: warning: Member $validationMessages (variable) of class App::Models::Pelanggan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pelanggan.php:68: warning: Member $skipValidation (variable) of class App::Models::Pelanggan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pelanggan.php:69: warning: Member $cleanValidationRules (variable) of class App::Models::Pelanggan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pelanggan.php:72: warning: Member $allowCallbacks (variable) of class App::Models::Pelanggan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pelanggan.php:73: warning: Member $beforeInsert (variable) of class App::Models::Pelanggan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pelanggan.php:74: warning: Member $afterInsert (variable) of class App::Models::Pelanggan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pelanggan.php:75: warning: Member $beforeUpdate (variable) of class App::Models::Pelanggan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pelanggan.php:76: warning: Member $afterUpdate (variable) of class App::Models::Pelanggan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pelanggan.php:77: warning: Member $beforeFind (variable) of class App::Models::Pelanggan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pelanggan.php:78: warning: Member $afterFind (variable) of class App::Models::Pelanggan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pelanggan.php:79: warning: Member $beforeDelete (variable) of class App::Models::Pelanggan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pelanggan.php:80: warning: Member $afterDelete (variable) of class App::Models::Pelanggan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pembayaran.php:9: warning: Member $table (variable) of class App::Models::Pembayaran is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pembayaran.php:10: warning: Member $primaryKey (variable) of class App::Models::Pembayaran is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pembayaran.php:11: warning: Member $useAutoIncrement (variable) of class App::Models::Pembayaran is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pembayaran.php:12: warning: Member $returnType (variable) of class App::Models::Pembayaran is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pembayaran.php:13: warning: Member $useSoftDeletes (variable) of class App::Models::Pembayaran is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pembayaran.php:14: warning: Member $protectFields (variable) of class App::Models::Pembayaran is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pembayaran.php:15: warning: Member $allowedFields (variable) of class App::Models::Pembayaran is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pembayaran.php:19: warning: Member $allowEmptyInserts (variable) of class App::Models::Pembayaran is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pembayaran.php:20: warning: Member $updateOnlyChanged (variable) of class App::Models::Pembayaran is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pembayaran.php:22: warning: Member $casts (variable) of class App::Models::Pembayaran is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pembayaran.php:23: warning: Member $castHandlers (variable) of class App::Models::Pembayaran is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pembayaran.php:26: warning: Member $useTimestamps (variable) of class App::Models::Pembayaran is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pembayaran.php:27: warning: Member $dateFormat (variable) of class App::Models::Pembayaran is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pembayaran.php:28: warning: Member $createdField (variable) of class App::Models::Pembayaran is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pembayaran.php:29: warning: Member $updatedField (variable) of class App::Models::Pembayaran is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pembayaran.php:30: warning: Member $deletedField (variable) of class App::Models::Pembayaran is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pembayaran.php:33: warning: Member $validationRules (variable) of class App::Models::Pembayaran is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pembayaran.php:41: warning: Member $validationMessages (variable) of class App::Models::Pembayaran is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pembayaran.php:71: warning: Member $skipValidation (variable) of class App::Models::Pembayaran is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pembayaran.php:72: warning: Member $cleanValidationRules (variable) of class App::Models::Pembayaran is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pembayaran.php:75: warning: Member $allowCallbacks (variable) of class App::Models::Pembayaran is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pembayaran.php:76: warning: Member $beforeInsert (variable) of class App::Models::Pembayaran is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pembayaran.php:77: warning: Member $afterInsert (variable) of class App::Models::Pembayaran is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pembayaran.php:78: warning: Member $beforeUpdate (variable) of class App::Models::Pembayaran is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pembayaran.php:79: warning: Member $afterUpdate (variable) of class App::Models::Pembayaran is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pembayaran.php:80: warning: Member $beforeFind (variable) of class App::Models::Pembayaran is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pembayaran.php:81: warning: Member $afterFind (variable) of class App::Models::Pembayaran is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pembayaran.php:82: warning: Member $beforeDelete (variable) of class App::Models::Pembayaran is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Pembayaran.php:83: warning: Member $afterDelete (variable) of class App::Models::Pembayaran is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Penggunaan.php:81: warning: Member tambah_tagihan(array $data) (function) of class App::Models::Penggunaan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Penggunaan.php:9: warning: Member $table (variable) of class App::Models::Penggunaan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Penggunaan.php:10: warning: Member $primaryKey (variable) of class App::Models::Penggunaan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Penggunaan.php:11: warning: Member $useAutoIncrement (variable) of class App::Models::Penggunaan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Penggunaan.php:12: warning: Member $returnType (variable) of class App::Models::Penggunaan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Penggunaan.php:13: warning: Member $useSoftDeletes (variable) of class App::Models::Penggunaan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Penggunaan.php:14: warning: Member $protectFields (variable) of class App::Models::Penggunaan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Penggunaan.php:15: warning: Member $allowedFields (variable) of class App::Models::Penggunaan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Penggunaan.php:19: warning: Member $allowEmptyInserts (variable) of class App::Models::Penggunaan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Penggunaan.php:20: warning: Member $updateOnlyChanged (variable) of class App::Models::Penggunaan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Penggunaan.php:22: warning: Member $casts (variable) of class App::Models::Penggunaan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Penggunaan.php:23: warning: Member $castHandlers (variable) of class App::Models::Penggunaan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Penggunaan.php:26: warning: Member $useTimestamps (variable) of class App::Models::Penggunaan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Penggunaan.php:27: warning: Member $dateFormat (variable) of class App::Models::Penggunaan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Penggunaan.php:28: warning: Member $createdField (variable) of class App::Models::Penggunaan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Penggunaan.php:29: warning: Member $updatedField (variable) of class App::Models::Penggunaan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Penggunaan.php:30: warning: Member $deletedField (variable) of class App::Models::Penggunaan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Penggunaan.php:33: warning: Member $validationRules (variable) of class App::Models::Penggunaan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Penggunaan.php:40: warning: Member $validationMessages (variable) of class App::Models::Penggunaan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Penggunaan.php:67: warning: Member $skipValidation (variable) of class App::Models::Penggunaan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Penggunaan.php:68: warning: Member $cleanValidationRules (variable) of class App::Models::Penggunaan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Penggunaan.php:71: warning: Member $allowCallbacks (variable) of class App::Models::Penggunaan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Penggunaan.php:72: warning: Member $beforeInsert (variable) of class App::Models::Penggunaan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Penggunaan.php:73: warning: Member $afterInsert (variable) of class App::Models::Penggunaan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Penggunaan.php:74: warning: Member $beforeUpdate (variable) of class App::Models::Penggunaan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Penggunaan.php:75: warning: Member $afterUpdate (variable) of class App::Models::Penggunaan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Penggunaan.php:76: warning: Member $beforeFind (variable) of class App::Models::Penggunaan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Penggunaan.php:77: warning: Member $afterFind (variable) of class App::Models::Penggunaan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Penggunaan.php:78: warning: Member $beforeDelete (variable) of class App::Models::Penggunaan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Penggunaan.php:79: warning: Member $afterDelete (variable) of class App::Models::Penggunaan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Status.php:9: warning: Member $table (variable) of class App::Models::Status is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Status.php:10: warning: Member $primaryKey (variable) of class App::Models::Status is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Status.php:11: warning: Member $useAutoIncrement (variable) of class App::Models::Status is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Status.php:12: warning: Member $returnType (variable) of class App::Models::Status is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Status.php:13: warning: Member $useSoftDeletes (variable) of class App::Models::Status is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Status.php:14: warning: Member $protectFields (variable) of class App::Models::Status is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Status.php:15: warning: Member $allowedFields (variable) of class App::Models::Status is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Status.php:20: warning: Member $allowEmptyInserts (variable) of class App::Models::Status is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Status.php:21: warning: Member $updateOnlyChanged (variable) of class App::Models::Status is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Status.php:23: warning: Member $casts (variable) of class App::Models::Status is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Status.php:24: warning: Member $castHandlers (variable) of class App::Models::Status is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Status.php:27: warning: Member $useTimestamps (variable) of class App::Models::Status is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Status.php:28: warning: Member $dateFormat (variable) of class App::Models::Status is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Status.php:29: warning: Member $createdField (variable) of class App::Models::Status is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Status.php:30: warning: Member $updatedField (variable) of class App::Models::Status is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Status.php:31: warning: Member $deletedField (variable) of class App::Models::Status is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Status.php:34: warning: Member $validationRules (variable) of class App::Models::Status is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Status.php:37: warning: Member $validationMessages (variable) of class App::Models::Status is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Status.php:42: warning: Member $skipValidation (variable) of class App::Models::Status is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Status.php:43: warning: Member $cleanValidationRules (variable) of class App::Models::Status is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Status.php:46: warning: Member $allowCallbacks (variable) of class App::Models::Status is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Status.php:47: warning: Member $beforeInsert (variable) of class App::Models::Status is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Status.php:48: warning: Member $afterInsert (variable) of class App::Models::Status is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Status.php:49: warning: Member $beforeUpdate (variable) of class App::Models::Status is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Status.php:50: warning: Member $afterUpdate (variable) of class App::Models::Status is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Status.php:51: warning: Member $beforeFind (variable) of class App::Models::Status is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Status.php:52: warning: Member $afterFind (variable) of class App::Models::Status is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Status.php:53: warning: Member $beforeDelete (variable) of class App::Models::Status is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Status.php:54: warning: Member $afterDelete (variable) of class App::Models::Status is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php:9: warning: Member $table (variable) of class App::Models::Tagihan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php:10: warning: Member $primaryKey (variable) of class App::Models::Tagihan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php:11: warning: Member $useAutoIncrement (variable) of class App::Models::Tagihan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php:12: warning: Member $returnType (variable) of class App::Models::Tagihan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php:13: warning: Member $useSoftDeletes (variable) of class App::Models::Tagihan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php:14: warning: Member $protectFields (variable) of class App::Models::Tagihan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php:15: warning: Member $allowedFields (variable) of class App::Models::Tagihan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php:19: warning: Member $allowEmptyInserts (variable) of class App::Models::Tagihan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php:20: warning: Member $updateOnlyChanged (variable) of class App::Models::Tagihan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php:22: warning: Member $casts (variable) of class App::Models::Tagihan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php:23: warning: Member $castHandlers (variable) of class App::Models::Tagihan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php:26: warning: Member $useTimestamps (variable) of class App::Models::Tagihan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php:27: warning: Member $dateFormat (variable) of class App::Models::Tagihan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php:28: warning: Member $createdField (variable) of class App::Models::Tagihan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php:29: warning: Member $updatedField (variable) of class App::Models::Tagihan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php:30: warning: Member $deletedField (variable) of class App::Models::Tagihan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php:33: warning: Member $validationRules (variable) of class App::Models::Tagihan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php:42: warning: Member $validationMessages (variable) of class App::Models::Tagihan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php:78: warning: Member $skipValidation (variable) of class App::Models::Tagihan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php:79: warning: Member $cleanValidationRules (variable) of class App::Models::Tagihan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php:82: warning: Member $allowCallbacks (variable) of class App::Models::Tagihan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php:83: warning: Member $beforeInsert (variable) of class App::Models::Tagihan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php:84: warning: Member $afterInsert (variable) of class App::Models::Tagihan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php:85: warning: Member $beforeUpdate (variable) of class App::Models::Tagihan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php:86: warning: Member $afterUpdate (variable) of class App::Models::Tagihan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php:87: warning: Member $beforeFind (variable) of class App::Models::Tagihan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php:88: warning: Member $afterFind (variable) of class App::Models::Tagihan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php:89: warning: Member $beforeDelete (variable) of class App::Models::Tagihan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tagihan.php:90: warning: Member $afterDelete (variable) of class App::Models::Tagihan is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tarif.php:9: warning: Member $table (variable) of class App::Models::Tarif is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tarif.php:10: warning: Member $primaryKey (variable) of class App::Models::Tarif is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tarif.php:11: warning: Member $useAutoIncrement (variable) of class App::Models::Tarif is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tarif.php:12: warning: Member $returnType (variable) of class App::Models::Tarif is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tarif.php:13: warning: Member $useSoftDeletes (variable) of class App::Models::Tarif is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tarif.php:14: warning: Member $protectFields (variable) of class App::Models::Tarif is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tarif.php:15: warning: Member $allowedFields (variable) of class App::Models::Tarif is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tarif.php:19: warning: Member $allowEmptyInserts (variable) of class App::Models::Tarif is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tarif.php:20: warning: Member $updateOnlyChanged (variable) of class App::Models::Tarif is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tarif.php:22: warning: Member $casts (variable) of class App::Models::Tarif is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tarif.php:23: warning: Member $castHandlers (variable) of class App::Models::Tarif is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tarif.php:26: warning: Member $useTimestamps (variable) of class App::Models::Tarif is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tarif.php:27: warning: Member $dateFormat (variable) of class App::Models::Tarif is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tarif.php:28: warning: Member $createdField (variable) of class App::Models::Tarif is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tarif.php:29: warning: Member $updatedField (variable) of class App::Models::Tarif is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tarif.php:30: warning: Member $deletedField (variable) of class App::Models::Tarif is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tarif.php:33: warning: Member $validationRules (variable) of class App::Models::Tarif is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tarif.php:36: warning: Member $validationMessages (variable) of class App::Models::Tarif is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tarif.php:43: warning: Member $skipValidation (variable) of class App::Models::Tarif is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tarif.php:44: warning: Member $cleanValidationRules (variable) of class App::Models::Tarif is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tarif.php:47: warning: Member $allowCallbacks (variable) of class App::Models::Tarif is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tarif.php:48: warning: Member $beforeInsert (variable) of class App::Models::Tarif is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tarif.php:49: warning: Member $afterInsert (variable) of class App::Models::Tarif is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tarif.php:50: warning: Member $beforeUpdate (variable) of class App::Models::Tarif is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tarif.php:51: warning: Member $afterUpdate (variable) of class App::Models::Tarif is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tarif.php:52: warning: Member $beforeFind (variable) of class App::Models::Tarif is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tarif.php:53: warning: Member $afterFind (variable) of class App::Models::Tarif is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tarif.php:54: warning: Member $beforeDelete (variable) of class App::Models::Tarif is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/Tarif.php:55: warning: Member $afterDelete (variable) of class App::Models::Tarif is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/User.php:9: warning: Member $table (variable) of class App::Models::User is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/User.php:10: warning: Member $primaryKey (variable) of class App::Models::User is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/User.php:11: warning: Member $useAutoIncrement (variable) of class App::Models::User is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/User.php:12: warning: Member $returnType (variable) of class App::Models::User is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/User.php:13: warning: Member $useSoftDeletes (variable) of class App::Models::User is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/User.php:14: warning: Member $protectFields (variable) of class App::Models::User is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/User.php:15: warning: Member $allowedFields (variable) of class App::Models::User is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/User.php:19: warning: Member $allowEmptyInserts (variable) of class App::Models::User is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/User.php:20: warning: Member $updateOnlyChanged (variable) of class App::Models::User is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/User.php:22: warning: Member $casts (variable) of class App::Models::User is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/User.php:23: warning: Member $castHandlers (variable) of class App::Models::User is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/User.php:26: warning: Member $useTimestamps (variable) of class App::Models::User is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/User.php:27: warning: Member $dateFormat (variable) of class App::Models::User is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/User.php:28: warning: Member $createdField (variable) of class App::Models::User is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/User.php:29: warning: Member $updatedField (variable) of class App::Models::User is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/User.php:30: warning: Member $deletedField (variable) of class App::Models::User is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/User.php:33: warning: Member $validationRules (variable) of class App::Models::User is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/User.php:39: warning: Member $validationMessages (variable) of class App::Models::User is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/User.php:57: warning: Member $skipValidation (variable) of class App::Models::User is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/User.php:58: warning: Member $cleanValidationRules (variable) of class App::Models::User is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/User.php:61: warning: Member $allowCallbacks (variable) of class App::Models::User is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/User.php:62: warning: Member $beforeInsert (variable) of class App::Models::User is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/User.php:63: warning: Member $afterInsert (variable) of class App::Models::User is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/User.php:64: warning: Member $beforeUpdate (variable) of class App::Models::User is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/User.php:65: warning: Member $afterUpdate (variable) of class App::Models::User is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/User.php:66: warning: Member $beforeFind (variable) of class App::Models::User is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/User.php:67: warning: Member $afterFind (variable) of class App::Models::User is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/User.php:68: warning: Member $beforeDelete (variable) of class App::Models::User is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Models/User.php:69: warning: Member $afterDelete (variable) of class App::Models::User is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/App.php:32: warning: Member $allowedHostnames (variable) of class Config::App is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/App.php:84: warning: Member $permittedURIChars (variable) of class Config::App is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/App.php:123: warning: Member $supportedLocales (variable) of class Config::App is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/App.php:183: warning: Member $proxyIPs (variable) of class Config::App is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Autoload.php:42: warning: Member $psr4 (variable) of class Config::Autoload is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Autoload.php:63: warning: Member $classmap (variable) of class Config::Autoload is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Autoload.php:80: warning: Member $files (variable) of class Config::Autoload is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Autoload.php:93: warning: Member $helpers (variable) of class Config::Autoload is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Autoload.php:21: warning: Found unknown command '@immutable'
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Cache.php:94: warning: Member $file (variable) of class Config::Cache is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Cache.php:110: warning: Member $memcached (variable) of class Config::Cache is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Cache.php:126: warning: Member $redis (variable) of class Config::Cache is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Cache.php:144: warning: Member $validHandlers (variable) of class Config::Cache is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Cache.php:170: warning: Member $cacheQueryString (variable) of class Config::Cache is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php:50: warning: Member $defaultSrc (variable) of class Config::ContentSecurityPolicy is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php:57: warning: Member $scriptSrc (variable) of class Config::ContentSecurityPolicy is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php:64: warning: Member $styleSrc (variable) of class Config::ContentSecurityPolicy is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php:71: warning: Member $imageSrc (variable) of class Config::ContentSecurityPolicy is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php:80: warning: Member $baseURI (variable) of class Config::ContentSecurityPolicy is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php:87: warning: Member $childSrc (variable) of class Config::ContentSecurityPolicy is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php:95: warning: Member $connectSrc (variable) of class Config::ContentSecurityPolicy is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php:102: warning: Member $fontSrc (variable) of class Config::ContentSecurityPolicy is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php:109: warning: Member $formAction (variable) of class Config::ContentSecurityPolicy is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php:119: warning: Member $frameAncestors (variable) of class Config::ContentSecurityPolicy is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php:127: warning: Member $frameSrc (variable) of class Config::ContentSecurityPolicy is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php:134: warning: Member $mediaSrc (variable) of class Config::ContentSecurityPolicy is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php:141: warning: Member $objectSrc (variable) of class Config::ContentSecurityPolicy is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php:146: warning: Member $manifestSrc (variable) of class Config::ContentSecurityPolicy is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php:153: warning: Member $pluginTypes (variable) of class Config::ContentSecurityPolicy is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php:160: warning: Member $sandbox (variable) of class Config::ContentSecurityPolicy is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Cookie.php:30: warning: Member $expires (variable) of class Config::Cookie is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Cookie.php:88: warning: Found unknown command '@phpstan'
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Cors.php:27: warning: Member $default (variable) of class Config::Cors is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Database.php:27: warning: Member $default (variable) of class Config::Database is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Database.php:163: warning: Member $tests (variable) of class Config::Database is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/DocTypes.php:15: warning: Member $list (variable) of class Config::DocTypes is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/DocTypes.php:6: warning: Found unknown command '@immutable'
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Email.php:9: warning: Member $fromEmail (variable) of class Config::Email is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Email.php:10: warning: Member $fromName (variable) of class Config::Email is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Email.php:11: warning: Member $recipients (variable) of class Config::Email is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Email.php:65: warning: Member $SMTPCrypto (variable) of class Config::Email is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Email.php:98: warning: Found unknown command '\r'
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Email.php:103: warning: Found unknown command '\r'
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Exceptions.php:102: warning: Member handler(int $statusCode, Throwable $exception) (function) of class Config::Exceptions is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Exceptions.php:36: warning: Member $ignoreCodes (variable) of class Config::Exceptions is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Exceptions.php:59: warning: Member $sensitiveDataInTrace (variable) of class Config::Exceptions is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Filters.php:27: warning: Member $aliases (variable) of class Config::Filters is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Filters.php:52: warning: Member $required (variable) of class Config::Filters is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Filters.php:70: warning: Member $globals (variable) of class Config::Filters is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Filters.php:95: warning: Member $methods (variable) of class Config::Filters is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Filters.php:106: warning: Member $filters (variable) of class Config::Filters is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ForeignCharacters.php:8: warning: Found unknown command '@immutable'
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Format.php:27: warning: Member $supportedResponseFormats (variable) of class Config::Format is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Format.php:44: warning: Member $formatters (variable) of class Config::Format is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Format.php:60: warning: Member $formatterOptions (variable) of class Config::Format is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Generators.php:28: warning: Member $views (variable) of class Config::Generators is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Images.php:27: warning: Member $handlers (variable) of class Config::Images is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Kint.php:31: warning: Member $plugins (variable) of class Config::Kint is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Kint.php:33: warning: Member $maxDepth (variable) of class Config::Kint is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Kint.php:34: warning: Member $displayCalledFrom (variable) of class Config::Kint is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Kint.php:35: warning: Member $expanded (variable) of class Config::Kint is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Kint.php:42: warning: Member $richTheme (variable) of class Config::Kint is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Kint.php:43: warning: Member $richFolder (variable) of class Config::Kint is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Kint.php:44: warning: Member $richSort (variable) of class Config::Kint is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Kint.php:49: warning: Member $richObjectPlugins (variable) of class Config::Kint is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Kint.php:54: warning: Member $richTabPlugins (variable) of class Config::Kint is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Kint.php:61: warning: Member $cliColors (variable) of class Config::Kint is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Kint.php:62: warning: Member $cliForceUTF8 (variable) of class Config::Kint is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Kint.php:63: warning: Member $cliDetectWidth (variable) of class Config::Kint is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Kint.php:64: warning: Member $cliMinWidth (variable) of class Config::Kint is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Logger.php:41: warning: Member $threshold (variable) of class Config::Logger is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Logger.php:78: warning: Member $handlers (variable) of class Config::Logger is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Mimes.php:28: warning: Member $mimes (variable) of class Config::Mimes is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Mimes.php:19: warning: Found unknown command '@immutable'
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Mimes.php:505: warning: The following parameter of Config\Mimes\guessExtensionFromType(string $type, ?string $proposedExtension=null) is not documented:
+  parameter '$type'
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Modules.php:28: warning: Member $enabled (variable) of class Config::Modules is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Modules.php:40: warning: Member $discoverInComposer (variable) of class Config::Modules is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Modules.php:63: warning: Member $composerPackages (variable) of class Config::Modules is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Modules.php:77: warning: Member $aliases (variable) of class Config::Modules is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Modules.php:13: warning: Found unknown command '@immutable'
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Optimize.php:11: warning: Found unknown command '@immutable'
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Pager.php:23: warning: Member $templates (variable) of class Config::Pager is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Publisher.php:24: warning: Member $restrictions (variable) of class Config::Publisher is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Routing.php:31: warning: Member $routeFiles (variable) of class Config::Routing is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Routing.php:128: warning: Member $moduleRoutes (variable) of class Config::Routing is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Routing.php:40: warning: Found unknown command '\Controllers'
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Routing.php:85: warning: Found unknown command '\Errors'
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Security.php:18: warning: Member $csrfProtection (variable) of class Config::Security is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Session.php:24: warning: Member $driver (variable) of class Config::Session is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Toolbar.php:36: warning: Member $collectors (variable) of class Config::Toolbar is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Toolbar.php:105: warning: Member $watchedDirectories (variable) of class Config::Toolbar is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Toolbar.php:119: warning: Member $watchedExtensions (variable) of class Config::Toolbar is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/UserAgents.php:26: warning: Member $platforms (variable) of class Config::UserAgents is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/UserAgents.php:81: warning: Member $browsers (variable) of class Config::UserAgents is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/UserAgents.php:122: warning: Member $mobiles (variable) of class Config::UserAgents is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/UserAgents.php:231: warning: Member $robots (variable) of class Config::UserAgents is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Validation.php:23: warning: Member $ruleSets (variable) of class Config::Validation is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Validation.php:36: warning: Member $templates (variable) of class Config::Validation is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/View.php:24: warning: Member $saveData (variable) of class Config::View is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/View.php:40: warning: Member $filters (variable) of class Config::View is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/View.php:50: warning: Member $plugins (variable) of class Config::View is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/View.php:61: warning: Member $decorators (variable) of class Config::View is not documented.
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/View.php:9: warning: Found unknown command '@phpstan'
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/View.php:10: warning: Found unknown command '@phpstan'
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Autoload.php:21: warning: Found unknown command '@immutable'
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Cookie.php:88: warning: Found unknown command '@phpstan'
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/DocTypes.php:6: warning: Found unknown command '@immutable'
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Email.php:98: warning: Found unknown command '\r'
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Email.php:103: warning: Found unknown command '\r'
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ForeignCharacters.php:8: warning: Found unknown command '@immutable'
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Mimes.php:505: warning: The following parameter of Config\Mimes\guessExtensionFromType(string $type, ?string $proposedExtension=null) is not documented:
+  parameter '$type'
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Mimes.php:19: warning: Found unknown command '@immutable'
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Modules.php:13: warning: Found unknown command '@immutable'
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Optimize.php:11: warning: Found unknown command '@immutable'
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Routing.php:40: warning: Found unknown command '\Controllers'
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Routing.php:85: warning: Found unknown command '\Errors'
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/View.php:9: warning: Found unknown command '@phpstan'
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/View.php:10: warning: Found unknown command '@phpstan'
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Constants.php:82: warning: Found unknown command '\CodeIgniter'
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Constants.php:82: warning: Found unknown command '\Events'
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Constants.php:82: warning: Found unknown command '\Events'
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Constants.php:87: warning: Found unknown command '\CodeIgniter'
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Constants.php:87: warning: Found unknown command '\Events'
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Constants.php:87: warning: Found unknown command '\Events'
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Constants.php:92: warning: Found unknown command '\CodeIgniter'
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Constants.php:92: warning: Found unknown command '\Events'
+C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Constants.php:92: warning: Found unknown command '\Events'

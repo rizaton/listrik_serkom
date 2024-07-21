@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="class_config_1_1_user_agents" kind="class" language="PHP" prot="public">
+    <compoundname>Config::UserAgents</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">BaseConfig</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_config_1_1_user_agents_1a7488f7021b8dd19e93e49d32b4f447a2" prot="public" static="no" mutable="no">
+        <type>array</type>
+        <definition>array Config\UserAgents::$platforms</definition>
+        <argsstring></argsstring>
+        <name>$platforms</name>
+        <qualifiedname>Config\UserAgents\$platforms</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/UserAgents.php" line="26" column="18" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/UserAgents.php" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_user_agents_1a77162cc97caff78e8b5cf03009fd3c68" prot="public" static="no" mutable="no">
+        <type>array</type>
+        <definition>array Config\UserAgents::$browsers</definition>
+        <argsstring></argsstring>
+        <name>$browsers</name>
+        <qualifiedname>Config\UserAgents\$browsers</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/UserAgents.php" line="81" column="18" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/UserAgents.php" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_user_agents_1aa5e019e7704f89fe08e86715a0bae592" prot="public" static="no" mutable="no">
+        <type>array</type>
+        <definition>array Config\UserAgents::$mobiles</definition>
+        <argsstring></argsstring>
+        <name>$mobiles</name>
+        <qualifiedname>Config\UserAgents\$mobiles</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/UserAgents.php" line="122" column="18" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/UserAgents.php" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_user_agents_1ab897fc0158049be7fbcd1929467e9908" prot="public" static="no" mutable="no">
+        <type>array</type>
+        <definition>array Config\UserAgents::$robots</definition>
+        <argsstring></argsstring>
+        <name>$robots</name>
+        <qualifiedname>Config\UserAgents\$robots</qualifiedname>
+        <initializer>= [
+        &apos;googlebot&apos;            =&gt; &apos;Googlebot&apos;,
+        &apos;msnbot&apos;               =&gt; &apos;MSNBot&apos;,
+        &apos;baiduspider&apos;          =&gt; &apos;Baiduspider&apos;,
+        &apos;bingbot&apos;              =&gt; &apos;Bing&apos;,
+        &apos;slurp&apos;                =&gt; &apos;Inktomi Slurp&apos;,
+        &apos;yahoo&apos;                =&gt; &apos;Yahoo&apos;,
+        &apos;ask jeeves&apos;           =&gt; &apos;Ask Jeeves&apos;,
+        &apos;fastcrawler&apos;          =&gt; &apos;FastCrawler&apos;,
+        &apos;infoseek&apos;             =&gt; &apos;InfoSeek Robot 1.0&apos;,
+        &apos;lycos&apos;                =&gt; &apos;Lycos&apos;,
+        &apos;yandex&apos;               =&gt; &apos;YandexBot&apos;,
+        &apos;mediapartners-google&apos; =&gt; &apos;MediaPartners Google&apos;,
+        &apos;CRAZYWEBCRAWLER&apos;      =&gt; &apos;Crazy Webcrawler&apos;,
+        &apos;adsbot-google&apos;        =&gt; &apos;AdsBot Google&apos;,
+        &apos;feedfetcher-google&apos;   =&gt; &apos;Feedfetcher Google&apos;,
+        &apos;curious george&apos;       =&gt; &apos;Curious George&apos;,
+        &apos;ia_archiver&apos;          =&gt; &apos;Alexa Crawler&apos;,
+        &apos;MJ12bot&apos;              =&gt; &apos;Majestic-12&apos;,
+        &apos;Uptimebot&apos;            =&gt; &apos;Uptimebot&apos;,
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/UserAgents.php" line="231" column="18" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/UserAgents.php" bodystart="231" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_user_agents_1autotoc_md193">
+<title>User Agents</title><para>This file contains four arrays of user agent data. It is used by the User Agent Class to help identify browser, platform, robot, and mobile device data. The array keys are used to identify the device and the array values are used to set the actual name of the item. </para>
+</sect2>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>BaseConfig</label>
+      </node>
+      <node id="1">
+        <label>Config\UserAgents</label>
+        <link refid="class_config_1_1_user_agents"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>BaseConfig</label>
+      </node>
+      <node id="1">
+        <label>Config\UserAgents</label>
+        <link refid="class_config_1_1_user_agents"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/UserAgents.php" line="17" column="1" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/UserAgents.php" bodystart="18" bodyend="252"/>
+    <listofallmembers>
+      <member refid="class_config_1_1_user_agents_1a77162cc97caff78e8b5cf03009fd3c68" prot="public" virt="non-virtual"><scope>Config::UserAgents</scope><name>$browsers</name></member>
+      <member refid="class_config_1_1_user_agents_1aa5e019e7704f89fe08e86715a0bae592" prot="public" virt="non-virtual"><scope>Config::UserAgents</scope><name>$mobiles</name></member>
+      <member refid="class_config_1_1_user_agents_1a7488f7021b8dd19e93e49d32b4f447a2" prot="public" virt="non-virtual"><scope>Config::UserAgents</scope><name>$platforms</name></member>
+      <member refid="class_config_1_1_user_agents_1ab897fc0158049be7fbcd1929467e9908" prot="public" virt="non-virtual"><scope>Config::UserAgents</scope><name>$robots</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

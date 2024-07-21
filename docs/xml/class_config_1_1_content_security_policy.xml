@@ -1,0 +1,392 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="class_config_1_1_content_security_policy" kind="class" language="PHP" prot="public">
+    <compoundname>Config::ContentSecurityPolicy</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">BaseConfig</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_config_1_1_content_security_policy_1a6ef0a64d06582592288898568c5d92a1" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Config\ContentSecurityPolicy::$reportOnly</definition>
+        <argsstring></argsstring>
+        <name>$reportOnly</name>
+        <qualifiedname>Config\ContentSecurityPolicy\$reportOnly</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default CSP report context </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php" line="25" column="17" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_content_security_policy_1a41aa9c932c9a04cee8a3c4c6e5e68068" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Config\ContentSecurityPolicy::$reportURI</definition>
+        <argsstring></argsstring>
+        <name>$reportURI</name>
+        <qualifiedname>Config\ContentSecurityPolicy\$reportURI</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Specifies a URL where a browser will send reports when a content security policy is violated. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php" line="31" column="19" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_content_security_policy_1a516f105a1c708ed137aa65e2b818a160" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Config\ContentSecurityPolicy::$upgradeInsecureRequests</definition>
+        <argsstring></argsstring>
+        <name>$upgradeInsecureRequests</name>
+        <qualifiedname>Config\ContentSecurityPolicy\$upgradeInsecureRequests</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Instructs user agents to rewrite URL schemes, changing HTTP to HTTPS. This directive is for websites with large numbers of old URLs that need to be rewritten. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php" line="38" column="17" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_content_security_policy_1a574b6834109256d694b1e5cf7aea97bc" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Config\ContentSecurityPolicy::$defaultSrc</definition>
+        <argsstring></argsstring>
+        <name>$defaultSrc</name>
+        <qualifiedname>Config\ContentSecurityPolicy\$defaultSrc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php" line="50" column="12" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_content_security_policy_1a6103f0b0c09aa26cd5bbe8c50d31d4e8" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Config\ContentSecurityPolicy::$scriptSrc</definition>
+        <argsstring></argsstring>
+        <name>$scriptSrc</name>
+        <qualifiedname>Config\ContentSecurityPolicy\$scriptSrc</qualifiedname>
+        <initializer>= &apos;self&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php" line="57" column="12" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_content_security_policy_1ad92cbb8987717417015cb63a746acbc0" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Config\ContentSecurityPolicy::$styleSrc</definition>
+        <argsstring></argsstring>
+        <name>$styleSrc</name>
+        <qualifiedname>Config\ContentSecurityPolicy\$styleSrc</qualifiedname>
+        <initializer>= &apos;self&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php" line="64" column="12" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_content_security_policy_1aa1e2fefbd996dde5a704d2a017cb1271" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Config\ContentSecurityPolicy::$imageSrc</definition>
+        <argsstring></argsstring>
+        <name>$imageSrc</name>
+        <qualifiedname>Config\ContentSecurityPolicy\$imageSrc</qualifiedname>
+        <initializer>= &apos;self&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php" line="71" column="12" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_content_security_policy_1afea5d87315d1bbf79383a9983dfe2071" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Config\ContentSecurityPolicy::$baseURI</definition>
+        <argsstring></argsstring>
+        <name>$baseURI</name>
+        <qualifiedname>Config\ContentSecurityPolicy\$baseURI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php" line="80" column="12" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_content_security_policy_1a89c5c95db35fddfbb55189047cf9b720" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Config\ContentSecurityPolicy::$childSrc</definition>
+        <argsstring></argsstring>
+        <name>$childSrc</name>
+        <qualifiedname>Config\ContentSecurityPolicy\$childSrc</qualifiedname>
+        <initializer>= &apos;self&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php" line="87" column="12" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_content_security_policy_1a6b74a3e074a0b7c1484430ab577198ee" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Config\ContentSecurityPolicy::$connectSrc</definition>
+        <argsstring></argsstring>
+        <name>$connectSrc</name>
+        <qualifiedname>Config\ContentSecurityPolicy\$connectSrc</qualifiedname>
+        <initializer>= &apos;self&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php" line="95" column="12" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_content_security_policy_1a078bf91f40cba39caf3143ac1bfeba16" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Config\ContentSecurityPolicy::$fontSrc</definition>
+        <argsstring></argsstring>
+        <name>$fontSrc</name>
+        <qualifiedname>Config\ContentSecurityPolicy\$fontSrc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php" line="102" column="12" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_content_security_policy_1a2240eca272bcc56f6aa6bc5cb6419838" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Config\ContentSecurityPolicy::$formAction</definition>
+        <argsstring></argsstring>
+        <name>$formAction</name>
+        <qualifiedname>Config\ContentSecurityPolicy\$formAction</qualifiedname>
+        <initializer>= &apos;self&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php" line="109" column="12" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_content_security_policy_1a39e46e022949daef3f98203d8d25a4c1" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Config\ContentSecurityPolicy::$frameAncestors</definition>
+        <argsstring></argsstring>
+        <name>$frameAncestors</name>
+        <qualifiedname>Config\ContentSecurityPolicy\$frameAncestors</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php" line="119" column="12" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_content_security_policy_1a95480b426dbe00530757eac0bdd8009a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Config\ContentSecurityPolicy::$frameSrc</definition>
+        <argsstring></argsstring>
+        <name>$frameSrc</name>
+        <qualifiedname>Config\ContentSecurityPolicy\$frameSrc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php" line="127" column="12" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_content_security_policy_1a04856a9bddadc5a7c49181b0e6095f34" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Config\ContentSecurityPolicy::$mediaSrc</definition>
+        <argsstring></argsstring>
+        <name>$mediaSrc</name>
+        <qualifiedname>Config\ContentSecurityPolicy\$mediaSrc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php" line="134" column="12" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_content_security_policy_1a2a5ee90669bf42ccf5ff5c7351d4336d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Config\ContentSecurityPolicy::$objectSrc</definition>
+        <argsstring></argsstring>
+        <name>$objectSrc</name>
+        <qualifiedname>Config\ContentSecurityPolicy\$objectSrc</qualifiedname>
+        <initializer>= &apos;self&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php" line="141" column="12" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_content_security_policy_1a6aa6cd991ea73fdc8ad849308374c4e5" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Config\ContentSecurityPolicy::$manifestSrc</definition>
+        <argsstring></argsstring>
+        <name>$manifestSrc</name>
+        <qualifiedname>Config\ContentSecurityPolicy\$manifestSrc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php" line="146" column="12" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_content_security_policy_1a4da393e8855f0df0c77e693390b33a75" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Config\ContentSecurityPolicy::$pluginTypes</definition>
+        <argsstring></argsstring>
+        <name>$pluginTypes</name>
+        <qualifiedname>Config\ContentSecurityPolicy\$pluginTypes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php" line="153" column="12" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_content_security_policy_1aff83f90330421dbbc5e7b8acde1dcd70" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Config\ContentSecurityPolicy::$sandbox</definition>
+        <argsstring></argsstring>
+        <name>$sandbox</name>
+        <qualifiedname>Config\ContentSecurityPolicy\$sandbox</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php" line="160" column="12" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_content_security_policy_1a2506066c05996e9121f5d61e87fa518f" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Config\ContentSecurityPolicy::$styleNonceTag</definition>
+        <argsstring></argsstring>
+        <name>$styleNonceTag</name>
+        <qualifiedname>Config\ContentSecurityPolicy\$styleNonceTag</qualifiedname>
+        <initializer>= &apos;{csp-style-nonce}&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Nonce tag for style </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php" line="165" column="19" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_content_security_policy_1a4bf2210bbf2b4044c7fc26b17788b922" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Config\ContentSecurityPolicy::$scriptNonceTag</definition>
+        <argsstring></argsstring>
+        <name>$scriptNonceTag</name>
+        <qualifiedname>Config\ContentSecurityPolicy\$scriptNonceTag</qualifiedname>
+        <initializer>= &apos;{csp-script-nonce}&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Nonce tag for script </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php" line="170" column="19" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php" bodystart="170" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_content_security_policy_1ae47d9615c52a9270a083e1b43ce8f09b" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Config\ContentSecurityPolicy::$autoNonce</definition>
+        <argsstring></argsstring>
+        <name>$autoNonce</name>
+        <qualifiedname>Config\ContentSecurityPolicy\$autoNonce</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Replace nonce tag automatically </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php" line="175" column="17" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php" bodystart="175" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Stores the default settings for the ContentSecurityPolicy, if you choose to use it. The values here will be read in and set as defaults for the site. If needed, they can be overridden on a page-by-page basis.</para>
+<para>Suggested reference for explanations:</para>
+<para><simplesect kind="see"><para><ulink url="https://www.html5rocks.com/en/tutorials/security/content-security-policy/">https://www.html5rocks.com/en/tutorials/security/content-security-policy/</ulink> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>BaseConfig</label>
+      </node>
+      <node id="1">
+        <label>Config\ContentSecurityPolicy</label>
+        <link refid="class_config_1_1_content_security_policy"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>BaseConfig</label>
+      </node>
+      <node id="1">
+        <label>Config\ContentSecurityPolicy</label>
+        <link refid="class_config_1_1_content_security_policy"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php" line="16" column="1" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/ContentSecurityPolicy.php" bodystart="17" bodyend="176"/>
+    <listofallmembers>
+      <member refid="class_config_1_1_content_security_policy_1ae47d9615c52a9270a083e1b43ce8f09b" prot="public" virt="non-virtual"><scope>Config::ContentSecurityPolicy</scope><name>$autoNonce</name></member>
+      <member refid="class_config_1_1_content_security_policy_1afea5d87315d1bbf79383a9983dfe2071" prot="public" virt="non-virtual"><scope>Config::ContentSecurityPolicy</scope><name>$baseURI</name></member>
+      <member refid="class_config_1_1_content_security_policy_1a89c5c95db35fddfbb55189047cf9b720" prot="public" virt="non-virtual"><scope>Config::ContentSecurityPolicy</scope><name>$childSrc</name></member>
+      <member refid="class_config_1_1_content_security_policy_1a6b74a3e074a0b7c1484430ab577198ee" prot="public" virt="non-virtual"><scope>Config::ContentSecurityPolicy</scope><name>$connectSrc</name></member>
+      <member refid="class_config_1_1_content_security_policy_1a574b6834109256d694b1e5cf7aea97bc" prot="public" virt="non-virtual"><scope>Config::ContentSecurityPolicy</scope><name>$defaultSrc</name></member>
+      <member refid="class_config_1_1_content_security_policy_1a078bf91f40cba39caf3143ac1bfeba16" prot="public" virt="non-virtual"><scope>Config::ContentSecurityPolicy</scope><name>$fontSrc</name></member>
+      <member refid="class_config_1_1_content_security_policy_1a2240eca272bcc56f6aa6bc5cb6419838" prot="public" virt="non-virtual"><scope>Config::ContentSecurityPolicy</scope><name>$formAction</name></member>
+      <member refid="class_config_1_1_content_security_policy_1a39e46e022949daef3f98203d8d25a4c1" prot="public" virt="non-virtual"><scope>Config::ContentSecurityPolicy</scope><name>$frameAncestors</name></member>
+      <member refid="class_config_1_1_content_security_policy_1a95480b426dbe00530757eac0bdd8009a" prot="public" virt="non-virtual"><scope>Config::ContentSecurityPolicy</scope><name>$frameSrc</name></member>
+      <member refid="class_config_1_1_content_security_policy_1aa1e2fefbd996dde5a704d2a017cb1271" prot="public" virt="non-virtual"><scope>Config::ContentSecurityPolicy</scope><name>$imageSrc</name></member>
+      <member refid="class_config_1_1_content_security_policy_1a6aa6cd991ea73fdc8ad849308374c4e5" prot="public" virt="non-virtual"><scope>Config::ContentSecurityPolicy</scope><name>$manifestSrc</name></member>
+      <member refid="class_config_1_1_content_security_policy_1a04856a9bddadc5a7c49181b0e6095f34" prot="public" virt="non-virtual"><scope>Config::ContentSecurityPolicy</scope><name>$mediaSrc</name></member>
+      <member refid="class_config_1_1_content_security_policy_1a2a5ee90669bf42ccf5ff5c7351d4336d" prot="public" virt="non-virtual"><scope>Config::ContentSecurityPolicy</scope><name>$objectSrc</name></member>
+      <member refid="class_config_1_1_content_security_policy_1a4da393e8855f0df0c77e693390b33a75" prot="public" virt="non-virtual"><scope>Config::ContentSecurityPolicy</scope><name>$pluginTypes</name></member>
+      <member refid="class_config_1_1_content_security_policy_1a6ef0a64d06582592288898568c5d92a1" prot="public" virt="non-virtual"><scope>Config::ContentSecurityPolicy</scope><name>$reportOnly</name></member>
+      <member refid="class_config_1_1_content_security_policy_1a41aa9c932c9a04cee8a3c4c6e5e68068" prot="public" virt="non-virtual"><scope>Config::ContentSecurityPolicy</scope><name>$reportURI</name></member>
+      <member refid="class_config_1_1_content_security_policy_1aff83f90330421dbbc5e7b8acde1dcd70" prot="public" virt="non-virtual"><scope>Config::ContentSecurityPolicy</scope><name>$sandbox</name></member>
+      <member refid="class_config_1_1_content_security_policy_1a4bf2210bbf2b4044c7fc26b17788b922" prot="public" virt="non-virtual"><scope>Config::ContentSecurityPolicy</scope><name>$scriptNonceTag</name></member>
+      <member refid="class_config_1_1_content_security_policy_1a6103f0b0c09aa26cd5bbe8c50d31d4e8" prot="public" virt="non-virtual"><scope>Config::ContentSecurityPolicy</scope><name>$scriptSrc</name></member>
+      <member refid="class_config_1_1_content_security_policy_1a2506066c05996e9121f5d61e87fa518f" prot="public" virt="non-virtual"><scope>Config::ContentSecurityPolicy</scope><name>$styleNonceTag</name></member>
+      <member refid="class_config_1_1_content_security_policy_1ad92cbb8987717417015cb63a746acbc0" prot="public" virt="non-virtual"><scope>Config::ContentSecurityPolicy</scope><name>$styleSrc</name></member>
+      <member refid="class_config_1_1_content_security_policy_1a516f105a1c708ed137aa65e2b818a160" prot="public" virt="non-virtual"><scope>Config::ContentSecurityPolicy</scope><name>$upgradeInsecureRequests</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="_images_8php" kind="file" language="PHP">
+    <compoundname>Images.php</compoundname>
+    <innerclass refid="class_config_1_1_images" prot="public">Config::Images</innerclass>
+    <innernamespace refid="namespace_config">Config</innernamespace>
+    <innernamespace refid="namespace_code_igniter_1_1_images_1_1_handlers_1_1_g_d_handler">CodeIgniter::Images::Handlers::GDHandler</innernamespace>
+    <innernamespace refid="namespace_code_igniter_1_1_images_1_1_handlers_1_1_image_magick_handler">CodeIgniter::Images::Handlers::ImageMagickHandler</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_config" kindref="compound">Config</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/>CodeIgniter\Config\BaseConfig;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">use<sp/>CodeIgniter\Images\Handlers\GDHandler;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">use<sp/>CodeIgniter\Images\Handlers\ImageMagickHandler;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="class_config_1_1_images" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_config_1_1_images" kindref="compound">Images</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>BaseConfig</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>$defaultHandler<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;gd&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>$libraryPath<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;/usr/local/bin/convert&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>array<sp/>$handlers<sp/>=<sp/>[</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;gd&apos;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>=&gt;<sp/>GDHandler::class,</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;imagick&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>ImageMagickHandler::class,</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>];</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Images.php"/>
+  </compounddef>
+</doxygen>

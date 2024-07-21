@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="class_config_1_1_toolbar" kind="class" language="PHP" prot="public">
+    <compoundname>Config::Toolbar</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">BaseConfig</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_config_1_1_toolbar_1aa783ddc3874d911f507354854a4fef06" prot="public" static="no" mutable="no">
+        <type>array</type>
+        <definition>array Config\Toolbar::$collectors</definition>
+        <argsstring></argsstring>
+        <name>$collectors</name>
+        <qualifiedname>Config\Toolbar\$collectors</qualifiedname>
+        <initializer>= [
+        Timers::class,
+        Database::class,
+        Logs::class,
+        Views::class,
+        
+        Files::class,
+        Routes::class,
+        Events::class,
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Toolbar.php" line="36" column="18" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Toolbar.php" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_toolbar_1a8eb108181e0c9f499c1cf2d669a6aee2" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Config\Toolbar::$collectVarData</definition>
+        <argsstring></argsstring>
+        <name>$collectVarData</name>
+        <qualifiedname>Config\Toolbar\$collectVarData</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_toolbar_1autotoc_md181">
+<title>Collect Var Data</title><para>If set to false var data from the views will not be collected. Useful to avoid high memory usage when there are lots of data passed to the view. </para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Toolbar.php" line="55" column="17" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Toolbar.php" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_toolbar_1a69e75384ae8a33b09539f5830da1e356" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Config\Toolbar::$maxHistory</definition>
+        <argsstring></argsstring>
+        <name>$maxHistory</name>
+        <qualifiedname>Config\Toolbar\$maxHistory</qualifiedname>
+        <initializer>= 20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_toolbar_1autotoc_md183">
+<title>Max History</title><para><computeroutput>$maxHistory</computeroutput> sets a limit on the number of past requests that are stored, helping to conserve file space used to store them. You can set it to 0 (zero) to not have any history stored, or -1 for unlimited history. </para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Toolbar.php" line="66" column="16" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Toolbar.php" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_toolbar_1a6ba5d61e2c9c7b9fe270092674957ea6" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Config\Toolbar::$viewsPath</definition>
+        <argsstring></argsstring>
+        <name>$viewsPath</name>
+        <qualifiedname>Config\Toolbar\$viewsPath</qualifiedname>
+        <initializer>= SYSTEMPATH . &apos;Debug/<ref refid="class_config_1_1_toolbar" kindref="compound">Toolbar</ref>/Views/&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_toolbar_1autotoc_md185">
+<title>Toolbar Views Path</title><para>The full path to the the views that are used by the toolbar. This MUST have a trailing slash. </para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Toolbar.php" line="76" column="19" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Toolbar.php" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_toolbar_1a4b4ad843a83caf71ef87b35dccac4839" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Config\Toolbar::$maxQueries</definition>
+        <argsstring></argsstring>
+        <name>$maxQueries</name>
+        <qualifiedname>Config\Toolbar\$maxQueries</qualifiedname>
+        <initializer>= 100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_toolbar_1autotoc_md187">
+<title>Max Queries</title><para>If the Database Collector is enabled, it will log every query that the the system generates so they can be displayed on the toolbar&apos;s timeline and in the query log. This can lead to memory issues in some instances with hundreds of queries.</para>
+<para><computeroutput>$maxQueries</computeroutput> defines the maximum amount of queries that will be stored. </para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Toolbar.php" line="90" column="16" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Toolbar.php" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_toolbar_1a2f3e07ecccb8d7d07f32f08108eb6db4" prot="public" static="no" mutable="no">
+        <type>array</type>
+        <definition>array Config\Toolbar::$watchedDirectories</definition>
+        <argsstring></argsstring>
+        <name>$watchedDirectories</name>
+        <qualifiedname>Config\Toolbar\$watchedDirectories</qualifiedname>
+        <initializer>= [
+        &apos;app&apos;,
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Toolbar.php" line="105" column="18" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Toolbar.php" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_toolbar_1ac667da07c8966f21e2dfc70ea1b5dbbf" prot="public" static="no" mutable="no">
+        <type>array</type>
+        <definition>array Config\Toolbar::$watchedExtensions</definition>
+        <argsstring></argsstring>
+        <name>$watchedExtensions</name>
+        <qualifiedname>Config\Toolbar\$watchedExtensions</qualifiedname>
+        <initializer>= [
+        &apos;php&apos;, &apos;css&apos;, &apos;js&apos;, &apos;html&apos;, &apos;svg&apos;, &apos;json&apos;, &apos;env&apos;,
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Toolbar.php" line="119" column="18" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Toolbar.php" bodystart="119" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_toolbar_1autotoc_md177">
+<title>Debug Toolbar</title><para>The Debug Toolbar provides a way to see information about the performance and state of your application during that page display. By default it will NOT be displayed under production environments, and will only display if <computeroutput>CI_DEBUG</computeroutput> is true, since if it&apos;s not, there&apos;s not much to display anyway. </para>
+</sect2>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>BaseConfig</label>
+      </node>
+      <node id="1">
+        <label>Config\Toolbar</label>
+        <link refid="class_config_1_1_toolbar"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>BaseConfig</label>
+      </node>
+      <node id="1">
+        <label>Config\Toolbar</label>
+        <link refid="class_config_1_1_toolbar"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Toolbar.php" line="24" column="1" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Toolbar.php" bodystart="25" bodyend="122"/>
+    <listofallmembers>
+      <member refid="class_config_1_1_toolbar_1aa783ddc3874d911f507354854a4fef06" prot="public" virt="non-virtual"><scope>Config::Toolbar</scope><name>$collectors</name></member>
+      <member refid="class_config_1_1_toolbar_1a8eb108181e0c9f499c1cf2d669a6aee2" prot="public" virt="non-virtual"><scope>Config::Toolbar</scope><name>$collectVarData</name></member>
+      <member refid="class_config_1_1_toolbar_1a69e75384ae8a33b09539f5830da1e356" prot="public" virt="non-virtual"><scope>Config::Toolbar</scope><name>$maxHistory</name></member>
+      <member refid="class_config_1_1_toolbar_1a4b4ad843a83caf71ef87b35dccac4839" prot="public" virt="non-virtual"><scope>Config::Toolbar</scope><name>$maxQueries</name></member>
+      <member refid="class_config_1_1_toolbar_1a6ba5d61e2c9c7b9fe270092674957ea6" prot="public" virt="non-virtual"><scope>Config::Toolbar</scope><name>$viewsPath</name></member>
+      <member refid="class_config_1_1_toolbar_1a2f3e07ecccb8d7d07f32f08108eb6db4" prot="public" virt="non-virtual"><scope>Config::Toolbar</scope><name>$watchedDirectories</name></member>
+      <member refid="class_config_1_1_toolbar_1ac667da07c8966f21e2dfc70ea1b5dbbf" prot="public" virt="non-virtual"><scope>Config::Toolbar</scope><name>$watchedExtensions</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

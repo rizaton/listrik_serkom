@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="dir_5ef81b748ad968ba1a7716e8407b2914" kind="dir">
+    <compoundname>C:/DevFiles/PHP_Projects/listrik_serkom/app/Views/admin</compoundname>
+    <innerdir refid="dir_659af45505a2ce72d0ef2c9b2ed4e124">C:/DevFiles/PHP_Projects/listrik_serkom/app/Views/admin/create</innerdir>
+    <innerdir refid="dir_d81ee84e78887ff21eaa684d4ce25d0f">C:/DevFiles/PHP_Projects/listrik_serkom/app/Views/admin/edit</innerdir>
+    <innerdir refid="dir_deb5b273befdd28d9ea8493ded58b53e">C:/DevFiles/PHP_Projects/listrik_serkom/app/Views/admin/read</innerdir>
+    <innerfile refid="_views_2admin_2_login_8php">login.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Views/admin/"/>
+  </compounddef>
+</doxygen>

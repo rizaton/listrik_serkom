@@ -150,8 +150,8 @@
                                     <td> <?= $p['bulan']  ?>/<?= $p['tahun']  ?> </td>
                                     <td>
                                         <form method="post">
-                                            <input type="hidden" name="id_pembayaran" id="id_pembayaran" value="<?= $p['id_pembayaran'] ?>">
-                                            <button formaction="<?= base_url('admin/edit_pembayaran') ?>" class="btn btn-warning mx-1" id="add-data-btn">Konfirmasi</button>
+                                            <input type="hidden" name="id_tagihan" id="id_tagihan" value="<?= $p['id_tagihan'] ?>">
+                                            <button formaction="<?= base_url('admin/edit_tagihan') ?>" class="btn btn-warning mx-1" id="add-data-btn">Konfirmasi</button>
                                         </form>
                                     </td>
                                 </tr>

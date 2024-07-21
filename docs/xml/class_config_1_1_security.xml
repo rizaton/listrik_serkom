@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="class_config_1_1_security" kind="class" language="PHP" prot="public">
+    <compoundname>Config::Security</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">BaseConfig</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_config_1_1_security_1aa9854f4d09f913ee4ac1d02086956875" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Config\Security::$csrfProtection</definition>
+        <argsstring></argsstring>
+        <name>$csrfProtection</name>
+        <qualifiedname>Config\Security\$csrfProtection</qualifiedname>
+        <initializer>= &apos;cookie&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Security.php" line="18" column="19" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Security.php" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_security_1a79817e8400dae6a7bf8d26b6d65d3045" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Config\Security::$tokenRandomize</definition>
+        <argsstring></argsstring>
+        <name>$tokenRandomize</name>
+        <qualifiedname>Config\Security\$tokenRandomize</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_security_1autotoc_md141">
+<title>CSRF Token Randomization</title><para>Randomize the CSRF Token for added security. </para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Security.php" line="27" column="17" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Security.php" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_security_1ae40ec664bc176275651bc072ceffe8d6" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Config\Security::$tokenName</definition>
+        <argsstring></argsstring>
+        <name>$tokenName</name>
+        <qualifiedname>Config\Security\$tokenName</qualifiedname>
+        <initializer>= &apos;csrf_test_name&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_security_1autotoc_md143">
+<title>CSRF Token Name</title><para>Token name for Cross Site Request Forgery protection. </para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Security.php" line="36" column="19" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Security.php" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_security_1a5cc51a91e8d421970af9b3c955a050ac" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Config\Security::$headerName</definition>
+        <argsstring></argsstring>
+        <name>$headerName</name>
+        <qualifiedname>Config\Security\$headerName</qualifiedname>
+        <initializer>= &apos;X-CSRF-TOKEN&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_security_1autotoc_md145">
+<title>CSRF Header Name</title><para>Header name for Cross Site Request Forgery protection. </para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Security.php" line="45" column="19" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Security.php" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_security_1a722bd1aeea538dfc3a711feda3ad1502" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Config\Security::$cookieName</definition>
+        <argsstring></argsstring>
+        <name>$cookieName</name>
+        <qualifiedname>Config\Security\$cookieName</qualifiedname>
+        <initializer>= &apos;csrf_cookie_name&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_security_1autotoc_md147">
+<title>CSRF Cookie Name</title><para>Cookie name for Cross Site Request Forgery protection. </para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Security.php" line="54" column="19" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Security.php" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_security_1a4088b9f8d9c97c6f48ff2b5b711d5a54" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Config\Security::$expires</definition>
+        <argsstring></argsstring>
+        <name>$expires</name>
+        <qualifiedname>Config\Security\$expires</qualifiedname>
+        <initializer>= 7200</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_security_1autotoc_md149">
+<title>CSRF Expires</title><para>Expiration time for Cross Site Request Forgery protection cookie.</para>
+<para>Defaults to two hours (in seconds). </para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Security.php" line="65" column="16" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Security.php" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_security_1a12f8e512c5844e6415bf591dabecf40e" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Config\Security::$regenerate</definition>
+        <argsstring></argsstring>
+        <name>$regenerate</name>
+        <qualifiedname>Config\Security\$regenerate</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_security_1autotoc_md151">
+<title>CSRF Regenerate</title><para>Regenerate CSRF Token on every submission. </para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Security.php" line="74" column="17" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Security.php" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_security_1a6dea070bb70f52bb965e8c3e9e335d86" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Config\Security::$redirect</definition>
+        <argsstring></argsstring>
+        <name>$redirect</name>
+        <qualifiedname>Config\Security\$redirect</qualifiedname>
+        <initializer>= (ENVIRONMENT === &apos;production&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_security_1autotoc_md153">
+<title>CSRF Redirect</title><para>Redirect to previous page with error on failure.</para>
+<para><simplesect kind="see"><para><ulink url="https://codeigniter4.github.io/userguide/libraries/security.html#redirection-on-failure">https://codeigniter4.github.io/userguide/libraries/security.html#redirection-on-failure</ulink> </para>
+</simplesect>
+</para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Security.php" line="85" column="17" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Security.php" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_1_1_security_1ae69ed890a29dd2952555bb08072138eb" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Config\Security::$samesite</definition>
+        <argsstring></argsstring>
+        <name>$samesite</name>
+        <qualifiedname>Config\Security\$samesite</qualifiedname>
+        <initializer>= &apos;Lax&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+<sect2 id="class_config_1_1_security_1autotoc_md155">
+<title>CSRF SameSite</title><para>Setting for CSRF SameSite cookie token.</para>
+<para>Allowed values are: None - Lax - Strict - &apos;&apos;.</para>
+<para>Defaults to <computeroutput>Lax</computeroutput> as recommended in this link:</para>
+<para><simplesect kind="see"><para><ulink url="https://portswigger.net/web-security/csrf/samesite-cookies">https://portswigger.net/web-security/csrf/samesite-cookies</ulink></para>
+</simplesect>
+<xrefsect id="deprecated_1_deprecated000006"><xreftitle>Deprecated</xreftitle><xrefdescription><para><computeroutput><ref refid="namespace_config" kindref="compound">Config</ref>\Cookie</computeroutput> $samesite property is used. </para>
+</xrefdescription></xrefsect></para>
+</sect2>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Security.php" line="102" column="19" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Security.php" bodystart="102" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>BaseConfig</label>
+      </node>
+      <node id="1">
+        <label>Config\Security</label>
+        <link refid="class_config_1_1_security"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>BaseConfig</label>
+      </node>
+      <node id="1">
+        <label>Config\Security</label>
+        <link refid="class_config_1_1_security"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Security.php" line="7" column="1" bodyfile="C:/DevFiles/PHP_Projects/listrik_serkom/app/Config/Security.php" bodystart="8" bodyend="103"/>
+    <listofallmembers>
+      <member refid="class_config_1_1_security_1a722bd1aeea538dfc3a711feda3ad1502" prot="public" virt="non-virtual"><scope>Config::Security</scope><name>$cookieName</name></member>
+      <member refid="class_config_1_1_security_1aa9854f4d09f913ee4ac1d02086956875" prot="public" virt="non-virtual"><scope>Config::Security</scope><name>$csrfProtection</name></member>
+      <member refid="class_config_1_1_security_1a4088b9f8d9c97c6f48ff2b5b711d5a54" prot="public" virt="non-virtual"><scope>Config::Security</scope><name>$expires</name></member>
+      <member refid="class_config_1_1_security_1a5cc51a91e8d421970af9b3c955a050ac" prot="public" virt="non-virtual"><scope>Config::Security</scope><name>$headerName</name></member>
+      <member refid="class_config_1_1_security_1a6dea070bb70f52bb965e8c3e9e335d86" prot="public" virt="non-virtual"><scope>Config::Security</scope><name>$redirect</name></member>
+      <member refid="class_config_1_1_security_1a12f8e512c5844e6415bf591dabecf40e" prot="public" virt="non-virtual"><scope>Config::Security</scope><name>$regenerate</name></member>
+      <member refid="class_config_1_1_security_1ae69ed890a29dd2952555bb08072138eb" prot="public" virt="non-virtual"><scope>Config::Security</scope><name>$samesite</name></member>
+      <member refid="class_config_1_1_security_1ae40ec664bc176275651bc072ceffe8d6" prot="public" virt="non-virtual"><scope>Config::Security</scope><name>$tokenName</name></member>
+      <member refid="class_config_1_1_security_1a79817e8400dae6a7bf8d26b6d65d3045" prot="public" virt="non-virtual"><scope>Config::Security</scope><name>$tokenRandomize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
