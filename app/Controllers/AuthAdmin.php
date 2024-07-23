@@ -331,7 +331,7 @@ class AuthAdmin extends BaseController
         try {
             $data = [
                 'username' => $this->request->getPost('username'),
-                'password' => $this->request->getPost('password'),
+                'password' => password_hash($this->request->getPost('password') ?? '', PASSWORD_DEFAULT),
                 'nama_admin' => $this->request->getPost('nama_admin'),
                 'id_level' => $this->request->getPost('id_level'),
             ];

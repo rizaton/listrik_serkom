@@ -112,7 +112,6 @@ class Penggunaan extends Model
             'id_pelanggan' => $data['data']['id_pelanggan'],
             'id_user' => session()->get('id_user'),
         ];
-        // dd($data_pembayaran);
         $this->db->table('pembayaran')->insert($data_pembayaran);
         return $data;
     }

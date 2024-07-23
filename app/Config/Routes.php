@@ -68,6 +68,5 @@ $routes->post('/user/bayar', 'Pengguna::bayar_tagihan');
 $routes->post('/user/auth_bayar', 'AuthPengguna::bayar_tagihan');
 
 $routes->get('/logout', 'Auth::logout');
-// $routes->get('/test', 'AuthAdmin::index');
 
 // $routes->setAutoRoute(true);

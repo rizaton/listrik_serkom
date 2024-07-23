@@ -10,11 +10,11 @@
                     <form method="post" action="<?= base_url('/auth_user');  ?>">
                         <div class="mb-3">
                             <label for="username" class="form-label">Username</label>
-                            <input name="username" type="text" class="form-control" id="username" placeholder="Enter username" required>
+                            <input name="username" autocomplete="username" type="text" class="form-control" id="username" placeholder="Enter username" required>
                         </div>
                         <div class="mb-3">
                             <label for="password" class="form-label">Password</label>
-                            <input name="password" type="password" class="form-control" id="password" placeholder="Enter password" required>
+                            <input name="password" autocomplete="current-password" type="password" class="form-control" id="password" placeholder="Enter password" required>
                         </div>
                         <div class="mb-3 form-check">
                             <input type="checkbox" class="form-check-input" id="rememberMe">
