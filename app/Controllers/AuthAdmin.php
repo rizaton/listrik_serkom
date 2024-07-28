@@ -1,41 +1,83 @@
 <?php
 
+/**
+ * Deklarasi namespace untuk controller.
+ * 
+ * Menyatakan bahwa kelas ini berada dalam namespace App\Controllers, 
+ * yang merupakan bagian dari struktur aplikasi CodeIgniter.
+ */
+
 namespace App\Controllers;
 
-use App\Controllers\BaseController;
+/**
+ * Deklarasi penggunaan model-model yang diperlukan.
+ * 
+ * Pernyataan `use` berikut mengimpor berbagai model dari namespace App\Models 
+ * untuk digunakan dalam controller ini. Model-model ini digunakan untuk 
+ * berinteraksi dengan tabel-tabel yang sesuai di database.
+ */
 
-use App\Models\User;
-use App\Models\Pelanggan;
-use App\Models\Pembayaran;
-use App\Models\Penggunaan;
-use App\Models\Tagihan;
-use App\Models\Tarif;
-use App\Models\Level;
+use App\Models\User;        // Mengimpor model User untuk berinteraksi dengan tabel 'user'
+use App\Models\Pelanggan;   // Mengimpor model Pelanggan untuk berinteraksi dengan tabel 'pelanggan'
+use App\Models\Pembayaran;  // Mengimpor model Pembayaran untuk berinteraksi dengan tabel 'pembayaran'
+use App\Models\Penggunaan;  // Mengimpor model Penggunaan untuk berinteraksi dengan tabel 'penggunaan'
+use App\Models\Tagihan;     // Mengimpor model Tagihan untuk berinteraksi dengan tabel 'tagihan'
+use App\Models\Tarif;       // Mengimpor model Tarif untuk berinteraksi dengan tabel 'tarif'
+use App\Models\Level;       // Mengimpor model Level untuk berinteraksi dengan tabel 'level'
 
+/**
+ * Class AuthAdmin
+ * Controller untuk menangani autentikasi admin.
+ */
 class AuthAdmin extends BaseController
 {
-    private $model_pengguna;
-    private $model_admin;
-    private $model_pembayaran;
-    private $model_penggunaan;
-    private $model_tagihan;
-    private $model_tarif;
-    private $model_level;
-    protected $helpers = ['form', 'url'];
+    // Deklarasi properti model dan helper yang digunakan
+    private $model_pengguna;    // Properti untuk model Pelanggan
+    private $model_admin;    // Properti untuk model User
+    private $model_pembayaran;  // Properti untuk model Pembayaran
+    private $model_penggunaan;  // Properti untuk model Penggunaan
+    private $model_tagihan;    // Properti untuk model Tagihan
+    private $model_tarif;   // Properti untuk model Tarif
+    private $model_level;   // Properti untuk model Level
+    protected $helpers = ['form', 'url'];   // Helper yang digunakan dalam controller
 
+    /**
+     * Konstruktor kelas
+     * 
+     * Konstruktor ini menginisialisasi properti model dengan instance dari model yang sesuai.
+     */
     public function __construct()
     {
-        $this->model_pengguna = new Pelanggan();
-        $this->model_admin = new User();
-        $this->model_pembayaran = new Pembayaran();
-        $this->model_penggunaan = new Penggunaan();
-        $this->model_tagihan = new Tagihan();
-        $this->model_tarif = new Tarif();
-        $this->model_level = new Level();
+        // Inisialisasi properti model dengan instance dari model yang sesuai
+        $this->model_pengguna = new Pelanggan();    // Inisialisasi model Pelanggan
+        $this->model_admin = new User();    // Inisialisasi model User
+        $this->model_pembayaran = new Pembayaran(); // Inisialisasi model Pembayaran
+        $this->model_penggunaan = new Penggunaan(); // Inisialisasi model Penggunaan
+        $this->model_tagihan = new Tagihan();   // Inisialisasi model Tagihan
+        $this->model_tarif = new Tarif();   // Inisialisasi model Tarif
+        $this->model_level = new Level();   // Inisialisasi model Level
     }
+
+    /**
+     * Halaman utama autentikasi admin
+     * 
+     * Mengecek peran pengguna yang sedang login dan mengarahkan ke halaman yang sesuai.
+     * @return mixed Mengarahkan ke halaman yang sesuai berdasarkan peran pengguna
+     */
     public function index()
     {
-        return redirect()->to('/login_admin');
+        // Memeriksa apakah pengguna tidak memiliki sesi aktif
+        if (session()->get('role') == null) {
+            // Mengarahkan pengguna ke halaman login admin
+            return redirect()->to('/login_admin');
+            // Memeriksa apakah pengguna memiliki sesi dengan role 'user'
+        } else if (session()->get('role') == 'user') {
+            // Mengarahkan pengguna ke halaman user
+            return redirect()->to('/user');
+        } else {
+            // Mengembalikan view halaman admin
+            return view('admin/dashboard');
+        }
     }
     public function delete_level()
     {
@@ -186,7 +228,6 @@ class AuthAdmin extends BaseController
                 'alamat' => $this->request->getPost('alamat'),
                 'id_tarif' => $this->request->getPost('id_tarif'),
             ];
-            // dd([$data, $this->model_pengguna->save($data), validation_errors()]);
             $this->model_pengguna->save($data);
             session()->setFlashdata('success', 'Data berhasil diubah');
             return redirect()->to('/admin/kelola_pelanggan');
@@ -354,7 +395,6 @@ class AuthAdmin extends BaseController
                 'alamat' => $this->request->getPost('alamat'),
                 'id_tarif' => $this->request->getPost('id_tarif'),
             ];
-            // dd($data, $this->model_pengguna->insert($data));
             $this->model_pengguna->insert($data);
             session()->setFlashdata('success', 'Data berhasil ditambahkan');
             return redirect()->to('/admin/kelola_pelanggan');
