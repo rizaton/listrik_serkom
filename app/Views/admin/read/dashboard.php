@@ -15,7 +15,7 @@
                                 ->db
                                 ->table('pelanggan')
                                 ->countAllResults();
-                            echo $sum_pelanggan;
+                            echo esc($sum_pelanggan);
                             ?>
                         </p>
                     </div>
@@ -33,7 +33,7 @@
                                 ->table('tagihan')
                                 ->where('id_status', 3)
                                 ->countAllResults();
-                            echo $sum_tagihan;
+                            echo esc($sum_tagihan);
                             ?>
                         </p>
                     </div>
@@ -50,7 +50,7 @@
                                 ->db
                                 ->table('tagihan')
                                 ->countAllResults();
-                            echo $sum_tagihan;
+                            echo esc($sum_tagihan);
                             ?>
                         </p>
                     </div>
@@ -73,7 +73,7 @@
                             if (!$sum_pembayaran) {
                                 $sum_pembayaran = 0;
                             }
-                            echo $sum_pembayaran;
+                            echo esc($sum_pembayaran);
                             ?>
                         </p>
                     </div>
@@ -100,14 +100,14 @@
                             }
                             foreach ($tagihan as $t) { ?>
                                 <tr>
-                                    <td> <?= $t['id_tagihan']  ?> </td>
-                                    <td> <?= $t['nama_pelanggan']  ?> </td>
+                                    <td> <?= esc($t['id_tagihan'])  ?> </td>
+                                    <td> <?= esc($t['nama_pelanggan'])  ?> </td>
                                     <td><?php
                                         foreach ($status as $s) {
                                             echo $t['id_status'] == $s['id_status'] ? $s['status'] : '';
                                         } ?>
                                     </td>
-                                    <td> <?= $t['bulan']  ?>/<?= $t['tahun']  ?> </td>
+                                    <td> <?= esc($t['bulan'])  ?>/<?= esc($t['tahun'])  ?> </td>
                                     <td>
                                         <form method="post">
                                             <input type="hidden" name="id_tagihan" id="id_tagihan" value="<?= $t['id_tagihan'] ?>">

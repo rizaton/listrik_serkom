@@ -22,11 +22,11 @@
                 <?php }
                 foreach ($penggunaan as $p) { ?>
                     <tr>
-                        <td><?= $p['bulan']  ?></td>
-                        <td><?= $p['tahun']  ?></td>
-                        <td><?= $p['meter_awal']  ?> VA</td>
-                        <td><?= $p['meter_akhir']  ?> VA</td>
-                        <td><?= ($p['meter_akhir'] - $p['meter_awal'])  ?> vA</td>
+                        <td><?= esc($p['bulan'])  ?></td>
+                        <td><?= esc($p['tahun'])  ?></td>
+                        <td><?= esc($p['meter_awal'])  ?> VA</td>
+                        <td><?= esc($p['meter_akhir'])  ?> VA</td>
+                        <td><?= esc(($p['meter_akhir'] - $p['meter_awal']))  ?> vA</td>
                     </tr>
                 <?php } ?>
             </tbody>

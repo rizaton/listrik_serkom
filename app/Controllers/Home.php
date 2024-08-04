@@ -18,7 +18,8 @@ namespace App\Controllers;
  */
 class Home extends BaseController
 {
-    protected $helpers = ['form', 'url'];
+    // Deklarasi properti model dan helper yang digunakan
+    protected $helpers = ['form', 'url'];  // Helper yang digunakan dalam controller
     /**
      * Function untuk menampilkan halaman login.
      * Jika pengguna sudah memiliki sesi aktif, sesi tersebut akan dihancurkan.

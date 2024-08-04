@@ -29,15 +29,15 @@
                 <?php }
                 foreach ($tagihan as $t) { ?>
                     <tr>
-                        <td class="text-center"><?= $t['bulan']  ?>/<?= $t['tahun']  ?></td>
-                        <td><?= $t['meter_awal']  ?> VA</td>
-                        <td><?= $t['meter_akhir']  ?> VA</td>
-                        <td><?= $t['jumlah_meter']  ?> VA</td>
-                        <td>Rp.<?= number_format($t['biaya_admin'])  ?></td>
-                        <td>Rp.<?= number_format($t['total_bayar'])  ?></td>
-                        <td><?= $t['status']  ?></td>
+                        <td class="text-center"><?= esc($t['bulan'])  ?>/<?= esc($t['tahun'])  ?></td>
+                        <td><?= esc($t['meter_awal'])  ?> VA</td>
+                        <td><?= esc($t['meter_akhir'])  ?> VA</td>
+                        <td><?= esc($t['jumlah_meter'])  ?> VA</td>
+                        <td>Rp.<?= esc(number_format($t['biaya_admin']))  ?></td>
+                        <td>Rp.<?= esc(number_format($t['total_bayar']))  ?></td>
+                        <td><?= esc($t['status'])  ?></td>
                         <form method="post">
-                            <input type="hidden" name="id_tagihan" id="id_tagihan" value="<?= $t['id_tagihan'] ?>">
+                            <input type="hidden" name="id_tagihan" id="id_tagihan" value="<?= esc($t['id_tagihan']) ?>">
                             <td class="d-flex justify-content-center">
                                 <button formaction="<?= base_url('user/bayar'); ?>" class="btn btn-warning mx-1" id="add-data-btn">Bayar Tagihan</button>
                             </td>

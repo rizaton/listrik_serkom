@@ -23,12 +23,12 @@
                 <?php }
                 foreach ($pembayaran as $p) { ?>
                     <tr>
-                        <td class="text-center"><?= $p['bulan']  ?>/<?= $p['tahun']  ?></td>
-                        <td><?= ($p['meter_akhir'] - $p['meter_awal'])  ?> VA</td>
-                        <td><?= $p['meter_awal']  ?> VA</td>
-                        <td><?= $p['meter_akhir']  ?> VA</td>
-                        <td>Rp.<?= number_format($p['total_bayar'])  ?> </td>
-                        <td><?= $p['status']  ?></td>
+                        <td class="text-center"><?= esc($p['bulan'])  ?>/<?= esc($p['tahun'])  ?></td>
+                        <td><?= esc(($p['meter_akhir'] - $p['meter_awal']))  ?> VA</td>
+                        <td><?= esc($p['meter_awal'])  ?> VA</td>
+                        <td><?= esc($p['meter_akhir'])  ?> VA</td>
+                        <td>Rp.<?= esc(number_format($p['total_bayar']))  ?> </td>
+                        <td><?= esc($p['status'])  ?></td>
                     </tr>
                 <?php } ?>
             </tbody>

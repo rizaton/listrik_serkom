@@ -12,6 +12,9 @@ $routes->get('/login_admin', 'Home::login_admin');
 $routes->post('/auth_admin', 'Auth::auth_admin');
 $routes->post('/auth_user', 'Auth::auth_user');
 
+$routes->get('/auth_admin', 'Auth::index');
+$routes->get('/auth_user', 'Auth::index');
+
 $routes->get('/admin', 'Admin::index');
 $routes->get('/admin/kelola_user', 'Admin::kelola_user');
 $routes->get('/admin/kelola_pelanggan', 'Admin::kelola_pelanggan');
@@ -30,6 +33,14 @@ $routes->post('/admin/edit_tagihan', 'Admin::edit_tagihan');
 $routes->post('/admin/edit_tarif', 'Admin::edit_tarif');
 $routes->post('/admin/edit_user', 'Admin::edit_user');
 
+$routes->get('/admin/edit_level', 'Admin::kelola_level');
+$routes->get('/admin/edit_pelanggan', 'Admin::kelola_pelanggan');
+$routes->get('/admin/edit_pembayaran', 'Admin::kelola_pembayaran');
+$routes->get('/admin/edit_penggunaan', 'Admin::kelola_penggunaan');
+$routes->get('/admin/edit_tagihan', 'Admin::kelola_tagihan');
+$routes->get('/admin/edit_tarif', 'Admin::kelola_tarif');
+$routes->get('/admin/edit_user', 'Admin::kelola_user');
+
 $routes->post('/admin/delete_level', 'AuthAdmin::delete_level');
 $routes->post('/admin/delete_pelanggan', 'AuthAdmin::delete_pelanggan');
 $routes->post('/admin/delete_pembayaran', 'AuthAdmin::delete_pembayaran');
@@ -38,6 +49,14 @@ $routes->post('/admin/delete_tagihan', 'AuthAdmin::delete_tagihan');
 $routes->post('/admin/delete_tarif', 'AuthAdmin::delete_tarif');
 $routes->post('/admin/delete_user', 'AuthAdmin::delete_user');
 
+$routes->get('/admin/delete_level', 'Admin::kelola_level');
+$routes->get('/admin/delete_pelanggan', 'Admin::kelola_pelanggan');
+$routes->get('/admin/delete_pembayaran', 'Admin::kelola_pembayaran');
+$routes->get('/admin/delete_penggunaan', 'Admin::kelola_penggunaan');
+$routes->get('/admin/delete_tagihan', 'Admin::kelola_tagihan');
+$routes->get('/admin/delete_tarif', 'Admin::kelola_tarif');
+$routes->get('/admin/delete_user', 'Admin::kelola_user');
+
 $routes->post('/admin/auth_update_level', 'AuthAdmin::update_level');
 $routes->post('/admin/auth_update_pelanggan', 'AuthAdmin::update_pelanggan');
 $routes->post('/admin/auth_update_pembayaran', 'AuthAdmin::update_pembayaran');
@@ -45,6 +64,14 @@ $routes->post('/admin/auth_update_penggunaan', 'AuthAdmin::update_penggunaan');
 $routes->post('/admin/auth_update_tagihan', 'AuthAdmin::update_tagihan');
 $routes->post('/admin/auth_update_tarif', 'AuthAdmin::update_tarif');
 $routes->post('/admin/auth_update_user', 'AuthAdmin::update_user');
+
+$routes->get('/admin/auth_update_level', 'Admin::kelola_level');
+$routes->get('/admin/auth_update_pelanggan', 'Admin::kelola_pelanggan');
+$routes->get('/admin/auth_update_pembayaran', 'Admin::kelola_pembayaran');
+$routes->get('/admin/auth_update_penggunaan', 'Admin::kelola_penggunaan');
+$routes->get('/admin/auth_update_tagihan', 'Admin::kelola_tagihan');
+$routes->get('/admin/auth_update_tarif', 'Admin::kelola_tarif');
+$routes->get('/admin/auth_update_user', 'Admin::kelola_user');
 
 $routes->get('/admin/create_level', 'Admin::create_level');
 $routes->get('/admin/create_tarif', 'Admin::create_tarif');
@@ -60,13 +87,21 @@ $routes->post('/admin/auth_create_pelanggan', 'AuthAdmin::create_pelanggan');
 $routes->post('/admin/auth_create_penggunaan', 'AuthAdmin::create_penggunaan');
 $routes->post('/admin/auth_create_tagihan', 'AuthAdmin::create_tagihan');
 
+$routes->get('/admin/auth_create_level', 'Admin::kelola_level');
+$routes->get('/admin/auth_create_tarif', 'Admin::kelola_tarif');
+$routes->get('/admin/auth_create_user', 'Admin::kelola_user');
+$routes->get('/admin/auth_create_pelanggan', 'Admin::kelola_pelanggan');
+$routes->get('/admin/auth_create_penggunaan', 'Admin::kelola_penggunaan');
+$routes->get('/admin/auth_create_tagihan', 'Admin::kelola_tagihan');
+
 $routes->get('/user', 'Pengguna::penggunaan');
 $routes->get('/user/tagihan', 'Pengguna::tagihan');
 $routes->get('/user/riwayat', 'Pengguna::riwayat');
+
 $routes->post('/user/bayar', 'Pengguna::bayar_tagihan');
+$routes->get('/user/bayar', 'Pengguna::tagihan');
 
 $routes->post('/user/auth_bayar', 'AuthPengguna::bayar_tagihan');
+$routes->get('/user/auth_bayar', 'Pengguna::tagihan');
 
 $routes->get('/logout', 'Auth::logout');
-
-// $routes->setAutoRoute(true);

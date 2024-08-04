@@ -1,5 +1,5 @@
 <?= $this->include('builder/components/header');  ?>
-<div class="overflow-scroll">
+<div class="overflow-hidden">
     <div class="container-fluid">
         <div class="row flex-nowrap">
             <?= $this->include('builder/components/sidebar_admin');  ?>

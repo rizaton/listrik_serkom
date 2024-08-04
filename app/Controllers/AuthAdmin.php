@@ -201,7 +201,7 @@ class AuthAdmin extends BaseController
         try {
             $data = [
                 'id_level' => $this->request->getPost('id_level'),
-                'nama_level' => $this->request->getPost('nama_level'),
+                'nama_level' => $this->request->getPost('nama_level') ?? "",
             ];
             $this->model_level->save($data);
             session()->setFlashdata('success', 'Data berhasil diubah');
@@ -342,8 +342,12 @@ class AuthAdmin extends BaseController
     {
         try {
             $data = [
-                'nama_level' => $this->request->getPost('nama_level'),
+                'nama_level' => $this->request->getPost('nama_level') ?? "",
             ];
+            if (trim($data['nama_level']) == "") {
+                session()->setFlashdata('success', 'Data gagal ditambahkan');
+                return redirect()->to('/admin/kelola_level');
+            }
             $this->model_level->insert($data);
             session()->setFlashdata('success', 'Data berhasil ditambahkan');
             return redirect()->to('/admin/kelola_level');

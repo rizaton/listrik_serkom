@@ -130,24 +130,41 @@ class Admin extends BaseController
         return view('admin/read/dashboard', $data);
     }
 
+    /**
+     * Mengelola Tarif
+     * 
+     * Fungsi ini digunakan untuk mengelola tarif listrik. Fungsi ini hanya dapat diakses oleh admin.
+     * 
+     * @return \CodeIgniter\HTTP\ResponseInterface
+     */
     public function kelola_tarif()
     {
+        // Mengecek apakah sesi role tidak ada (belum login)
         if (session()->get('role') == null) {
+            // Jika belum login, redirect ke halaman login admin
             return redirect()->to('/login_admin');
-        } else if (session()->get('role') == 'user') {
+        }
+        // Mengecek apakah sesi role adalah 'user'
+        else if (session()->get('role') == 'user') {
+            // Jika role adalah 'user', redirect ke halaman user
             return redirect()->to('/user');
         }
+
         try {
+            // Mengambil data tarif dari database
             $data = [
-                'tarif' => $this->model_tarif->findAll(),
-                'name' => session()->get('name')
+                'tarif' => $this->model_tarif->findAll(), // Mengambil semua data tarif
+                'name' => session()->get('name') // Mengambil nama dari sesi
             ];
         } catch (\Throwable $th) {
+            // Jika terjadi kesalahan (eksepsi), menangkapnya dan menyiapkan data kosong
             $data = [
-                'tarif' => [],
-                'name' => session()->get('name')
+                'tarif' => [], // Data tarif kosong
+                'name' => session()->get('name') // Mengambil nama dari sesi
             ];
         }
+
+        // Menampilkan view 'kelola_tarif' dengan data yang sudah diambil atau disiapkan
         return view('admin/read/kelola_tarif', $data);
     }
     public function kelola_level()

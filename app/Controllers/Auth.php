@@ -52,11 +52,11 @@ class Auth extends BaseController
     public function index()
     {
         if (session()->get('role') == 'admin') {
-            return redirect()->to('/admin');  // Mengarahkan ke halaman admin jika peran adalah admin
+            return redirect()->to('/login_admin');  // Mengarahkan ke halaman admin jika peran adalah admin
         } else if (session()->get('role') == 'user') {
-            return redirect()->to('/user');   // Mengarahkan ke halaman user jika peran adalah user
+            return redirect()->to('/login');   // Mengarahkan ke halaman user jika peran adalah user
         } else {
-            return view('/auth');  // Menampilkan halaman login jika belum login
+            return view('/login');  // Menampilkan halaman login jika belum login
         }
     }
 
@@ -83,6 +83,7 @@ class Auth extends BaseController
                 // Mengecek kecocokan password
                 if (password_verify($data_login['password'], $username_exist['password'])) {
                     // Mengatur sesi jika berhasil login
+                    session()->setFlashdata('found', true);
                     session()->set('id_user', $username_exist['id_user']);
                     session()->set('username', $username_exist['username']);
                     session()->set('name', $username_exist['nama_admin']);
@@ -116,6 +117,7 @@ class Auth extends BaseController
                 // Mengecek kecocokan password
                 if (password_verify($data_login['password'], $username_exist['password'])) {
                     // Mengatur sesi jika berhasil login
+                    session()->setFlashdata('found', true);
                     session()->set('id_pelanggan', $username_exist['id_pelanggan']);
                     session()->set('username', $username_exist['username']);
                     session()->set('name', $username_exist['nama_pelanggan']);

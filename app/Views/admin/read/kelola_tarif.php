@@ -27,13 +27,13 @@
                     <tr>
                         <form method="post">
                             <input type="hidden" name="id_tarif" id="id_tarif" value="<?= $t['id_tarif'] ?>">
-                            <th><?= $t['id_tarif']  ?></th>
-                            <th><?= $t['daya']  ?>VA</th>
-                            <th>Rp.<?= $t['tarifperkwh']  ?></th>
-                            <th class="d-flex justify-content-center">
+                            <td><?= $t['id_tarif']  ?></td>
+                            <td><?= $t['daya']  ?>VA</td>
+                            <td>Rp.<?= $t['tarifperkwh']  ?></td>
+                            <td class="d-flex justify-content-center">
                                 <button formaction="<?= base_url('admin/edit_tarif') ?>" class="btn btn-warning mx-1" id="add-data-btn">Edit</button>
                                 <button formaction="<?= base_url('admin/delete_tarif') ?>" class="btn btn-danger mx-1" id="add-data-btn">Delete</button>
-                            </th>
+                            </td>
                         </form>
                     </tr>
                 <?php
